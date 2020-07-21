@@ -1,0 +1,18 @@
+.main-navbar{
+    height: 70px;
+    background: #0a192f;
+    font-family: SF Mono, Fira Code, Fira Mono, Roboto Mono, Lucida Console, Monaco, Monospace;
+}
+.main-navbar .nav-link:hover{
+    color: #64ffda;
+}
+
+.main-navbar .nav-link{
+    color: inherit;
+    margin: 0 10px;
+    font-size: 13px;    
+}
+.main-navbar .nav-number{
+    color: #64ffda;
+    font-size: 12px;
+}

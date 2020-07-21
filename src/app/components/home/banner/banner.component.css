@@ -1,0 +1,65 @@
+
+.banner{
+    background: #0a192f;
+    min-height: 100vh;
+}
+
+.banner-box{
+    padding: 175px 0;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.banner h1{
+    
+    color: #64ffda;
+    margin: 0 0 20px 3px;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: SF Mono, Fira Code, Fira Mono, Roboto Mono, Lucida Console, Monaco, Monospace;
+}
+
+.banner h2{
+    color: #ccd6f6;
+}
+.banner h3{  
+    color: #8892b0;
+}
+
+.banner-title h2, .banner-title h3 {
+    font-weight: 600;
+    font-size: 80px;
+    line-height: 1.1;
+    margin: 0;
+    font-family: Calibre,San Francisco,SF Pro Text,-apple-system,system-ui,BlinkMacSystemFont,Roboto,Helvetica Neue,Segoe UI,Arial,sans-serif;
+}
+.banner-box p{
+    margin-top: 25px;
+    max-width: 500px;
+    font-family: Calibre,San Francisco,SF Pro Text,-apple-system,system-ui,BlinkMacSystemFont,Roboto,Helvetica Neue,Segoe UI,Arial,sans-serif;
+    color: #8892b0;
+    line-height: 1.3;
+    font-family: Calibre,San Francisco,SF Pro Text,-apple-system,system-ui,BlinkMacSystemFont,Roboto,Helvetica Neue,Segoe UI,Arial,sans-serif;
+    font-size: 20px;
+}
+
+.banner-btn a{
+    color: #64ffda;
+    background-color: transparent;
+    border: 1px solid #64ffda;
+    border-radius: 3px;
+    padding: 1.25rem 1.75rem;
+    font-size: 14px;
+    font-family: SF Mono,Fira Code,Fira Mono,Roboto Mono,Lucida Console,Monaco,monospace;
+    line-height: 1;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+    cursor: pointer;
+}
+.banner-btn a:hover{
+    background-color: rgba(100,255,218,0.07);
+}
+.banner-btn{
+    margin-top: 70px;
+
+}
