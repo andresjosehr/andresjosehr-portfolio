@@ -1,13 +1,6 @@
 
 .banner{
-    background: #0a192f;
-    min-height: 100vh;
-}
-
-.banner-box{
-    padding: 175px 0;
-    max-width: 1000px;
-    margin: auto;
+    min-height: 88vh;
 }
 
 .banner h1{
@@ -33,7 +26,7 @@
     margin: 0;
     font-family: Calibre,San Francisco,SF Pro Text,-apple-system,system-ui,BlinkMacSystemFont,Roboto,Helvetica Neue,Segoe UI,Arial,sans-serif;
 }
-.banner-box p{
+.section-box p{
     margin-top: 25px;
     max-width: 500px;
     font-family: Calibre,San Francisco,SF Pro Text,-apple-system,system-ui,BlinkMacSystemFont,Roboto,Helvetica Neue,Segoe UI,Arial,sans-serif;

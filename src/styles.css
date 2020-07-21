@@ -1,4 +1,69 @@
 /* You can add global styles to this file, and also import other style files */
-*{
+
+body{
+    margin: 0;
+    width: 100%;
+    min-height: 100%;
+    overflow-x: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    background-color: #0a192f;
+    color: #8892b0;
+    line-height: 1.3;
+    font-family: Calibre,San Francisco,SF Pro Text,-apple-system,system-ui,BlinkMacSystemFont,Roboto,Helvetica Neue,Segoe UI,Arial,sans-serif;
+    font-size: 20px;
+}
+.section-box{
+    padding: 130px 0;
+    max-width: 1000px;
+}
+.section{
+    background: #0a192f;
+}
+
+.code-font{
+    font-family: SF Mono, Fira Code, Fira Mono, Roboto Mono, Lucida Console, Monaco, Monospace;
+
+}
+
+.e-font{
+    font-family: Calibre,San Francisco,SF Pro Text,-apple-system,system-ui,BlinkMacSystemFont,Roboto,Helvetica Neue,Segoe UI,Arial,sans-serif;
+}
+
+.section-title{
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 10px 0 40px;
+    width: 100%;
+    white-space: nowrap;
+    font-size: 32px;
+    font-weight: 600;
     color: #ccd6f6;
+    margin: 0 0 10px 0;
+}
+.n-section-title{
+    margin-right: 10px;
+    font-family: SF Mono,Fira Code,Fira Mono,Roboto Mono,Lucida Console,Monaco,monospace;
+    font-weight: normal;
+    color: #64ffda;
+    font-size: 20px;
+    position: relative;
+    bottom: 4px;
+}
+.section-title:after{
+        content: '';
+        display: block;
+        height: 1px;
+        width: 300px;
+        background-color: #303C55;
+        position: relative;
+        top: -5px;
+        margin-left: 20px;
 }

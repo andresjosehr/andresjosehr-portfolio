@@ -1,0 +1,61 @@
+.about-description{
+    margin-top: 30px;
+    max-width: 480px;
+}
+.about-img-container:after{
+    border: 2px solid #64ffda;
+    top: 20px;
+    right: 108px;
+    z-index: 0;
+    content: '';
+    display: block;
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    border-radius: 3px;
+        
+}
+
+.about-img-container{
+    width: fit-content;
+    margin: auto;
+}
+.about-img-container img{
+    z-index: 2;
+    position: relative;
+}
+
+.skills-list{
+    display: grid;
+    grid-template-columns: repeat(2,minmax(140px,200px));
+    overflow: hidden;
+    padding: 0;
+    margin: 20px 0 0 0;
+    list-style: none;
+}
+
+.skills-list{
+    display: grid;
+    grid-template-columns: repeat(2,minmax(140px,200px));
+    overflow: hidden;
+    padding: 0;
+    margin: 20px 0 0 0;
+    list-style: none;
+}
+.skill-element{
+    position: relative;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    font-family: SF Mono,Fira Code,Fira Mono,Roboto Mono,Lucida Console,Monaco,monospace;
+    font-size: 13px;
+    color: #8892b0;
+}
+
+.skill-element:before {
+    content: '▹';
+    position: absolute;
+    left: 0;
+    color: #64ffda;
+    font-size: 14px;
+    line-height: 12px;
+}
