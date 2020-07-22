@@ -13,6 +13,7 @@ import { MoreProyectsComponent } from './components/home/more-proyects/more-proy
 import { ContactComponent } from './components/home/contact/contact.component';
 import { FooterComponent } from './components/general/footer/footer.component';
 import { HomeComponent } from './components/home/home.component';
+import { ArchiveComponent } from './components/archive/archive.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { HomeComponent } from './components/home/home.component';
     MoreProyectsComponent,
     ContactComponent,
     FooterComponent,
-    HomeComponent
+    HomeComponent,
+    ArchiveComponent
   ],
   imports: [
     BrowserModule,

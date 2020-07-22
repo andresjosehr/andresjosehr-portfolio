@@ -54,3 +54,24 @@ footer .footer-left-bar li{
     padding: 10px;
     color: #a8b2d1;
 }
+
+.footer-credits a{
+    color: #a8b2d1;
+    -webkit-transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
+    transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
+    transition-property: all;
+    transition-duration: 0.25s;
+    transition-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition-delay: 0s;
+}
+.footer-credits a:hover, .footer-credits a:focus {
+    text-decoration: none;
+    color: #64ffda;
+}
+.footer-credits{
+    font-family: SF Mono,Fira Code,Fira Mono,Roboto Mono,Lucida Console,Monaco,monospace;
+    font-size: 12px;
+    line-height: 1;
+
+    margin-bottom: 30px;
+}
