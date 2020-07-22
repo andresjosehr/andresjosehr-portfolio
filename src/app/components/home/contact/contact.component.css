@@ -1,0 +1,82 @@
+.contact-title{
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    white-space: nowrap;
+    font-size: 60px;
+    font-weight: 600;
+    color: #ccd6f6;
+    margin: auto;
+    width: fit-content;
+}
+.contact-pre-title{
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 10px 0 40px;
+    width: 100%;
+    white-space: nowrap;
+    font-size: 32px;
+    display: block;
+    color: #64ffda;
+    font-size: 16px;
+    font-family: SF Mono,Fira Code,Fira Mono,Roboto Mono,Lucida Console,Monaco,monospace;
+    font-weight: normal;
+    margin-bottom: 20px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: center;
+}
+.contact{
+    padding: 76px 0 !important;
+    margin: 0 auto;
+    padding: 150px 0;
+    max-width: 1000px;
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto 100px;
+}
+.contact-btn:hover{
+    background-color: rgba(100,255,218,0.07);
+}
+.contact-btn{
+    display: inline-block;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+    -webkit-text-decoration-skip-ink: auto;
+    text-decoration-skip-ink: auto;
+    position: relative;
+    -webkit-transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
+    transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
+    cursor: pointer;
+    color: #64ffda;
+
+    color: #64ffda;
+    background-color: transparent;
+    border: 1px solid #64ffda;
+    border-radius: 3px;
+    padding: 1.25rem 1.75rem;
+    font-size: 14px;
+    font-family: SF Mono,Fira Code,Fira Mono,Roboto Mono,Lucida Console,Monaco,monospace;
+    line-height: 1;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+    cursor: pointer;
+    -webkit-transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
+    transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
+    margin-top: 50px;
+}

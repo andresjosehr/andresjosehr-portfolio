@@ -1,0 +1,81 @@
+.feature-proyect{
+    font-size: 13px;
+    font-weight: normal;
+    color: #64ffda;
+    font-family: SF Mono,Fira Code,Fira Mono,Roboto Mono,Lucida Console,Monaco,monospace;
+    margin-top: 10px;
+    padding-top: 0;
+}
+.proyect-name{
+    font-size: 28px;
+    margin: 0 0 20px;
+    color: #ccd6f6;
+}
+.proyect-description-box{
+    box-shadow: 0 10px 30px -15px rgba(2,12,27,0.7);
+    -webkit-transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
+    transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
+    position: relative;
+    z-index: 2;
+    padding: 25px;
+    background-color: #172a45;
+    color: #a8b2d1;
+    font-size: 18px;
+    border-radius: 3px;
+}
+
+.proyect-skills {
+    position: relative;
+    z-index: 2;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 25px 0 10px;
+    list-style: none;
+}
+.proyect-skills li{
+    margin-right: 0;
+    font-family: SF Mono,Fira Code,Fira Mono,Roboto Mono,Lucida Console,Monaco,monospace;
+    font-size: 13px;
+    color: #8892b0;
+    margin-bottom: 7px;
+    white-space: nowrap;
+}
+.proyect-links{
+    
+    margin-top: 10px;
+    /* color: #ccd6f6; */
+}
+
+.proyect-links i{
+    font-size: 22px;
+}
+.proyect-info-right{
+    width: 567px;
+    margin-left: -57px;
+    margin-right: 0px;
+    display: table;
+}
+.proyect-info-left{
+    width: 567px;
+    margin-right: -57px;
+    margin-left: 0px;
+    display: table;
+}
+
+.proyect-container{
+    height: 360px;
+    margin: 100px 0;
+}
+.proyect-info{
+    display:table
+}
+.proyect-box{
+    display: table-cell; 
+    vertical-align: middle;
+}
