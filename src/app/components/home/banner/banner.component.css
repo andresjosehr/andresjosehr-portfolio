@@ -1,8 +1,21 @@
 
 .banner{
-    min-height: 88vh;
+    min-height: 100vh;
 }
 
+.banner .container{
+    display: table;
+    height: 100vh;
+}
+
+.banner .container p{
+    max-width: 500px;
+}
+
+.section-box-banner{
+    display: table-cell;
+    vertical-align: middle;
+}
 .banner h1{
     
     color: #64ffda;
@@ -36,7 +49,11 @@
     font-size: 20px;
 }
 
-.banner-btn a{
+.banner-description{
+    margin-bottom: 70px;
+}
+
+.banner-btn{
     color: #64ffda;
     background-color: transparent;
     border: 1px solid #64ffda;
@@ -49,10 +66,12 @@
     text-decoration: none;
     cursor: pointer;
 }
-.banner-btn a:hover{
+.banner-btn:hover{
     background-color: rgba(100,255,218,0.07);
 }
-.banner-btn{
-    margin-top: 70px;
-
+.div-btn-banner{
+    height: 43px;
 }
+
+
+

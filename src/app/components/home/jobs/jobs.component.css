@@ -104,3 +104,17 @@
     max-width: 700px;
     margin: auto;
 }
+
+@media (max-width: 768px){
+    ::ng-deep .jobs-tabs ul {
+        display: block;
+        width: auto;
+        margin-bottom: 50px;
+    }
+    ::ng-deep .jobs-tabs .tab-content{
+        margin: 0px;
+    }
+    .jobs-tabs{
+        display: block;
+    }
+}

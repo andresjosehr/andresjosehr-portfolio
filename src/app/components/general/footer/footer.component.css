@@ -73,5 +73,9 @@ footer .footer-left-bar li{
     font-size: 12px;
     line-height: 1;
 
-    margin-bottom: 30px;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    margin-top: -60px;
 }

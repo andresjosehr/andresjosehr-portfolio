@@ -80,3 +80,15 @@
     transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
     margin-top: 50px;
 }
+@media (max-width: 768px){
+    .contact{
+        height: 100vh;
+        padding: 0 !important;
+        margin: 0 auto !important;
+        display: table;
+    }
+    .contact .container{
+        display: table-cell;
+        vertical-align: middle;
+    }
+}

@@ -1,9 +1,9 @@
 <nav class="navbar main-navbar">
-    <a class="navbar-brand text-light" href="#">Jose Andres</a>
+    <a class="navbar-brand text-light" [routerLink]="'inicio'">Jose Andres</a>
     <ul ngbNav #nav="ngbNav">
         <li ngbNavItem>
-          <a ngbNavLink><span class='nav-number'>01.</span> Acerca de mi</a>
-          <ng-template ngbNavContent>First content</ng-template>
+            <a ngbNavLink><span class='nav-number'>01.</span> Acerca de mi</a>
+            <ng-template ngbNavContent>First content</ng-template>
         </li>
         <li ngbNavItem>
             <a ngbNavLink><span class='nav-number'>02.</span> Experiencia</a>
@@ -14,8 +14,41 @@
             <ng-template ngbNavContent>Second content</ng-template>
         </li>
         <li ngbNavItem>
-          <a ngbNavLink><span class='nav-number'>04.</span> Contacto</a>
-          <ng-template ngbNavContent>Second content</ng-template>
+            <a ngbNavLink><span class='nav-number'>04.</span> Contacto</a>
+            <ng-template ngbNavContent>Second content</ng-template>
         </li>
-      </ul>
-  </nav>
+    </ul>
+    <div class="menu-wrapper">
+        <div [class.animate]='responsiveMenuVisible' (click)='responsiveMenuVisible = !responsiveMenuVisible' class="hamburger-menu"></div>
+    </div>
+    <div class="menu-responsive">
+      <aside [class.aside-show]='responsiveMenuVisible'>
+          <nav >
+              <ol>
+                  <li>
+                    <a href="/#about">
+                      <span >01.</span>
+                      Acerca de mi
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/#jobs">
+                      <span >01.</span>
+                      Experiencia</a>
+                  </li>
+                  <li>
+                    <a href="/#projects">
+                      <span >01.</span>
+                      Proyectos
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/#contact">
+                      <span >01.</span>
+                      Contacto</a>
+                  </li>
+              </ol>
+          </nav>
+      </aside>
+    </div>
+</nav>

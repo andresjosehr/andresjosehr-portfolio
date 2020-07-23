@@ -66,3 +66,83 @@ body{
         top: -5px;
         margin-left: 20px;
 }
+
+
+@media (min-width: 768px) and (max-width: 1100px){
+    .proyect-container{
+        margin: 30px 0 !important;
+        height: 385px !important;
+    }
+    
+}
+@media (min-width: 1100px) and (max-width: 1300px){
+    .container{
+        max-width: 950px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1100px){
+    .container{
+        max-width: 800px;
+    }
+    
+}
+
+@media (min-width: 880px) and (max-width: 992px){
+    .container{
+        max-width: 700px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 880px){
+    .container{
+        max-width: 600px;
+    }
+}
+
+@media (max-width: 768em){
+    .section-title {
+        font-size: 24px;
+    }
+    .container {
+        width: 90%;
+    }
+}
+
+
+@media (max-width: 1000px){
+    .banner h2, .banner h3, .big-title{
+        font-size: 70px !important;
+    }
+    .big-subtitle{
+        font-size: 14px !important;
+    }
+}
+
+@media (max-width: 768px){
+    .banner h2, .banner h3, .big-title{
+        font-size: 60px !important;
+    }
+    
+}
+@media (max-width: 480px){
+    .banner h2, .banner h3, .big-title{
+        font-size: 50px !important;
+    }
+    
+}
+@media (max-width: 376px){
+    .banner h2, .banner h3, .big-title{
+        font-size: 40px !important;
+    }
+}
+
+
+@media (max-width: 30em){
+    body {
+        font-size: 18px;
+    }
+}
+
+
+
