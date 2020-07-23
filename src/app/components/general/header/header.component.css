@@ -164,4 +164,16 @@
     transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
   }
   
-  
+.on-top{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 9;
+    height: 100px;
+    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+}
+.nav-shadow{
+    height: 70px;
+    box-shadow: 0 10px 30px -10px rgba(2,12,27,0.7);
+    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+}
