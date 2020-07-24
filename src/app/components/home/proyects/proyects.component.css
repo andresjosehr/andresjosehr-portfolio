@@ -134,7 +134,12 @@
 
 @media (max-width: 500px){
     .proyect-info-right, .proyect-info-left {
+        padding: 0px;
+    }
+
+    .proyect-info-right .proyect-box, .proyect-info-left .proyect-box{
         padding: 20px;
+        background: #0a192fe3;
     }
 }
 

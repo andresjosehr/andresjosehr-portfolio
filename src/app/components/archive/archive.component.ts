@@ -10,7 +10,7 @@ import { trigger, query, stagger, style, animate, transition } from "@angular/an
       transition(":enter", [
         query("*", [
           style({opacity: 0, transform: "translateY(100%)"}),
-          stagger(5, [
+          stagger(15, [
             animate(
               "500ms cubic-bezier(0.35, 0, 0.25, 1)",
               style({opacity: 1, transform: "none"}))
