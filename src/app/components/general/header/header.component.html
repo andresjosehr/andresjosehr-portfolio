@@ -1,4 +1,4 @@
-<nav class="navbar main-navbar on-top" [class.nav-shadow]='this.pageYPosition>0'>
+<nav class="navbar main-navbar on-top" [class.nav-shadow]='this.pageYPosition>0' [@animateMenu]='state' *ngIf='state'>
     <a class="navbar-brand text-light" [routerLink]="'inicio'">Jose Andres</a>
     <ul ngbNav #nav="ngbNav">
         <li ngbNavItem>

@@ -14,6 +14,9 @@ import { ContactComponent } from './components/home/contact/contact.component';
 import { FooterComponent } from './components/general/footer/footer.component';
 import { HomeComponent } from './components/home/home.component';
 import { ArchiveComponent } from './components/archive/archive.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations'
+import { AnimateOnScrollModule } from 'ng2-animate-on-scroll';
+
 
 @NgModule({
   declarations: [
@@ -30,6 +33,8 @@ import { ArchiveComponent } from './components/archive/archive.component';
     ArchiveComponent
   ],
   imports: [
+    BrowserAnimationsModule,
+    AnimateOnScrollModule.forRoot(),
     BrowserModule,
     AppRoutingModule,
     NgbModule

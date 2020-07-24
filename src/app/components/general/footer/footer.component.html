@@ -1,31 +1,33 @@
 <footer>
-    <ul class="footer-left-bar d-none d-md-block">
-        <li>
-            <a href="#" target='_blank'>
-                <i class="fab fa-github"></i>
-            </a>
-        </li>
-        <li>
-            <a href="#" target='_blank'>
-                <i class="fab fa-linkedin-in"></i>
-            </a>
-        </li>
-        <li>
-            <a href="#" target='_blank'>
-                <i class="fab fa-instagram"></i>
-            </a>
-        </li>
-        <li>
-            <a href="#" target='_blank'>
-                <i class="fab fa-twitter"></i>
-            </a>
-        </li>
-    </ul>
-    <div class="footer-right-bar d-none d-md-block">
-        <a href="#" target='_blank'> joseandreshernandezross@gmail.com </a>
+    <div [@animateFooter]='state' *ngIf='state'>
+        <ul class="footer-left-bar d-none d-md-block">
+            <li>
+                <a href="#" target='_blank'>
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#" target='_blank'>
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#" target='_blank'>
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#" target='_blank'>
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </li>
+        </ul>
+        <div class="footer-right-bar d-none d-md-block">
+            <a href="#" target='_blank'> joseandreshernandezross@gmail.com </a>
+        </div>
     </div>
 
-    <div class="footer-credits text-center">
+    <div class="footer-credits text-center" >
         <a href="https://github.com/bchiang7/v4" target="_blank" rel="nofollow noopener noreferrer">
             <div>Built with Angular by Jose Andres</div>
         </a>
