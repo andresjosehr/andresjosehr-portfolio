@@ -1,27 +1,46 @@
-# AndresjosehrAngular
+# Personal website for introduce yourself
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.3.
+## Getting Started
 
-## Development server
+I have developed this theme as a personal proyect. I have taked the inspiration (and basically all the design) from the wonderful work of Britanny Chiang. You can visit her repo [here](https://github.com/bchiang7/v4)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Because I'm not a ReactJS expert (language of the Britanny's proyect), and I liked so much the design, I decided to develop this proyect with Angular's architecture. The website is not connected to any api yet, nither it has dinamic content so that all the content is static inside the HTML files in Angular. I want to connect it to an API in the future, from where i can manage in an easy way without having touch the HTML files in angular.
 
-## Code scaffolding
+If you have any idea or you just want to contribute in this repo in order to improve the development architecture, I invite you to do it! If you have some suggestion to me, i will be glade to recibe it
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### Prerequisites
 
-## Build
+You need to have npm and Angular CLI installed in your pc. Npm is aviable with NodeJS in [here](https://nodejs.org/es/). After you install npm, install Angular CLI by typping the following command in your terminal
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+``` bash
+npm install -g @angular/cli
+```
 
-## Running unit tests
+### Installing
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Just clone  the repo and excecute the following command inside the folder proyect
 
-## Running end-to-end tests
+``` bash
+npm install
+```
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+### All done!!
 
-## Further help
+Now just run
+```
+npm start
+```
+Wait to compile and go to [http://localhost:4200](http://localhost:4200) after compile finish
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+### Wait! I does not have finished yet!
+
+I want to quote what Brittanty has added in her proyect:
+
+>## 🚨 Forking this repo (please read!)
+
+>Many people have contacted me asking me if they can use this code for their own website, and the answer to that question is usually **yes, with attribution**.
+I value keeping my site open source, but as you all know, _**plagiarism is bad**_. It's always disheartening whenever I find that someone has copied my site without giving me credit. I spent a non-trivial amount of effort building and designing this iteration of my website, and I am proud of it! All I ask of you all is to not claim this effort as your own.
+
+As I have made an attribution to Brittany, i wait you do the same with both in this proyect. Thank you :)
+
+Sorry my bad English
