@@ -1,0 +1,90 @@
+@import "./../../../../variables.scss";
+
+footer{
+    color: $LightSlate;
+
+    .footer-left-bar:after, .footer-right-bar:after{
+        content: '';
+        display: block;
+        width: 1px;
+        height: 90px;
+        margin: 0 auto;
+        background-color: $LightSlate;
+    }
+
+    .footer-left-bar li, .footer-right-bar li{
+        list-style: none;
+    }
+
+    .footer-left-bar{
+        position: fixed;
+        bottom: -16px;
+        left: 51px;
+        padding: 0;
+
+        i{
+            font-size: 19px;
+            color: $LightSlate;
+        }
+
+        li{
+            margin: 20px 0px;
+
+            &:last-of-type {
+                margin-bottom: 33px;
+            }
+        }
+    }
+
+    .footer-right-bar{
+        position: fixed;
+        bottom: 0px;
+        right: 41px;
+        padding: 0;
+
+        li{
+            transform: rotate(90deg);
+        }
+
+        a{
+            font-family: $CodeFont;
+            font-size: 12px;
+            -webkit-letter-spacing: 0.1em;
+            -moz-letter-spacing: 0.1em;
+            -ms-letter-spacing: 0.1em;
+            letter-spacing: 0.1em;
+            -webkit-writing-mode: vertical-rl;
+            -ms-writing-mode: tb-rl;
+            writing-mode: vertical-rl;
+            margin: 20px auto;
+            padding: 10px;
+            color: $LightSlate;
+        }
+    }
+    .footer-credits{
+        font-family: $CodeFont;
+        font-size: 12px;
+        line-height: 1;
+    
+        position: absolute;
+        margin: auto;
+        left: 0;
+        right: 0;
+        margin-top: -60px;
+
+        a{
+            color: $LightSlate;
+            -webkit-transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
+            transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
+            transition-property: all;
+            transition-duration: 0.25s;
+            transition-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
+            transition-delay: 0s;
+
+            &:hover, &:focus {
+                text-decoration: none;
+                color: $Green;
+            }
+        }
+    }
+}

@@ -1,0 +1,120 @@
+@import "./../../../variables.scss";
+
+.archive{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1600px;
+    min-height: 100vh;
+    padding-top: 135px;
+    padding-bottom: 200px;
+
+    .archive-title h1{
+        font-size: 80px;
+        line-height: 1.1;
+        margin: 0;
+        font-weight: 600;
+        color: $LightestSlate;
+        margin: 0 0 10px 0;
+        font-family: $MainFont;
+    }
+    .archive-subtitle{
+        color: $Green;
+        margin: 0 0 20px 0;
+        font-size: 16px;
+        font-family: $CodeFont;
+        font-weight: normal;
+        line-height: 1.5;
+    }
+
+    .archive-table-container{
+        visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); 
+        transition: opacity 0.5s cubic-bezier(0.645, 0.045, 0.355, 1) 0.2s, transform 0.5s cubic-bezier(0.645, 0.045, 0.355, 1) 0.2s;
+        margin: 100px -20px;
+
+        table{
+            width: 100%;
+            border-collapse: collapse;
+
+            thead th{
+                cursor: default;
+                line-height: 1.5;
+                padding: 10px 20px;
+            }
+            tbody{ 
+                tr{
+                    visibility: visible;
+                    opacity: 1;
+                    transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+                    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s, opacity 0.5s cubic-bezier(0.645, 0.045, 0.355, 1) 0s, transform 0.5s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+
+
+                    &:hover, &:focus {
+                        background-color: $LightNavy;
+                    }
+
+                    .proyect-date{
+                        color: $Green;
+                        font-family: $CodeFont;
+                        font-size: 16px;
+                        font-weight: normal;
+                        cursor: default;
+                        line-height: 1.5;
+                        padding: 10px 20px;
+                        width: 10%;
+                    }
+
+                    .proyect-title{
+                        padding-top: 15px;
+                        color: $LightestSlate;
+                        font-size: 20px;
+                        font-weight: 700;
+                        cursor: default;
+                        line-height: 1.5;
+                        padding: 10px 20px;
+                    }
+                    
+                    .proyect-company{
+                        width: 15%;
+                        padding-top: 15px;
+                        font-size: 18px;
+                        cursor: default;
+                        line-height: 1.5;
+                        padding: 10px 20px;
+                    }
+                    .proyect-skills{
+                        font-size: 12px;
+                        font-family: $CodeFont;
+                        cursor: default;
+                        line-height: 1.5;
+                        padding: 10px 20px;
+                    }
+                    
+                    .proyect-links{
+                        cursor: default;
+                        line-height: 1.5;
+                        padding: 10px 20px;
+                    }
+                    
+                    .separator{
+                        margin: 0 5px;
+                        display: inline-block;
+                    }
+                }
+
+                td{
+                    cursor: default;
+                    line-height: 1.5;
+                    padding: 12.9px 20px;
+                }
+            }
+        }
+
+    }
+    
+}
+
+@media (max-width: 768px){
+    .proyect-company, .proyect-skills, .hide-on-mobile{
+        display: none;
+    }
+}

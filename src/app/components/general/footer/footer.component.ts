@@ -4,7 +4,7 @@ import { trigger, query, stagger, animate, style, transition } from '@angular/an
 @Component({
   selector: 'app-footer',
   templateUrl: './footer.component.html',
-  styleUrls: ['./footer.component.css'],
+  styleUrls: ['./footer.component.scss'],
   animations:[
     trigger("animateFooter", [
       transition(":enter", [

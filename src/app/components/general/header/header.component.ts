@@ -5,7 +5,7 @@ import {trigger, style, query, transition, stagger, animate } from '@angular/ani
 @Component({
   selector: 'app-header',
   templateUrl: './header.component.html',
-  styleUrls: ['./header.component.css'],
+  styleUrls: ['./header.component.scss'],
   animations:[
     trigger("animateMenu",[
       transition(":enter",[

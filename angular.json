@@ -27,8 +27,8 @@
               "node_modules/@fortawesome/fontawesome-free/css/all.css",
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "node_modules/aos/dist/aos.css",
-              "src/styles.css",
-              "src/fonts.css"
+              "src/styles.scss",
+              "src/fonts.scss"
             ],
             "scripts": [
               "node_modules/aos/dist/aos.js"
@@ -125,6 +125,12 @@
           }
         }
       }
-    }},
-  "defaultProject": "andresjosehr-angular"
+    }
+  },
+  "defaultProject": "andresjosehr-angular",
+  "schematics": {
+    "@schematics/angular:component": {
+      "styleext": "scss"
+    }
+  }
 }

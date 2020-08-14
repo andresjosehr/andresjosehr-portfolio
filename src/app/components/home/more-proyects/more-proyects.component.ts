@@ -4,7 +4,7 @@ import { Router, NavigationEnd } from '@angular/router';
 @Component({
   selector: 'app-more-proyects',
   templateUrl: './more-proyects.component.html',
-  styleUrls: ['./more-proyects.component.css']
+  styleUrls: ['./more-proyects.component.scss']
 })
 export class MoreProyectsComponent implements OnInit {
 

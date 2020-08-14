@@ -1,4 +1,4 @@
-/* You can add global styles to this file, and also import other style files */
+@import "./variables.scss";
 
 body{
     margin: 0;
@@ -7,26 +7,26 @@ body{
     overflow-x: hidden;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
-    background-color: #0a192f;
-    color: #8892b0;
+    background-color: $Navy;
+    color: $Slate;
     line-height: 1.3;
-    font-family: Calibre,San Francisco,SF Pro Text,-apple-system,system-ui,BlinkMacSystemFont,Roboto,Helvetica Neue,Segoe UI,Arial,sans-serif;
+    font-family: $MainFont;
     font-size: 20px;
 }
 .section-box{
     padding: 130px 0;
 }
 .section{
-    background: #0a192f;
+    background: $Navy;
 }
 
 .code-font{
-    font-family: SF Mono, Fira Code, Fira Mono, Roboto Mono, Lucida Console, Monaco, Monospace;
+    font-family: $CodeFont;
 
 }
 
 .e-font{
-    font-family: Calibre,San Francisco,SF Pro Text,-apple-system,system-ui,BlinkMacSystemFont,Roboto,Helvetica Neue,Segoe UI,Arial,sans-serif;
+    font-family: $MainFont;
 }
 
 .section-title{
@@ -44,27 +44,62 @@ body{
     white-space: nowrap;
     font-size: 32px;
     font-weight: 600;
-    color: #ccd6f6;
+    color: $LightestSlate;
+    font-family: $MainFont;
     margin: 0 0 10px 0;
-}
-.n-section-title{
-    margin-right: 10px;
-    font-family: SF Mono,Fira Code,Fira Mono,Roboto Mono,Lucida Console,Monaco,monospace;
-    font-weight: normal;
-    color: #64ffda;
-    font-size: 20px;
-    position: relative;
-    bottom: 4px;
-}
-.section-title:after{
+
+    .n-section-title{
+        margin-right: 10px;
+        font-family: $CodeFont;
+        font-weight: normal;
+        color: $Green;
+        font-size: 20px;
+        position: relative;
+        bottom: 4px;
+    }
+
+    &:after{
         content: '';
         display: block;
         height: 1px;
         width: 300px;
-        background-color: #303C55;
+        background-color: $LightestNavy;
         position: relative;
         top: -5px;
         margin-left: 20px;
+    }
+}
+
+
+
+.main-btn{
+    color: $Green;
+    background-color: transparent;
+    border: 1px solid $Green;
+    border-radius: 3px;
+    font-size: 13px;
+    font-family: $CodeFont;
+    line-height: 1;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+    cursor: pointer;
+    -webkit-transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
+    transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
+    padding: 1.25rem 1.75rem;
+
+    &:hover, &:focus, &:active {
+        background-color: rgba(100,255,218,0.07);
+        outline: none;
+    }
+}
+
+a{
+    text-decoration: none;
+
+    &:hover{
+        text-decoration: none;
+        color: $Green;
+    }
 }
 
 

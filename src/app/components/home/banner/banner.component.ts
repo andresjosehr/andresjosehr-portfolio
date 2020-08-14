@@ -5,7 +5,7 @@ import {trigger, state, style, animate, transition, stagger, query } from "@angu
 @Component({
   selector: 'app-banner',
   templateUrl: './banner.component.html',
-  styleUrls: ['./banner.component.css'],
+  styleUrls: ['./banner.component.scss'],
   animations: [
     trigger('aniBoton', [
       transition(":enter", [

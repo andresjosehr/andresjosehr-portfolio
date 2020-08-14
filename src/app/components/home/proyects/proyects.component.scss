@@ -1,0 +1,156 @@
+@import "./../../../../variables.scss";
+
+.proyects{
+
+    .proyect-container{
+        height: 360px;
+        margin: 100px 0;
+
+        .proyect-info-left{
+            width: 567px;
+            margin-right: -57px;
+            margin-left: 0px;
+            display: table;
+        }
+
+        .proyect-info-right{
+            width: 567px;
+            margin-left: -57px;
+            margin-right: 0px;
+            display: table;
+        }
+
+        .proyect-box{
+            display: table-cell; 
+            vertical-align: middle;
+
+            .feature-proyect{
+                font-size: 13px;
+                font-weight: normal;
+                color: $Green;
+                font-family: $CodeFont;
+                margin-top: 10px;
+                padding-top: 0;
+            }
+
+            .proyect-name{
+                font-size: 28px;
+                margin: 0 0 20px;
+                color: $LightestSlate;
+            }
+            .proyect-description-box{
+                box-shadow: 0 10px 30px -15px rgba(2,12,27,0.7);
+                -webkit-transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
+                transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
+                position: relative;
+                z-index: 2;
+                padding: 25px;
+                background-color: $LightNavy;
+                color: $LightSlate;
+                font-size: 18px;
+                border-radius: 3px;
+            }
+            
+            .proyect-skills {
+                position: relative;
+                z-index: 2;
+                display: -webkit-box;
+                display: -webkit-flex;
+                display: -ms-flexbox;
+                display: flex;
+                -webkit-flex-wrap: wrap;
+                -ms-flex-wrap: wrap;
+                flex-wrap: wrap;
+                padding: 0;
+                margin: 25px 0 10px;
+                list-style: none;
+
+                li{
+                    margin-right: 0;
+                    font-family: $CodeFont;
+                    font-size: 13px;
+                    color: $Slate;
+                    margin-bottom: 7px;
+                    white-space: nowrap;
+                }
+            }
+            .proyect-links{
+                margin-top: 10px;
+
+                i{
+                    font-size: 22px;
+                }
+            }
+        }
+
+    }
+
+    
+}
+
+@media (min-width: 768px) and (max-width: 1300px){
+
+    .img-feature-proyect-container{
+
+        display: table;
+        height: -webkit-fill-available;
+
+        .img-feature-proyect-box{
+            display: table-cell;
+            vertical-align: middle;
+        }
+
+        .img-feature-proyect{
+            width: 100%;
+        }
+    }    
+}
+
+@media (min-width: 768px){
+    .proyect-info-right, .proyect-info-left{
+        background-image: none !important;
+    }
+}
+@media (max-width: 768px){
+    .proyect-container{
+        height: 100% !important;
+        margin: 33px 0 !important;
+
+        .proyect-description-box{
+            padding: 0px !important;
+            box-shadow: none !important;
+            position: relative;
+            z-index: 2;
+            padding: 25px;
+            background-color: transparent !important; 
+            color: $LightSlate;
+            font-size: 18px;
+            border-radius: 3px;
+        }
+
+        .proyect-info-right, .proyect-info-left{
+            display: block !important;
+            margin: 0px !important;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;   
+            border-radius: 3px;
+
+            .proyect-box{
+                display: block;
+            }
+        }
+        .img-feature-proyect-container{
+            display: none;
+        }
+    }
+    .proyect-info-right, .proyect-info-left {
+        padding: 0px;
+    }
+
+    .proyect-info-right .proyect-box, .proyect-info-left .proyect-box{
+        padding: 20px;
+        background: #0a192fe3;
+    }
+}
+
