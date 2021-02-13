@@ -16,6 +16,8 @@ import { HomeComponent } from './components/home/home.component';
 import { ArchiveComponent } from './components/archive/archive.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations'
 import { AnimateOnScrollModule } from 'ng2-animate-on-scroll';
+import { ServiceWorkerModule } from '@angular/service-worker';
+import { environment } from '../environments/environment';
 
 
 @NgModule({
@@ -37,7 +39,8 @@ import { AnimateOnScrollModule } from 'ng2-animate-on-scroll';
     AnimateOnScrollModule.forRoot(),
     BrowserModule,
     AppRoutingModule,
-    NgbModule
+    NgbModule,
+    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
   ],
   providers: [],
   bootstrap: [AppComponent]

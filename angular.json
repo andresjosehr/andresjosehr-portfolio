@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "andresjosehr-angular": {
+    "andresjosehr-portfolio": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/andresjosehr-angular",
+            "outputPath": "dist/andresjosehr-portfolio",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -21,7 +21,8 @@
             "aot": true,
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "src/manifest.webmanifest"
             ],
             "styles": [
               "node_modules/@fortawesome/fontawesome-free/css/all.css",
@@ -61,25 +62,27 @@
                   "maximumWarning": "6kb",
                   "maximumError": "10kb"
                 }
-              ]
+              ],
+              "serviceWorker": true,
+              "ngswConfigPath": "ngsw-config.json"
             }
           }
         },
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "andresjosehr-angular:build"
+            "browserTarget": "andresjosehr-portfolio:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "andresjosehr-angular:build:production"
+              "browserTarget": "andresjosehr-portfolio:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "andresjosehr-angular:build"
+            "browserTarget": "andresjosehr-portfolio:build"
           }
         },
         "test": {
@@ -91,7 +94,8 @@
             "karmaConfig": "karma.conf.js",
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "src/manifest.webmanifest"
             ],
             "styles": [
               "src/styles.css"
@@ -116,21 +120,24 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "andresjosehr-angular:serve"
+            "devServerTarget": "andresjosehr-portfolio:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "andresjosehr-angular:serve:production"
+              "devServerTarget": "andresjosehr-portfolio:serve:production"
             }
           }
         }
       }
     }
   },
-  "defaultProject": "andresjosehr-angular",
+  "defaultProject": "andresjosehr-portfolio",
   "schematics": {
     "@schematics/angular:component": {
       "styleext": "scss"
     }
+  },
+  "cli": {
+    "analytics": "2d5b7483-3bde-471c-81bc-4eab46af35e7"
   }
 }
