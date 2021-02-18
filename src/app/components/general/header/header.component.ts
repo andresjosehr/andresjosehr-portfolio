@@ -24,11 +24,10 @@ import {trigger, style, query, transition, stagger, animate } from '@angular/ani
 
 
 
-export class HeaderComponent implements OnInit, AfterViewInit {
+export class HeaderComponent implements OnInit {
 
   responsiveMenuVisible: Boolean = false;
   pageYPosition: number;
-  state: boolean = false;
   
   constructor(
     private router: Router
@@ -44,10 +43,6 @@ export class HeaderComponent implements OnInit, AfterViewInit {
       this.router.navigate(['/home']).then(()=> document.getElementById(el).scrollIntoView({behavior: 'smooth'}) );
     }
     this.responsiveMenuVisible=false;
-  }
-
-  ngAfterViewInit(): void {
-      this.state=true
   }
 
   @HostListener('window:scroll', ['getScrollPosition($event)']) 

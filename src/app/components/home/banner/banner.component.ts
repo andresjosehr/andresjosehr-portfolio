@@ -22,20 +22,13 @@ import {trigger, state, style, animate, transition, stagger, query } from "@angu
     ])
   ]
 })
-export class BannerComponent implements OnInit, AfterViewInit {
+export class BannerComponent implements OnInit {
 
-  public state: boolean;
+  
 
   constructor() { }
 
-  ngOnInit(): void {
-   
-    
-  }
-
-  ngAfterViewInit(): void {
-      this.state=true;  
-    
+  ngOnInit(): void { 
   }
   
 

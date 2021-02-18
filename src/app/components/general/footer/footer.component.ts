@@ -21,16 +21,11 @@ import { trigger, query, stagger, animate, style, transition } from '@angular/an
     ])
   ]
 })
-export class FooterComponent implements OnInit, AfterViewInit {
-
-  public state: boolean = false;
+export class FooterComponent implements OnInit {
 
   constructor() { }
 
   ngOnInit(): void {
-  }
-  ngAfterViewInit(): void{
-      this.state=true;
   }
 
 }
