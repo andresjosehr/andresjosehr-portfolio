@@ -2,15 +2,21 @@
 
 .contact{
 
-    padding: 76px 0 !important;
     margin: 0 auto;
-    padding: 150px 0;
     max-width: 1000px;
     text-align: center;
     max-width: 600px;
-    margin: 0 auto 100px;
+    margin: 0 auto;
+    height: 100vh;
+    display: table;
+
+    .container{
+        display: table-cell;
+        vertical-align: middle;
+    }
 
     .contact-title{
+
         position: relative;
         display: -webkit-box;
         display: -webkit-flex;
