@@ -10,10 +10,10 @@ import {trigger, style, query, transition, stagger, animate } from '@angular/ani
     trigger("animateMenu",[
       transition(":enter",[
         query("*", [
-          style({opacity: 0, transform: "translateY(-100%)"}),
+          style({opacity: 0, transform: "translateY(-50%)"}),
           stagger(50,[
             animate(
-              "500ms cubic-bezier(0.35, 0, 0.25, 1)",
+              "250ms cubic-bezier(0.35, 0, 0.25, 1)",
               style({opacity: 1, transform: "none"}))
           ])
         ])
