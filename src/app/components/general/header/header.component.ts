@@ -47,9 +47,7 @@ export class HeaderComponent implements OnInit, AfterViewInit {
   }
 
   ngAfterViewInit(): void {
-    setTimeout(() => {
       this.state=true
-    }, 1000);
   }
 
   @HostListener('window:scroll', ['getScrollPosition($event)']) 

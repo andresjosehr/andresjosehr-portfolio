@@ -34,9 +34,7 @@ export class BannerComponent implements OnInit, AfterViewInit {
   }
 
   ngAfterViewInit(): void {
-    setTimeout(() => {
       this.state=true;  
-    }, 1000);
     
   }
   

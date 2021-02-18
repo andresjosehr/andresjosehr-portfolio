@@ -30,9 +30,7 @@ export class FooterComponent implements OnInit, AfterViewInit {
   ngOnInit(): void {
   }
   ngAfterViewInit(): void{
-    setTimeout(() => {
       this.state=true;
-    }, 1000);
   }
 
 }
