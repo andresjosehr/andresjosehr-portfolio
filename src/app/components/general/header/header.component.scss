@@ -185,6 +185,15 @@
     transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
 }
 
+@media (max-width: 1000px){
+  .main-navbar{
+    .nav-link{
+      margin: 0;
+      padding: .5rem .7rem;
+    }
+  }
+}
+
 
 @media (max-width: 827px){
   nav .nav{

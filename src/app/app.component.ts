@@ -15,7 +15,7 @@ export class AppComponent implements OnInit{
   }
   ngOnInit(): void{
 
-    this.titleService.setTitle( "José Andrés | Software Developer" );
+    this.titleService.setTitle( "José Andrés | Frontend Developer" );
 
     AOS.init(); 
 
