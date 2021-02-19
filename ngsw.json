@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1613700634712,
+  "timestamp": 1613748378939,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -13,7 +13,7 @@
       "urls": [
         "/favicon.ico",
         "/index.html",
-        "/main.99d21434e0f8f0e51c5a.js",
+        "/main.e53b3f8f2437e03903f2.js",
         "/manifest.webmanifest",
         "/polyfills.969e30c8c00894a124e6.js",
         "/runtime.e227d1a0e31cbccbf8ec.js",
@@ -114,6 +114,7 @@
         "/assets/icons/icon-96x96.png",
         "/assets/images/abaco-proyect.png",
         "/assets/images/agrourbana.png",
+        "/assets/images/andresjosehr-preview.png",
         "/assets/images/countries-viewer.png",
         "/assets/images/cronometraje-proyect.png",
         "/assets/images/favicon.ico",
@@ -227,6 +228,7 @@
     "/assets/icons/icon-96x96.png": "139bf643844d40356bf5e460de25852c98d2ca71",
     "/assets/images/abaco-proyect.png": "0095f0c5f35ac7fe33fabbf9c3a5d51ecc42f0be",
     "/assets/images/agrourbana.png": "cd35619361ea6d136bd24df4d40089ae2e4834f9",
+    "/assets/images/andresjosehr-preview.png": "710c45795ebadba3c723bb4fab4761d4c093151a",
     "/assets/images/countries-viewer.png": "e1f49421394a27b2904c3f7cb8a90f35c93948c2",
     "/assets/images/cronometraje-proyect.png": "f22cab2f9b8788892fd6074c6c23596651270840",
     "/assets/images/favicon.ico": "216416b0e8efb71cc8e66e11cc40baf206704576",
@@ -251,8 +253,8 @@
     "/fa-solid-900.a480ec972cb6bce30533.ttf": "874c650701d0cbfb8f1de48a496dabed3bbf22e6",
     "/fa-solid-900.dfaa060a451d978c2565.eot": "96a5637429426764ea9b28bf4d1eb55ae10de57e",
     "/favicon.ico": "216416b0e8efb71cc8e66e11cc40baf206704576",
-    "/index.html": "ae52bdb7ec55302fbda853772e2b4e46da565c8d",
-    "/main.99d21434e0f8f0e51c5a.js": "319225c0846db55f9f88b83ba004daf76038d808",
+    "/index.html": "222733a3915da4cc2e52c80a26136826692b114b",
+    "/main.e53b3f8f2437e03903f2.js": "cc34830a611e165685d1f97b3768ab69cbbb837c",
     "/manifest.webmanifest": "d9e92565b3be092fe728cd4c269af5e866223f8f",
     "/polyfills.969e30c8c00894a124e6.js": "91f4e3fd70316d9cb796b0ec07e8fe7fbbf93b15",
     "/runtime.e227d1a0e31cbccbf8ec.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
