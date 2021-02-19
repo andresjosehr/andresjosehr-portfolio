@@ -1,23 +1,22 @@
-<!-- [@animateMenu] -->
-<nav class="navbar main-navbar on-top" [class.nav-shadow]='this.pageYPosition>0'>
+<nav [@animateMenu] class="navbar main-navbar on-top" [class.nav-shadow]='this.pageYPosition>0'>
   <div class="container">
     <a class="navbar-brand text-light" [routerLink]="'inicio'">
       <img src='assets/images/logo.png' width='25' />
     </a>
     <ul ngbNav #nav="ngbNav">
-        <li ngbNavItem>
+        <li ngbNavItem (click)='analyticsService.sendAnalyticEvent("click_about", "menu", "click")'>
             <a ngbNavLink (click)='scroll("about")'><span class='nav-number'>01.</span> Acerca de mi</a>
             <ng-template ngbNavContent>First content</ng-template>
         </li>
-        <li ngbNavItem>
+        <li ngbNavItem (click)='analyticsService.sendAnalyticEvent("click_experience", "menu", "click")'>
             <a ngbNavLink (click)='scroll("jobs")'><span class='nav-number'>02.</span> Experiencia</a>
             <ng-template ngbNavContent>Second content</ng-template>
         </li>
-        <li ngbNavItem>
+        <li ngbNavItem (click)='analyticsService.sendAnalyticEvent("click_jobs", "menu", "click")'>
             <a ngbNavLink (click)='scroll("proyects")'><span class='nav-number'>03.</span> Trabajos</a>
             <ng-template ngbNavContent>Second content</ng-template>
         </li>
-        <li ngbNavItem>
+        <li ngbNavItem (click)='analyticsService.sendAnalyticEvent("click_contact", "menu", "click")'>
             <a ngbNavLink (click)='scroll("contact")'><span class='nav-number'>04.</span> Contacto</a>
             <ng-template ngbNavContent>Second content</ng-template>
         </li>
@@ -29,24 +28,24 @@
       <aside [class.aside-show]='responsiveMenuVisible' [class.nav-shadow]='this.pageYPosition>0' class="on-top">
           <nav >
               <ol>
-                  <li>
+                  <li (click)='analyticsService.sendAnalyticEvent("click_about", "menu", "click")'>
                     <a (click)='scroll("about")'>
                       <span >01.</span>
                       Acerca de mi
                     </a>
                   </li>
-                  <li>
+                  <li (click)='analyticsService.sendAnalyticEvent("click_experience", "menu", "click")'>
                     <a (click)='scroll("jobs")'>
                       <span >01.</span>
                       Experiencia</a>
                   </li>
-                  <li>
+                  <li (click)='analyticsService.sendAnalyticEvent("click_jobs", "menu", "click")'>
                     <a (click)='scroll("proyects")'>
                       <span >01.</span>
                       Proyectos
                     </a>
                   </li>
-                  <li>
+                  <li (click)='analyticsService.sendAnalyticEvent("click_contact", "menu", "click")'>
                     <a (click)='scroll("contact")'>
                       <span >01.</span>
                       Contacto</a>

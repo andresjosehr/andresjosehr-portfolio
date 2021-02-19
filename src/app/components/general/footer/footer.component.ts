@@ -1,5 +1,6 @@
 import { Component, OnInit, AfterViewInit } from '@angular/core';
 import { trigger, query, stagger, animate, style, transition } from '@angular/animations'
+import { AnalyticsService } from 'src/app/services/analytics/analytics.service';
 
 @Component({
   selector: 'app-footer',
@@ -23,7 +24,9 @@ import { trigger, query, stagger, animate, style, transition } from '@angular/an
 })
 export class FooterComponent implements OnInit {
 
-  constructor() { }
+  constructor(
+    public analyticsService: AnalyticsService
+  ) { }
 
   ngOnInit(): void {
   }

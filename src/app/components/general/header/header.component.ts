@@ -1,6 +1,7 @@
 import { Component, OnInit, ViewChild, HostListener, AfterViewInit } from '@angular/core';
 import { Router } from '@angular/router';
 import {trigger, style, query, transition, stagger, animate } from '@angular/animations'
+import { AnalyticsService } from 'src/app/services/analytics/analytics.service';
 
 @Component({
   selector: 'app-header',
@@ -30,7 +31,8 @@ export class HeaderComponent implements OnInit {
   pageYPosition: number;
   
   constructor(
-    private router: Router
+    private router: Router,
+    public analyticsService: AnalyticsService
   ) { }
 
   ngOnInit(): void {

@@ -1,13 +1,13 @@
 <section class="section proyects" id='proyects'>
     <div class="container">
         <div class="section-box">
-            <div disable-data-aos="fade-up" disable-data-aos-duration="1000">
+            <div data-aos="fade-up" data-aos-duration="1000">
                 <h3 class="section-title">
                     <span class='n-section-title'>03.</span> Mis proyectos
                 </h3>
             </div>
             
-            <div class="d-flex proyect-container" disable-data-aos="fade-up" disable-data-aos-duration="1000">
+            <div class="d-flex proyect-container" data-aos="fade-up" data-aos-duration="1000">
                 <div class="img-feature-proyect-container">
                     <div class="img-feature-proyect-box">
                         <img class='img-feature-proyect rounded' src="assets/images/agrourbana.png" alt="" width='600px'>
@@ -31,14 +31,14 @@
                                 <li class="ml-3">RxJS</li>
                             </ul>
                             <div class="proyect-links text-right">
-                                <a style='color: inherit' href="https://github.com/andresjosehr/agrourbana" target="_blank"><i class="ml-3 fab fa-github"></i></a>
-                                <a style='color: inherit' href="https://agrourbana.andresjosehr.com" target="_blank"><i class="ml-3 fas fa-external-link-alt"></i></a>
+                                <a (click)='analyticsService.sendAnalyticEvent("click_agrourbana_github", "proyects", "click")' style='color: inherit' href="https://github.com/andresjosehr/agrourbana" target="_blank"><i class="ml-3 fab fa-github"></i></a>
+                                <a (click)='analyticsService.sendAnalyticEvent("click_agrourbana_external_link", "proyects", "click")' style='color: inherit' href="https://agrourbana.andresjosehr.com" target="_blank"><i class="ml-3 fas fa-external-link-alt"></i></a>
                             </div>
                     </div>
                 </div>
             </div>
             
-            <div class="d-flex proyect-container" disable-data-aos="fade-up" disable-data-aos-duration="1000">
+            <div class="d-flex proyect-container" data-aos="fade-up" data-aos-duration="1000">
                 <div class="proyect-info-left h-100" style="background-image: url('assets/images/hands-game.png')">
                     <div class="proyect-box">
                             <h4 class="text-left feature-proyect">Proyecto Destacado</h4>
@@ -58,19 +58,19 @@
                                 <li class="mr-3">Angular animations</li>
                             </ul>
                             <div class="proyect-links text-left">
-                                <a style='color: inherit' href="https://github.com/andresjosehr/hands-game" target="_blank"><i class="ml-3 fab fa-github"></i></a>
-                                <a style='color: inherit' href="https://handsgame.andresjosehr.com" target="_blank"><i class="ml-3 fas fa-external-link-alt"></i></a>
+                                <a (click)='analyticsService.sendAnalyticEvent("click_handsgame_github", "proyects", "click")' style='color: inherit' href="https://github.com/andresjosehr/hands-game" target="_blank"><i class="ml-3 fab fa-github"></i></a>
+                                <a (click)='analyticsService.sendAnalyticEvent("click_handsgame_external_link", "proyects", "click")' style='color: inherit' href="https://handsgame.andresjosehr.com" target="_blank"><i class="ml-3 fas fa-external-link-alt"></i></a>
                             </div>
                     </div>
                 </div>
-                <div class="img-feature-proyect-container" disable-data-aos="fade-up" disable-data-aos-duration="1000">
+                <div class="img-feature-proyect-container" data-aos="fade-up" data-aos-duration="1000">
                     <div class="img-feature-proyect-box">
                         <img class='img-feature-proyect rounded' src="assets/images/hands-game.png" alt="" width='600px'>
                     </div>
                 </div>
             </div>
             
-            <div class="d-flex proyect-container" disable-data-aos="fade-up" disable-data-aos-duration="1000">
+            <div class="d-flex proyect-container" data-aos="fade-up" data-aos-duration="1000">
                 <div class="img-feature-proyect-container">
                     <div class="img-feature-proyect-box">
                         <img class='img-feature-proyect rounded' src="assets/images/countries-viewer.png" alt="" width='600px'>
@@ -94,8 +94,8 @@
                                 <li class="ml-3">API</li>
                             </ul>
                             <div class="proyect-links text-right">
-                                <a style='color: inherit' href="https://github.com/andresjosehr/countries-viewer" target="_blank"><i class="ml-3 fab fa-github"></i></a>
-                                <a style='color: inherit' href="https://countriesviewer.andresjosehr.com" target="_blank"><i class="ml-3 fas fa-external-link-alt"></i></a>
+                                <a (click)='analyticsService.sendAnalyticEvent("click_countriesviewer_github", "proyects", "click")' style='color: inherit' href="https://github.com/andresjosehr/countries-viewer" target="_blank"><i class="ml-3 fab fa-github"></i></a>
+                                <a (click)='analyticsService.sendAnalyticEvent("click_countriesviewer_external_link", "proyects", "click")' style='color: inherit' href="https://countriesviewer.andresjosehr.com" target="_blank"><i class="ml-3 fas fa-external-link-alt"></i></a>
                             </div>
                     </div>
                 </div>

@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { GoogleAnalyticsService } from 'ngx-google-analytics';
+import { AnalyticsService } from 'src/app/services/analytics/analytics.service';
 
 @Component({
   selector: 'app-home',
@@ -9,11 +9,12 @@ import { GoogleAnalyticsService } from 'ngx-google-analytics';
 export class HomeComponent implements OnInit {
 
   constructor(
-    private $gaService: GoogleAnalyticsService
+    private analyticsService: AnalyticsService
   ) { }
 
   ngOnInit(): void {
-    this.$gaService.pageView('/inicio', 'Test de inicio')
+    this.analyticsService.sendAnalyticPageView("/inicio", "Se entro a inicio")
   }
+
 
 }

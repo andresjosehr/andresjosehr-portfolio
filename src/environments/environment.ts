@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  trackAnalyticID: ""
+  trackAnalyticID: "G-4ML1VNCP9T"
 };
 
 /*

@@ -1,13 +1,13 @@
 <section class="section jobs" id='jobs'>
     <div class="container">
         <div class="section-box">
-            <div class="about-title mb-5" disable-data-aos="fade-up" disable-data-aos-duration="1000">
+            <div class="about-title mb-5" data-aos="fade-up" data-aos-duration="1000">
                 <h3 class="e-font section-title">
                     <span class='code-font n-section-title'>02.</span> ¿Donde he trabajado?
                 </h3>
             </div>
-            <ngb-tabset class="jobs-tabs" disable-data-aos="fade-up" disable-data-aos-duration="1000">
-              <ngb-tab title="Proyex">
+            <ngb-tabset class="jobs-tabs" data-aos="fade-up" data-aos-duration="1000">
+              <ngb-tab (click)='analyticsService.sendAnalyticEvent("click_proyex", "jobs", "jobs")' title="Proyex">
                 <ng-template ngbTabContent>
                     <h4 class='title-tab-content'>Fullstack developer | <span class="company-tab-content">Proyex</span></h4>
                     <h5 class="job-time">Diciembre 2019 - Actualidad </h5>
@@ -21,7 +21,7 @@
                   <span></span>
                 </ng-template>
               </ngb-tab>
-              <ngb-tab title="Freelancer">
+              <ngb-tab (click)='analyticsService.sendAnalyticEvent("click_freelancer", "jobs", "jobs")' title="Freelancer">
                 <ng-template ngbTabContent>
                     <h4 class='title-tab-content'>Independiente | <span class="company-tab-content">Freelancer</span></h4>
                     <h5 class="job-time">Mayo 2016 - Actualidad</h5>
@@ -33,7 +33,7 @@
                   <span></span>
                 </ng-template>
               </ngb-tab>
-                <ngb-tab title="Moebius">
+                <ngb-tab (click)='analyticsService.sendAnalyticEvent("click_moebius", "jobs", "jobs")' title="Moebius">
                   <ng-template ngbTabContent>
                       <h4 class='title-tab-content'>FullStack developer | <span class="company-tab-content">Moebius</span></h4>
                       <h5 class="job-time">Julio 2017 - Octubre 2018</h5>
@@ -47,7 +47,7 @@
                     <span></span>
                   </ng-template>
                 </ngb-tab>
-                  <ngb-tab title="TechLatam">
+                  <ngb-tab (click)='analyticsService.sendAnalyticEvent("click_techLatam", "jobs", "jobs")' title="TechLatam">
                     <ng-template ngbTabContent>
                         <h4 class='title-tab-content'>Frontend developer | <span class="company-tab-content">TechLatam</span></h4>
                         <h5 class="job-time">Febrero 2016 - Mayo 2017</h5>
@@ -59,7 +59,7 @@
                       <span></span>
                     </ng-template>
                   </ngb-tab>
-                  <ngb-tab title="CANTV">
+                  <ngb-tab (click)='analyticsService.sendAnalyticEvent("click_cantv", "jobs", "jobs")' title="CANTV">
                     <ng-template ngbTabContent>
                         <h4 class='title-tab-content'>Analista de sistema | <span class="company-tab-content">CANTV</span></h4>
                         <h5 class="job-time">Noviembre 2015 - Diciembre 2016</h5>
@@ -72,7 +72,7 @@
                       <span></span>
                     </ng-template>
                   </ngb-tab>
-                  <ngb-tab title="IEP">
+                  <ngb-tab (click)='analyticsService.sendAnalyticEvent("click_iep", "jobs", "jobs")' title="IEP">
                     <ng-template ngbTabContent>
                         <h4 class='title-tab-content'>Profesor de Inglés | <span class="company-tab-content">IEP</span></h4>
                         <h5 class="job-time">Enero 2015 - Julio 2015</h5>
