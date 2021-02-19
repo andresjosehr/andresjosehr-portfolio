@@ -18,6 +18,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations'
 import { AnimateOnScrollModule } from 'ng2-animate-on-scroll';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
+import { NgxGoogleAnalyticsModule } from 'ngx-google-analytics';
 
 
 @NgModule({
@@ -32,7 +33,7 @@ import { environment } from '../environments/environment';
     ContactComponent,
     FooterComponent,
     HomeComponent,
-    ArchiveComponent
+    /* ArchiveComponent */
   ],
   imports: [
     BrowserAnimationsModule,
@@ -40,7 +41,8 @@ import { environment } from '../environments/environment';
     BrowserModule,
     AppRoutingModule,
     NgbModule,
-    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
+    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production }),
+    NgxGoogleAnalyticsModule.forRoot(environment.trackAnalyticID)
   ],
   providers: [],
   bootstrap: [AppComponent]

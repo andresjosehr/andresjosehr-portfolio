@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import * as AOS from 'aos';
 import { Title } from '@angular/platform-browser';
+import { GoogleAnalyticsService } from 'ngx-google-analytics';
 
 @Component({
   selector: 'app-root',
@@ -10,13 +11,18 @@ import { Title } from '@angular/platform-browser';
 export class AppComponent implements OnInit{
   title = 'andresjosehr-portfolio';
   
-  constructor(private titleService: Title){
+  constructor(
+    private titleService: Title,
+    private $gaService: GoogleAnalyticsService
+    ){
     
   }
   ngOnInit(): void{
 
     this.titleService.setTitle( "José Andrés | Frontend Developer" );
-
+    
+    this.$gaService.pageView('/home', 'Teste de Home')
+    
     AOS.init(); 
 
   }
