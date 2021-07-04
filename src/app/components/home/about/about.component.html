@@ -9,6 +9,7 @@
             <div class="row">
                 <div class="col-12 col-md-6 mb-4 mb-md-0">
                     <div class="about-description">
+                        {{"AboutMe.Paragraphs" | translate | json}}
                         <p *ngFor='let text of "AboutMe.Paragraphs" | translate' data-aos="fade-up" data-aos-duration="1000">
                             {{text}}
                         </p>

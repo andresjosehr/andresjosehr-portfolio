@@ -27,7 +27,13 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
   imports: [
     CommonModule,
     NgbModule,
-    TranslateModule.forRoot()
+    TranslateModule.forChild({
+      loader: {
+          provide: TranslateLoader,
+          useFactory: HttpLoaderFactory,
+          deps: [HttpClient]
+      }
+    })
   ]
 })
 export class HomeModule { }

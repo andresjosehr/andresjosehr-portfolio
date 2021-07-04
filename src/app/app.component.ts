@@ -23,10 +23,8 @@ export class AppComponent implements OnInit{
     this.translateService.addLangs(["en", "es"])
 
     const language = navigator.language || (navigator as any).userLanguage; 
-
-    if(language.split("-").includes("es")){
-      this.translateService.setDefaultLang(language.split("-").includes("es") ? "es" : "en" )
-    }
+    
+    this.translateService.setDefaultLang(language.split("-").includes("es") ? "es" : "en")
 
     this.titleService.setTitle( "José Andrés | Frontend Developer" );
 
