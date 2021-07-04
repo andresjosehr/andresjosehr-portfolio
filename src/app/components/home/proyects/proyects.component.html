@@ -3,11 +3,77 @@
         <div class="section-box">
             <div data-aos="fade-up" data-aos-duration="1000">
                 <h3 class="section-title">
-                    <span class='n-section-title'>03.</span> Mis proyectos
+                    <span class='n-section-title'>03.</span> {{"FeatureProjects.Title" | translate}}
                 </h3>
             </div>
-            
-            <div class="d-flex proyect-container" data-aos="fade-up" data-aos-duration="1000">
+
+            <div *ngFor='let project of "FeatureProjects.Projects" | translate; let i = index' class="d-flex proyect-container" data-aos="fade-up" data-aos-duration="1000">
+                <div *ngIf="i%2==0" class="img-feature-proyect-container">
+                    <div class="img-feature-proyect-box">
+                        <img class='img-feature-proyect rounded' [src]="project.img" [alt]="project.Title" width='600px'>
+                    </div>
+                </div>
+                <div [class.proyect-info-right]='i%2==0' [class.proyect-info-left]='i%2!=0' class="h-100" style="background-image: url('{{project.img}}');">
+                    <div class="proyect-box">
+                        <h4 [class.text-right]='i%2==0' [class.text-left]='i%2!=0' class="feature-proyect">{{"FeatureProjects.Label" | translate}}</h4>
+                        <h5 [class.text-right]='i%2==0' [class.text-left]='i%2!=0' class="proyect-name">{{project.Title}}</h5>
+
+                        <div class="proyect-description-box">
+                            <p class="mb-0">
+                                {{project.Description}}
+                            </p>
+                        </div>
+                        <ul [class.justify-content-end]='i%2==0' [class.justify-content-start]='i%2!=0' class="proyect-skills">
+                            <li *ngFor='let technology of project.Technologies' class="ml-3">{{technology}}</li>
+                        </ul>
+                        <div [class.text-right]='i%2==0' [class.text-left]='i%2!=0' class="proyect-links">
+                            <a style='color: inherit' [href]="project['gh-link']" target="_blank"><i class="ml-3 fab fa-github"></i></a>
+                            <a style='color: inherit' [href]="project['demo-link']" target="_blank"><i class="ml-3 fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div *ngIf="i%2!=0" class="img-feature-proyect-container">
+                    <div class="img-feature-proyect-box">
+                        <img class='img-feature-proyect rounded' [src]="project.img" [alt]="project.Title" width='600px'>
+                    </div>
+                </div>
+            </div>
+
+            <!-- <div class="d-flex proyect-container" data-aos="fade-up" data-aos-duration="1000">
+                <div class="proyect-info-left h-100" style="background-image: url('assets/images/hands-game.png')">
+                    <div class="proyect-box">
+                        <h4 class="text-left feature-proyect">Proyecto Destacado</h4>
+                        <h5 class="text-left proyect-name">Hands game</h5>
+
+                        <div class="proyect-description-box">
+                            <p class="mb-0">
+                                Juego de piedra papel y tijeras extendido. Un proyecto personal desarrollado en angular en el que juegas al azar contra la máquina. Cuenta con la utilización de servicios, interfaces y componentes
+
+                            </p>
+                        </div>
+                        <ul class="proyect-skills justify-content-star">
+                            <li class="mr-3">Angular</li>
+                            <li class="mr-3">CSS GRID</li>
+                            <li class="mr-3">SASS</li>
+                            <li class="mr-3">Angular animations</li>
+                        </ul>
+                        <div class="proyect-links text-left">
+                            <a (click)='analyticsService.sendAnalyticEvent("click_handsgame_github", "proyects", "click")' style='color: inherit' href="https://github.com/andresjosehr/hands-game" target="_blank"><i class="ml-3 fab fa-github"></i></a>
+                            <a (click)='analyticsService.sendAnalyticEvent("click_handsgame_external_link", "proyects", "click")' style='color: inherit' href="https://handsgame.andresjosehr.com" target="_blank"><i class="ml-3 fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="img-feature-proyect-container" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="img-feature-proyect-box">
+                        <img class='img-feature-proyect rounded' src="assets/images/hands-game.png" alt="" width='600px'>
+                    </div>
+                </div>
+            </div> -->
+
+
+
+
+            <!-- <div class="d-flex proyect-container" data-aos="fade-up" data-aos-duration="1000">
                 <div class="img-feature-proyect-container">
                     <div class="img-feature-proyect-box">
                         <img class='img-feature-proyect rounded' src="assets/images/agrourbana.png" alt="" width='600px'>
@@ -99,7 +165,7 @@
                             </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
 </section>

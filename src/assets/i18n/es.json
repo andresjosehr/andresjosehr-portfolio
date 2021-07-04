@@ -1,0 +1,154 @@
+{
+
+    "Header.Item1": "Acerca de mi",
+    "Header.Item2": "Experiencia",
+    "Header.Item3": "Proyectos",
+    "Header.Item4": "Contacto",
+
+    "Banner.Pretitle": "Hola! Mi nombre es",
+    "Banner.Description": "Con 4 años de experiencia desarrollando sistemas, interfaces, bots y soluciones tecnológicas para hacer de la web un lugar mejor. En mi trabajo me gusta liderar, proponer y ejecutar ideas, escribir y refactorizar código limpio, reutilizable y escalable.",
+    "Banner.ActionBtn": "Saludame",
+
+    "AboutMe.Title": "Acerca de mi",
+    "AboutMe.Paragraphs": [
+        "En mis 4 años como desarrollador busco capacitarme cada día. Al mismo tiempo he trabajado escribiendo pruebas unitarias, realizando integración continua y también cubriendo roles de backend developer con Laravel, ExpressJS, Mysql y MongoDB. También he liderado equipos teniendo empatía, ejerciendo motivación a compañeros y estableciendo planes y metas en conjunto.",
+        "Mis capacidades también incluyen implementar mejoras en sistemas, optimizar sitios, estandarizar patrones y sugerir y ejecutar ideas que añadan valor al proyecto en el que este trabajando.",
+        "Algunas de las tecnologías en las que me he capacitado y trabajado incluyen (pero no se limitan) a:"
+    ],
+
+
+    "Experience.Title": "Experiencia",
+    "Experience.Jobs": [{
+            "Tab": "Proyex",
+            "Title": "Fullstack developer",
+            "Date": "Diciembre 2019 - Actualidad",
+            "Description": "Creación y mantenimiento de una plataforma de monitorio con gráficos en Wordpress. Programación funcional en plantillas y plugins para añadir las características necesarias de monitorio. Implementación de integración continua y respaldos diarios. Creación y mantenimiento de una segunda plataforma de Monitoreo Realizada en Angular, Angular Material, Laravel, Mysql, RxJS, Sass con gráficos (configurables), sistema de alarmas, y gestión de usuarios y configuración de parámetros generales. Reuniones de planificación en informes."
+        },
+        {
+            "Tab": "Freelancer",
+            "Title": "Independiente",
+            "Date": "Mayo 2016 - Actualidad",
+            "Description": "Implementando mejoras continuas, trabajando en frontend y backend. Creando plataformas con Angular, Laravel, ExpressJS, Wordpress programadas con paradigmas de programación funcional, reactiva y orientada a objetos."
+        },
+        {
+            "Tab": "Moebius",
+            "Title": "FullStack developer",
+            "Date": "Julio 2017 - Octubre 2018",
+            "Description": "Liderando un equipo de 4 personas en el desarrollo de una plataforma de gestión de Datos de turismo hecha en Angular, Laravel y MySQL. Implementando CI/CD en Azure. Refactorizando y optimizando tiempos de carga de la aplicación. Codificación de peticiones a API con RxJS. Redacción de informes semanales acerca de metas y planes."
+        },
+        {
+            "Tab": "TechLatam",
+            "Title": "Frontend developer",
+            "Date": "Febrero 2016 - Mayo 2017",
+            "Description": "Creación de plantillas de wordpress con ACF, programación funcional en Javascript / jQuery, estilos en SASS, integración de mejoras en diseño y tiempos de carga de plantillas. Comunicación efectiva con equipo de diseño, trabajando con Avocode / Figma"
+        },
+        {
+            "Tab": "CANTV",
+            "Title": "Analista de sistema",
+            "Date": "Noviembre 2015 - Diciembre 2016",
+            "Description": "CANTV, empresas de telecomunicaciones más grandes del país. Como asignaciones regulares, debía programar nuevas funcionalidades para una plataforma de gestión de empleados existente realizada en Angular y ExpressJS, Realizar refactorización de código antiguo. Asegurar la compatibilidad de cada dependencia en cada actualización, junto también con la actualización regular de Angular."
+        },
+        {
+            "Tab": "IEP",
+            "Title": "Profesor de Inglés",
+            "Date": "Enero 2015 - Julio 2015",
+            "Description": "Enseñando ingles a nivel básico a una matrícula de más de 200 alumnos."
+        }
+    ],
+
+    "FeatureProjects.Title": "Mis proyectos",
+    "FeatureProjects.Label": "Proyecto Destacado",
+    "FeatureProjects.Projects": [{
+            "Title": "Agrourbana",
+            "Description": "Aplicación de monitoreo realizada desde cero con módulo de auth, gráficos configurables, alarmas configurables y gestión de usuarios. Cuenta también con lógica de formularios reactvios para la configuración de parámetros.",
+            "img": "assets/images/agrourbana.png",
+            "Link-gh": "https://github.com/andresjosehr/agrourbana",
+            "Link-demo": "https://agrourbana.andresjosehr.com/",
+            "Technologies": ["Laravel", "Angular", "SASS", "Angular Material", "RxJS"]
+        },
+        {
+            "Title": "Hands game",
+            "Description": "Juego de piedra papel y tijeras extendido. Un proyecto personal desarrollado en angular en el que juegas al azar contra la máquina. Cuenta con la utilización de servicios, interfaces y componentes.",
+            "img": "assets/images/hands-game.png",
+            "Link-gh": "https://github.com/andresjosehr/hands-game",
+            "Link-demo": "https://handsgame.andresjosehr.com/",
+            "Technologies": ["Angular", "CSS GRID", "SASS", "Angular animations"]
+        },
+        {
+            "Title": "Countries viewer",
+            "Description": "Interfaz que consume una API de países con el que se pueden visualizar lista de países, ver detalles de cada país, filtrar por nombre y región. Ademas cuenta con un dark mode para alternar entre el tema oscuro y el claro.",
+            "img": "assets/images/countries-viewer.png",
+            "Link-gh": "https://github.com/andresjosehr/countries-viewer",
+            "Link-demo": "https://countriesviewer.andresjosehr.com/",
+            "Technologies": ["Angular", "RxJS", "SASS", "API"]
+        }
+    ],
+
+
+
+    "OtherProjects.Title": "Mas proyectos",
+    "OtherProjects.Projects": [{
+            "Title": "Pokemon",
+            "Description": "Buscador de pokemons que utiliza la pokeapi. Se usó programación orientada a objetos para organizar la información de los pokemons junto con su respectiva imagen.",
+            "Link-gh": "https://github.com/andresjosehr/pokemon-angular",
+            "Link-demo": "https://pokemonlist.andresjosehr.com/",
+            "Technologies": ["Angular", "RxJs", "API", "Bootstrap"]
+        },
+        {
+            "Title": "Coming soon page",
+            "Description": "Proyecto personal de una página dividida de dos columnas para ser usado como 'Coming soon page'. Programada para ser totalmente responsive design. Cuenta con un campo de formulario para suscribirse por correo electrónico.",
+            "Link-gh": "https://github.com/andresjosehr/coming-soon-page",
+            "Link-demo": "https://comingsoonpage.andresjosehr.com/",
+            "Technologies": ["Angular", "SASS", "CSS GRID", "Reactive form"]
+        },
+        {
+            "Title": "Four card feature section",
+            "Description": "Una sola página que cuenta con un diseño minimalista que enumera 4 características en 4 cards. Se usan animaciones de entrada con angular animations.",
+            "Link-gh": "https://github.com/andresjosehr/fourd-card-feature-section",
+            "Link-demo": "https://fourcardfeaturesection.andresjosehr.com/",
+            "Technologies": ["Angular", "SASS", "CSS GRID"]
+        },
+        {
+            "Title": "Testimonial slider",
+            "Description": "Diseño de una sola página que cuenta que dos testimonios que hacen transición en un slider programado en angular. Los datos de los testimonios son consultados una API desarrollada en ExpressJS almacenada en Heroku que obtiene los datos de una base de datos MongoDB.",
+            "Link-gh": "https://github.com/andresjosehr/testimonials-slider-app",
+            "Link-demo": "https://testimonialsslider.andresjosehr.com/",
+            "Technologies": ["Angular", "ExpressJS", "MongoDB", "Angular animations", "CSS GRID"]
+        },
+        {
+            "Title": "Article preview",
+            "Description": "Componente de preview de un artículo. Se desarrolló en angular y los datos son consultados a través de una API desarrollada en NodeJS y los datos se encuentran almacenados en una base de datos MongoDB.",
+            "Link-gh": "https://github.com/andresjosehr/article-preview-app",
+            "Link-demo": "https://articlepreview.andresjosehr.com/",
+            "Technologies": ["Angular", "ExpressJS", "MongoDB", "CSS GRID"]
+        },
+        {
+            "Title": "Social proof section",
+            "Description": "Proyecto personal de una página diseñada a partir de un diseño hecho en figma. Se utilizó angular para el desarrollo junto con SASS y CSS GRID.",
+            "Link-gh": "https://github.com/andresjosehr/social-proof-section",
+            "Link-demo": "https://socialproofsection.andresjosehr.com/",
+            "Technologies": ["Angular", "CSS GRID", "GIT"]
+        },
+        {
+            "Title": "FAQ accordion card",
+            "Description": "Acordeón de preguntas frecuentes con lógica y animnaciones realizadas en Angular.",
+            "Link-gh": "https://andresjosehr.github.io/faq-accordion/",
+            "Link-demo": "https://faqaccordion.andresjosehr.com/",
+            "Technologies": ["Angular", "CSS GRID", "Angular animations"]
+        },
+        {
+            "Title": "Profile card",
+            "Description": "Simple diseño de una página que cuenta con una carta de perfil con información básica de una persona.",
+            "Link-gh": "https://andresjosehr.github.io/faq-accordion/",
+            "Link-demo": "https://faqaccordion.andresjosehr.com/",
+            "Technologies": ["Angular", "SASS", "GIT"]
+        }
+    ],
+
+    "Contact.Pretitle": "Y... ¿Ahora?",
+    "Contact.Title": "¡Saludame!",
+    "Contact.Content": "Estaré encantado de recibir tu contacto si quieres conversar acerca de nuevas oportunidades. Escríbeme, y te responderé tan pronto como vea tu mensaje.",
+    "Contact.Btn": "Contactame"
+
+
+}

@@ -3,11 +3,20 @@
         <div class="section-box">
             <div class="about-title mb-5" data-aos="fade-up" data-aos-duration="1000">
                 <h3 class="e-font section-title">
-                    <span class='code-font n-section-title'>02.</span> ¿Donde he trabajado?
+                    <span class='code-font n-section-title'>02.</span> {{"Experience.Title" | translate}}
                 </h3>
             </div>
             <ngb-tabset class="jobs-tabs" data-aos="fade-up" data-aos-duration="1000">
-              <ngb-tab (click)='analyticsService.sendAnalyticEvent("click_proyex", "jobs", "jobs")' title="Proyex">
+                <ngb-tab *ngFor='let job of "Experience.Jobs" | translate' [title]="job.Tab">
+                    <ng-template ngbTabContent>
+                        <h4 class='title-tab-content'>{{job.Title}} | <span class="company-tab-content">{{job.Tab}}</span></h4>
+                        <h5 class="job-time">{{job.Date}}</h5>
+                        <p class="job-description">{{job.Description}}</p>
+                        <span></span>
+                    </ng-template>
+                </ngb-tab>
+
+                <!-- <ngb-tab (click)='analyticsService.sendAnalyticEvent("click_proyex", "jobs", "jobs")' title="Proyex">
                 <ng-template ngbTabContent>
                     <h4 class='title-tab-content'>Fullstack developer | <span class="company-tab-content">Proyex</span></h4>
                     <h5 class="job-time">Diciembre 2019 - Actualidad </h5>
@@ -81,9 +90,9 @@
                         </p>
                       <span></span>
                     </ng-template>
-                  </ngb-tab>
-                
-              </ngb-tabset>
+                  </ngb-tab> -->
+
+            </ngb-tabset>
         </div>
     </div>
 </section>

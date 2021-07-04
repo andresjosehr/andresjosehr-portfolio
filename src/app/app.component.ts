@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import * as AOS from 'aos';
 import { Title, Meta } from '@angular/platform-browser';
+import { TranslateService } from '@ngx-translate/core';
+import {IpserviceService} from "src/app/services/ipservice/ipservice.service"
 
 @Component({
   selector: 'app-root',
@@ -12,11 +14,19 @@ export class AppComponent implements OnInit{
   
   constructor(
     private titleService: Title,
-    private metaService: Meta
+    private metaService: Meta,
+    private translateService: TranslateService,
+    private IpserviceService: IpserviceService
     ){
-    
-  }
+    }
   ngOnInit(): void{
+    this.translateService.addLangs(["en", "es"])
+
+    const language = navigator.language || (navigator as any).userLanguage; 
+
+    if(language.split("-").includes("es")){
+      this.translateService.setDefaultLang(language.split("-").includes("es") ? "es" : "en" )
+    }
 
     this.titleService.setTitle( "José Andrés | Frontend Developer" );
 

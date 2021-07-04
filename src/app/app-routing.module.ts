@@ -5,19 +5,21 @@ import { ArchiveComponent } from './components/archive/archive.component';
 
 const routes: Routes = [
 
-  {path: 'inicio',      component: HomeComponent},
+  {path: '',      component: HomeComponent},
   {path: 'proyectos',   component: ArchiveComponent},
   
   // {path: 'profile'        ,   component: ProfileComponent         , canActivate: [AuthGuard]},
   // {path: 'users'          ,   component: UsersComponent           , canActivate: [AuthGuard]},
   // {path: 'register-user'  ,   component: RegisterUserComponent    , canActivate: [AuthGuard]},
 
-  {path: '**', pathMatch: 'full', redirectTo: 'inicio'},
+  {path: '**', pathMatch: 'full', redirectTo: '/'},
 
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [
+    RouterModule.forRoot(routes)
+  ],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
