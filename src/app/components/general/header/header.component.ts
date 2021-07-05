@@ -3,6 +3,8 @@ import { Router } from '@angular/router';
 import {trigger, style, query, transition, stagger, animate } from '@angular/animations'
 import { AnalyticsService } from 'src/app/services/analytics/analytics.service';
 import { TranslateService } from '@ngx-translate/core';
+import { FormControl } from '@angular/forms';
+import { LanguageService } from 'src/app/services/language/language.service';
 
 @Component({
   selector: 'app-header',
@@ -30,13 +32,20 @@ export class HeaderComponent implements OnInit {
 
   responsiveMenuVisible: Boolean = false;
   pageYPosition: number;
+  languageFormControl: FormControl= new FormControl();
   
   constructor(
     private router: Router,
-    public analyticsService: AnalyticsService
+    public analyticsService: AnalyticsService,
+    private languageService: LanguageService
   ) { }
 
   ngOnInit(): void {
+    
+    this.languageFormControl.valueChanges.subscribe(val => this.languageService.changeLanguage(val))
+
+    this.languageFormControl.setValue(this.languageService.language)
+    
   }
 
   scroll(el) {

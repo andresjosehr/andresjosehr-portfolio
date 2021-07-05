@@ -20,6 +20,34 @@
                 <a ngbNavLink (click)='scroll("contact")'><span class='nav-number'>04.</span> {{"Header.Item4" | translate}}</a>
                 <ng-template ngbNavContent>Second content</ng-template>
             </li>
+            <li>
+                <div ngbDropdown class="d-inline-block">
+                    <div class="language-container" id="dropdownForm1" ngbDropdownToggle>
+                        <img *ngIf='languageFormControl.value == "en"' width="20px" src="https://www.worldometers.info/img/flags/us-flag.gif" alt="English">
+                        <span *ngIf='languageFormControl.value == "en"' class="flag-text">English</span>
+
+                        <img *ngIf='languageFormControl.value == "es"' width="20px" src="https://www.worldometers.info/img/flags/sp-flag.gif" alt="Español">
+                        <span *ngIf='languageFormControl.value == "es"' class="flag-text">Español</span>
+                        <svg class='arrow-language' xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 7.33l2.829-2.83 9.175 9.339 9.167-9.339 2.829 2.83-11.996 12.17z"/></svg>
+                    </div>
+                    <div ngbDropdownMenu aria-labelledby="dropdownForm1">
+                        <div (click)='languageFormControl.setValue("es")' style='border-bottom-left-radius: 0px !important;border-bottom-right-radius: 0px !important;' class="language-container language-container-selector active" [class.active]='languageFormControl.value == "es"'>
+                            <img width="20px" src="https://www.worldometers.info/img/flags/sp-flag.gif" alt="Español">
+                            <span class="flag-text">Español</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check2 arrow-active" viewBox="0 0 16 16">
+                                <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+                              </svg>
+                        </div>
+                        <div (click)='languageFormControl.setValue("en")' style="margin-top: 1px !important; border-top-left-radius: 0px !important; border-top-right-radius: 0px !important;" class="language-container language-container-selector" [class.active]='languageFormControl.value == "en"'>
+                            <img width="20px" src="https://www.worldometers.info/img/flags/us-flag.gif" alt="English">
+                            <span class="flag-text">English</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check2 arrow-active" viewBox="0 0 16 16">
+                                <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+                              </svg>
+                        </div>
+                    </div>
+                </div>
+            </li>
         </ul>
         <div class="menu-wrapper">
             <div [class.animate]='responsiveMenuVisible' (click)='responsiveMenuVisible = !responsiveMenuVisible' class="hamburger-menu"></div>
@@ -43,11 +71,11 @@
                                 <span>01.</span> {{"Header.Item3" | translate}}
                             </a>
                         </li>
-                        <li (click)='analyticsService.sendAnalyticEvent("click_contact", "menu", "click")'>
-                            <a (click)='scroll("contact")'>
-                                <span>01.</span> {{"Header.Item4" | translate}}
-                            </a>
-                        </li>
+                        <!-- <li>
+                            <img src="https://www.worldometers.info/img/flags/us-flag.gif" alt="English">
+                        </li> -->
+
+
                     </ol>
                 </nav>
             </aside>
