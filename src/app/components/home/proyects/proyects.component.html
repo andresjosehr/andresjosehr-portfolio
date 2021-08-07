@@ -8,17 +8,21 @@
             </div>
 
             <div *ngFor='let project of "FeatureProjects.Projects" | translate; let i = index' class="d-flex proyect-container" data-aos="fade-up" data-aos-duration="1000">
-                <div *ngIf="i%2==0" class="img-feature-proyect-container">
-                    <div class="img-feature-proyect-box">
-                        <img class='img-feature-proyect rounded' [src]="project.img" [alt]="project.Title" width='600px'>
-                    </div>
-                </div>
+                <owl-carousel-o [options]="customOptions" *ngIf="i%2==0" style="width: 600px;">
+                    <ng-container *ngFor="let img of project.imgs">
+                        <ng-template carouselSlide [id]="project.Title+slide+i">
+                            <div #imgContainer class='img-container'>
+                                <img class='img-feature-proyect rounded' [src]="img" [alt]="project.Title" width='600px'>
+                            </div>
+                        </ng-template>
+                    </ng-container>
+                </owl-carousel-o>
                 <div [class.proyect-info-right]='i%2==0' [class.proyect-info-left]='i%2!=0' class="h-100" style="background-image: url('{{project.img}}');">
                     <div class="proyect-box">
                         <h4 [class.text-right]='i%2==0' [class.text-left]='i%2!=0' class="feature-proyect">{{"FeatureProjects.Label" | translate}}</h4>
                         <h5 [class.text-right]='i%2==0' [class.text-left]='i%2!=0' class="proyect-name">{{project.Title}}</h5>
 
-                        <div class="proyect-description-box">
+                        <div class="proyect-description-box" (click)='debug()'>
                             <p class="mb-0">
                                 {{project.Description}}
                             </p>
@@ -32,11 +36,18 @@
                         </div>
                     </div>
                 </div>
-                <div *ngIf="i%2!=0" class="img-feature-proyect-container">
-                    <div class="img-feature-proyect-box">
-                        <img class='img-feature-proyect rounded' [src]="project.img" [alt]="project.Title" width='600px'>
-                    </div>
-                </div>
+                <owl-carousel-o [options]="customOptions" *ngIf="i%2!=0" style="width: 600px;">
+                    <ng-container *ngFor="let img of project.imgs">
+                        <ng-template carouselSlide [id]="project.Title+slide+i">
+                            <div class='img-container'>
+                                <img class='img-feature-proyect rounded' [src]="img" [alt]="project.Title" width='600px'>
+                            </div>
+                        </ng-template>
+                    </ng-container>
+                </owl-carousel-o>
+            </div>
+
+            <div>
             </div>
 
             <!-- <div class="d-flex proyect-container" data-aos="fade-up" data-aos-duration="1000">

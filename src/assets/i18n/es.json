@@ -61,7 +61,13 @@
     "FeatureProjects.Projects": [{
             "Title": "Agrourbana",
             "Description": "Aplicación de monitoreo realizada desde cero con módulo de auth, gráficos configurables, alarmas configurables y gestión de usuarios. Cuenta también con lógica de formularios reactvios para la configuración de parámetros.",
-            "img": "assets/images/agrourbana.png",
+            "imgs": [
+                "assets/images/agrourbana/agrourbana1.png",
+                "assets/images/agrourbana/agrourbana2.png",
+                "assets/images/agrourbana/agrourbana3.png",
+                "assets/images/agrourbana/agrourbana4.png",
+                "assets/images/agrourbana/agrourbana5.png"
+            ],
             "Link-gh": "https://github.com/andresjosehr/agrourbana",
             "Link-demo": "https://agrourbana.andresjosehr.com/",
             "Technologies": ["Laravel", "Angular", "SASS", "Angular Material", "RxJS"]
@@ -69,7 +75,7 @@
         {
             "Title": "Hands game",
             "Description": "Juego de piedra papel y tijeras extendido. Un proyecto personal desarrollado en angular en el que juegas al azar contra la máquina. Cuenta con la utilización de servicios, interfaces y componentes.",
-            "img": "assets/images/hands-game.png",
+            "imgs": ["assets/images/hands-game.png"],
             "Link-gh": "https://github.com/andresjosehr/hands-game",
             "Link-demo": "https://handsgame.andresjosehr.com/",
             "Technologies": ["Angular", "CSS GRID", "SASS", "Angular animations"]
@@ -77,7 +83,7 @@
         {
             "Title": "Countries viewer",
             "Description": "Interfaz que consume una API de países con el que se pueden visualizar lista de países, ver detalles de cada país, filtrar por nombre y región. Ademas cuenta con un dark mode para alternar entre el tema oscuro y el claro.",
-            "img": "assets/images/countries-viewer.png",
+            "imgs": ["assets/images/countries-viewer.png"],
             "Link-gh": "https://github.com/andresjosehr/countries-viewer",
             "Link-demo": "https://countriesviewer.andresjosehr.com/",
             "Technologies": ["Angular", "RxJS", "SASS", "API"]

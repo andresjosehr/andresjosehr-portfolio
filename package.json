@@ -30,6 +30,7 @@
         "bootstrap": "^4.5.0",
         "ng2-animate-on-scroll": "^2.0.0",
         "ngx-google-analytics": "^11.2.0",
+        "ngx-owl-carousel-o": "^6.0.0",
         "rxjs": "~6.5.5",
         "tslib": "^2.0.0",
         "zone.js": "~0.10.3"
