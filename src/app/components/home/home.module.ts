@@ -9,7 +9,7 @@ import { ContactComponent } from './contact/contact.component';
 import { JobsComponent } from './jobs/jobs.component';
 import { MoreProyectsComponent } from './more-proyects/more-proyects.component';
 import { ProyectsComponent } from './proyects/proyects.component';
-import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { NgbModule, NgbNav, NgbNavModule } from '@ng-bootstrap/ng-bootstrap';
 import { CarouselModule } from 'ngx-owl-carousel-o';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 
@@ -31,7 +31,7 @@ export function HttpLoaderFactory(http: HttpClient){
   ],
   imports: [
     CommonModule,
-    NgbModule,
+    NgbNavModule,
     CarouselModule,
     TranslateModule.forChild({
       loader: {

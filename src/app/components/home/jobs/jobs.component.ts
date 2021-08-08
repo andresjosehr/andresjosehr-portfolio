@@ -8,7 +8,8 @@ import { AnalyticsService } from 'src/app/services/analytics/analytics.service';
 })
 export class JobsComponent implements OnInit {
   
-
+  active = 0
+  
   constructor(
     public analyticsService: AnalyticsService
   ) { }
