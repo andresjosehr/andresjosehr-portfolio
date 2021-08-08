@@ -68,10 +68,45 @@
                 "assets/images/agrourbana/agrourbana4.png",
                 "assets/images/agrourbana/agrourbana5.png"
             ],
-            "Link-gh": "https://github.com/andresjosehr/agrourbana",
+           
             "Link-demo": "https://agrourbana.andresjosehr.com/",
             "Technologies": ["Laravel", "Angular", "SASS", "Angular Material", "RxJS"]
         },
+        {
+            "Title": "Tu super plan",
+            "Description": "Cotizador de planes de salud que cuenta con un buscador con el que se hacen consultas avanzadas. Los planes son mostrados en base a la edad, ingreso mensual y ubicacion del usuario. Cuenta con chat en linea, formulario de contacto, sistema de notificaiones por whatsapp y correo, auth, y gestion de informacion internet a travez del rol de administrador",
+            "imgs": [
+                "assets/images/tusuperplan/tusuperplan1.png",
+                "assets/images/tusuperplan/tusuperplan2.png",
+                "assets/images/tusuperplan/tusuperplan3.png",
+                "assets/images/tusuperplan/tusuperplan4.png",
+                "assets/images/tusuperplan/tusuperplan5.png"
+            ],
+            
+            "Link-demo": "https://app.tusuperplan.cl/",
+            "Technologies": ["Laravel", "Angular", "SASS", "Angular Material", "RxJS"]
+        },
+        {
+            "Title": "Proyexiot",
+            "Description": "Plataforma de monitoreo de datos pertenecientes a pozos de agua, remolcadores y diversas instalaciones realizada desde cero con módulo de auth, gráficos configurables, alarmas configurables, gestión de usuarios y geolocalizacion con openlayers.",
+            "imgs": [
+                "assets/images/proyex/proyex1.png",
+                "assets/images/proyex/proyex2.png",
+                "assets/images/proyex/proyex3.png",
+                "assets/images/proyex/proyex4.png",
+                "assets/images/proyex/proyex5.png",
+                "assets/images/proyex/proyex6.png",
+                "assets/images/proyex/proyex7.png",
+                "assets/images/proyex/proyex8.png",
+                "assets/images/proyex/proyex9.png",
+                "assets/images/proyex/proyex10.png",
+                "assets/images/proyex/proyex11.png",
+                "assets/images/proyex/proyex12.png"
+            ],
+            
+            "Link-demo": "https://proyex.andresjosehr.com/",
+            "Technologies": ["Laravel", "Angular", "SASS", "Angular Material", "RxJS"]
+        },    
         {
             "Title": "Hands game",
             "Description": "Juego de piedra papel y tijeras extendido. Un proyecto personal desarrollado en angular en el que juegas al azar contra la máquina. Cuenta con la utilización de servicios, interfaces y componentes.",

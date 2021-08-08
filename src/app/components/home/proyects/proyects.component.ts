@@ -16,8 +16,8 @@ export class ProyectsComponent implements OnInit {
     pullDrag: false,
     navSpeed: 700,
     items: 1,
-    // autoplay: true
-    // nav: true
+    autoplay: true,
+    autoplayTimeout:3000
   }
 
   @ViewChild('imgContainer') imgContainer: ElementRef;

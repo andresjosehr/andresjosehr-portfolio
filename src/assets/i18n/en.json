@@ -73,6 +73,41 @@
             "Technologies": ["Laravel", "Angular", "SASS", "Angular Material", "RxJS"]
         },
         {
+            "Title": "Tu super plan",
+            "Description": "Health plan quote that has a search engine with which advanced queries are made. Plans are displayed based on the user's age, monthly income, and location. It has online chat, contact form, notification system by whatsapp and mail, auth, and internet information management through the role of administrator.",
+            "imgs": [
+                "assets/images/tusuperplan/tusuperplan1.png",
+                "assets/images/tusuperplan/tusuperplan2.png",
+                "assets/images/tusuperplan/tusuperplan3.png",
+                "assets/images/tusuperplan/tusuperplan4.png",
+                "assets/images/tusuperplan/tusuperplan5.png"
+            ],
+            
+            "Link-demo": "https://app.tusuperplan.cl/",
+            "Technologies": ["Laravel", "Angular", "SASS", "Angular Material", "RxJS"]
+        },
+        {
+            "Title": "Proyexiot",
+            "Description": "Data monitoring platform belonging to water wells, tugboats, and various installations made from scratch with auth module, configurable graphics, configurable alarms, user management, and geolocation with openlayers.",
+            "imgs": [
+                "assets/images/proyex/proyex1.png",
+                "assets/images/proyex/proyex2.png",
+                "assets/images/proyex/proyex3.png",
+                "assets/images/proyex/proyex4.png",
+                "assets/images/proyex/proyex5.png",
+                "assets/images/proyex/proyex6.png",
+                "assets/images/proyex/proyex7.png",
+                "assets/images/proyex/proyex8.png",
+                "assets/images/proyex/proyex9.png",
+                "assets/images/proyex/proyex10.png",
+                "assets/images/proyex/proyex11.png",
+                "assets/images/proyex/proyex12.png"
+            ],
+            
+            "Link-demo": "https://proyex.andresjosehr.com/",
+            "Technologies": ["Laravel", "Angular", "SASS", "Angular Material", "RxJS"]
+        }, 
+        {
             "Title": "Hands game",
             "Description": "The rock-paper-scissors game extended. A personal project developed in angular in which you play randomly against the machine. It has the use of services, interfaces, and components.",
             "imgs": ["assets/images/hands-game.png"],
