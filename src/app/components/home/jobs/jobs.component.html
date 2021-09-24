@@ -6,7 +6,7 @@
                     <span class='code-font n-section-title'>02.</span> {{"Experience.Title" | translate}}
                 </h3>
             </div>
-            <div class="jobs-tabs">
+            <div class="jobs-tabs" data-aos="fade-up" data-aos-duration="1000">
               <ul ngbNav #nav="ngbNav" [(activeId)]="active" orientation="vertical" class="nav-tabs jobs-tabs">
                     <li *ngFor='let job of "Experience.Jobs" | translate; let i = index' [title]="job.Tab" [ngbNavItem]="i">
                       <a ngbNavLink>{{job.Tab}}</a>
