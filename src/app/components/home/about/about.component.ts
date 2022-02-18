@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { AotSummaryResolver } from '@angular/compiler';
 import { AnalyticsService } from 'src/app/services/analytics/analytics.service';
 
 @Component({
