@@ -1,0 +1,1 @@
+{"ast":null,"code":"export const environment = {\n  production: true,\n  trackAnalyticID: \"G-4ML1VNCP9T\"\n};","map":null,"metadata":{},"sourceType":"module"}
