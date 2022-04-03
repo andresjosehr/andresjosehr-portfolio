@@ -68,8 +68,6 @@
                 "assets/images/agrourbana/agrourbana4.png",
                 "assets/images/agrourbana/agrourbana5.png"
             ],
-            "Link-gh": "https://github.com/andresjosehr/agrourbana",
-            "Link-demo": "https://agrourbana.andresjosehr.com/",
             "Technologies": ["Laravel", "Angular", "SASS", "Angular Material", "RxJS"]
         },
         {
@@ -82,8 +80,6 @@
                 "assets/images/tusuperplan/tusuperplan4.png",
                 "assets/images/tusuperplan/tusuperplan5.png"
             ],
-            
-            "Link-demo": "https://app.tusuperplan.cl/",
             "Technologies": ["Laravel", "Angular", "SASS", "Angular Material", "RxJS"]
         },
         {
@@ -103,16 +99,14 @@
                 "assets/images/proyex/proyex11.png",
                 "assets/images/proyex/proyex12.png"
             ],
-            
-            "Link-demo": "https://proyex.andresjosehr.com/",
             "Technologies": ["Laravel", "Angular", "SASS", "Angular Material", "RxJS"]
-        }, 
+        },
         {
             "Title": "Hands game",
             "Description": "The rock-paper-scissors game extended. A personal project developed in angular in which you play randomly against the machine. It has the use of services, interfaces, and components.",
             "imgs": ["assets/images/hands-game.png"],
             "Link-gh": "https://github.com/andresjosehr/hands-game",
-            "Link-demo": "https://handsgame.andresjosehr.com/",
+            "Link-demo": "https://andresjosehr.com/projects/hands-game",
             "Technologies": ["Angular", "CSS GRID", "SASS", "Angular animations"]
         },
         {
@@ -120,7 +114,7 @@
             "Description": "An interface that consumes an API of countries with which you can view a list of countries, see details of each country, filter by name and region. It also has a dark mode to switch between dark and light themes.",
             "imgs": ["assets/images/countries-viewer.png"],
             "Link-gh": "https://github.com/andresjosehr/countries-viewer",
-            "Link-demo": "https://countriesviewer.andresjosehr.com/",
+            "Link-demo": "https://andresjosehr.com/projects/countries-viewer",
             "Technologies": ["Angular", "RxJS", "SASS", "API"]
         }
     ],
@@ -132,56 +126,56 @@
             "Title": "Pokemon",
             "Description": "Pokemon search engine that uses the pokeapi. Object-oriented programming was used to organize the information of the pokemons along with their respective image.",
             "Link-gh": "https://github.com/andresjosehr/pokemon-angular",
-            "Link-demo": "https://pokemonlist.andresjosehr.com/",
+            "Link-demo": "https://andresjosehr.com/projects/pokemon-list",
             "Technologies": ["Angular", "RxJs", "API", "Bootstrap"]
         },
         {
             "Title": "Coming soon page",
             "Description": "Personal project of a two-column split page to be used as a 'Coming soon page'. Scheduled to be a fully responsive design. It has a form field to subscribe by email.",
             "Link-gh": "https://github.com/andresjosehr/coming-soon-page",
-            "Link-demo": "https://comingsoonpage.andresjosehr.com/",
+            "Link-demo": "https://andresjosehr.com/projects/coming-soon-page",
             "Technologies": ["Angular", "SASS", "CSS GRID", "Reactive form"]
         },
         {
             "Title": "Four card feature section",
             "Description": "A single page that has a minimal design, listing four features on four cards. Input animations are done with angular animations.",
             "Link-gh": "https://github.com/andresjosehr/fourd-card-feature-section",
-            "Link-demo": "https://fourcardfeaturesection.andresjosehr.com/",
+            "Link-demo": "https://andresjosehr.com/projects/four-card-feature-section",
             "Technologies": ["Angular", "SASS", "CSS GRID"]
         },
         {
             "Title": "Testimonial slider",
             "Description": "Design of a single page that tells that two testimonials that transition into a slider programmed in angular. The testimonial data is consulted an API developed in ExpressJS stored in Heroku that obtains the data from a MongoDB database.",
             "Link-gh": "https://github.com/andresjosehr/testimonials-slider-app",
-            "Link-demo": "https://testimonialsslider.andresjosehr.com/",
+            "Link-demo": "https://andresjosehr.com/projects/testimonials-slider",
             "Technologies": ["Angular", "ExpressJS", "MongoDB", "Angular animations", "CSS GRID"]
         },
         {
             "Title": "Article preview",
             "Description": "Preview component of an article. It has been developed in angular and the data is queried through an API developed in NodeJS and the data is stored in a MongoDB database.",
             "Link-gh": "https://github.com/andresjosehr/article-preview-app",
-            "Link-demo": "https://articlepreview.andresjosehr.com/",
+            "Link-demo": "https://andresjosehr.com/projects/article-preview",
             "Technologies": ["Angular", "ExpressJS", "MongoDB", "CSS GRID"]
         },
         {
             "Title": "Social proof section",
             "Description": "Personal project of a page designed from a Figma layout. Angular was used for development together with SASS and CSS GRID.",
             "Link-gh": "https://github.com/andresjosehr/social-proof-section",
-            "Link-demo": "https://socialproofsection.andresjosehr.com/",
+            "Link-demo": "https://andresjosehr.com/projects/social-proof-section",
             "Technologies": ["Angular", "CSS GRID", "GIT"]
         },
         {
             "Title": "FAQ accordion card",
             "Description": "FAQ accordion with logic and animations made in Angular.",
             "Link-gh": "https://andresjosehr.github.io/faq-accordion/",
-            "Link-demo": "https://faqaccordion.andresjosehr.com/",
+            "Link-demo": "https://andresjosehr.com/projects/faq-accordion",
             "Technologies": ["Angular", "CSS GRID", "Angular animations"]
         },
         {
             "Title": "Profile card",
             "Description": "Simple one-page design that features a profile letter with basic information about a person.",
-            "Link-gh": "https://andresjosehr.github.io/faq-accordion/",
-            "Link-demo": "https://faqaccordion.andresjosehr.com/",
+            "Link-gh": "https://github.com/andresjosehr/profile-card-component",
+            "Link-demo": "https://andresjosehr.com/projects/profile-card-component",
             "Technologies": ["Angular", "SASS", "GIT"]
         }
     ],
