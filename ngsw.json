@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1648952041511,
+  "timestamp": 1648954930147,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -13,7 +13,7 @@
       "urls": [
         "/favicon.ico",
         "/index.html",
-        "/main.496c3f0a9cd89bfc.js",
+        "/main.06a977be44e28b08.js",
         "/manifest.webmanifest",
         "/polyfills.b023f0c90a74d353.js",
         "/runtime.4ad7a1d062b8043c.js",
@@ -249,8 +249,8 @@
     "/assets/fonts/SFMono/SFMono-SemiboldItalic.woff": "4bb2ddc7da8064698328e123bd3ec673f674a90d",
     "/assets/fonts/SFMono/SFMono-SemiboldItalic.woff2": "3621c6894388833626fd4cf132087a3f46a54a21",
     "/assets/fonts/SFMono/stylesheet.css": "9d845bf2b6a9e53e38bfc797758fbe38c2b99470",
-    "/assets/i18n/en.json": "b75c9d9fbbff0bc9ec36cd97129498c449a86a0c",
-    "/assets/i18n/es.json": "b2bd4d17bb1e64c5e828888bc42b82bee087d98d",
+    "/assets/i18n/en.json": "a49c22bbb421fbe03ff9e071b985a01148f2fc6e",
+    "/assets/i18n/es.json": "6822c810b99008aad6612018196452bdd24633df",
     "/assets/icons/cv plantilla.pdf": "566ecef3024cc9a771c7c80420a3726793a1e26d",
     "/assets/icons/folder.svg": "024e52150f03c8e0f77d17979a27ae94830678be",
     "/assets/icons/icon-128x128.png": "6ec621358618a961643b4ad9552b2e181e72ac8e",
@@ -318,8 +318,8 @@
     "/fa-solid-900.6bcd6c9c0a9fcfbf.woff2": "a9922842a120a7f1eaced667480c5e185a106d69",
     "/fa-solid-900.9d21645b52658faa.svg": "33fe5758f3992d8da2635c4fa230b54376dd18d1",
     "/favicon.ico": "216416b0e8efb71cc8e66e11cc40baf206704576",
-    "/index.html": "1ec7d79cab3eae06f0bbd321ffbdd5059151a553",
-    "/main.496c3f0a9cd89bfc.js": "a7ca8a7b53f8638ad740264fc207ab74ca1e902b",
+    "/index.html": "578b09398762bc40c9622d65692171c9749bd1c2",
+    "/main.06a977be44e28b08.js": "bc08d86d27548d40efe768d112402e08712dcb5a",
     "/manifest.webmanifest": "d9e92565b3be092fe728cd4c269af5e866223f8f",
     "/owl.video.play.e3b436436832b027.png": "c0d64356ec2758cb280d183b4829c923e5ff61e5",
     "/polyfills.b023f0c90a74d353.js": "1877be2379348ee258cae3552261d597d62d5d79",
