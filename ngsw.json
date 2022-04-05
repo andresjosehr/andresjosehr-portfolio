@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1648954930147,
+  "timestamp": 1649133886285,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -13,12 +13,12 @@
       "urls": [
         "/favicon.ico",
         "/index.html",
-        "/main.06a977be44e28b08.js",
+        "/main.c4265f591c4b74d3.js",
         "/manifest.webmanifest",
         "/polyfills.b023f0c90a74d353.js",
         "/runtime.4ad7a1d062b8043c.js",
         "/scripts.8c844e0f4a27dcd1.js",
-        "/styles.34645d821f29795f.css"
+        "/styles.0f6597a0bbbd17ad.css"
       ],
       "patterns": []
     },
@@ -58,6 +58,10 @@
         "/SFMono-Semibold.849266397229adad.woff",
         "/SFMono-SemiboldItalic.0ef5133ede504d56.woff2",
         "/SFMono-SemiboldItalic.33cb8d6968ae9130.woff",
+        "/assets/cv/CV Jose Hernandez Espanol.pdf:Zone.Identifier",
+        "/assets/cv/CV Jose Hernandez Ingles.pdf:Zone.Identifier",
+        "/assets/cv/CV_Jose_Hernandez_Espanol.pdf",
+        "/assets/cv/CV_Jose_Hernandez_Ingles.pdf",
         "/assets/fonts/Calibre/Calibre-Light.ttf",
         "/assets/fonts/Calibre/Calibre-Light.woff",
         "/assets/fonts/Calibre/Calibre-Light.woff2",
@@ -205,6 +209,10 @@
     "/SFMono-Semibold.849266397229adad.woff": "999e816498b39e99896d09cb18614e5bb700fa8e",
     "/SFMono-SemiboldItalic.0ef5133ede504d56.woff2": "3621c6894388833626fd4cf132087a3f46a54a21",
     "/SFMono-SemiboldItalic.33cb8d6968ae9130.woff": "4bb2ddc7da8064698328e123bd3ec673f674a90d",
+    "/assets/cv/CV Jose Hernandez Espanol.pdf:Zone.Identifier": "89c2928f1de88ca8bcfaba4cecd792d7c104922d",
+    "/assets/cv/CV Jose Hernandez Ingles.pdf:Zone.Identifier": "89c2928f1de88ca8bcfaba4cecd792d7c104922d",
+    "/assets/cv/CV_Jose_Hernandez_Espanol.pdf": "c0439e29396dc4c4948d16daa964f4216f99c3f2",
+    "/assets/cv/CV_Jose_Hernandez_Ingles.pdf": "c250c583bf70c5b49f26e37e8b031bb9da1b2b88",
     "/assets/fonts/Calibre/Calibre-Light.ttf": "8eccfc3783b04d13dec5887a15c3e00fd28bef7c",
     "/assets/fonts/Calibre/Calibre-Light.woff": "e3fbab74fa86b97c78ad1b1965b327fe5b2a1adb",
     "/assets/fonts/Calibre/Calibre-Light.woff2": "70021b39a260c5f53d2ec5ba30f37163bbe0ef14",
@@ -249,8 +257,8 @@
     "/assets/fonts/SFMono/SFMono-SemiboldItalic.woff": "4bb2ddc7da8064698328e123bd3ec673f674a90d",
     "/assets/fonts/SFMono/SFMono-SemiboldItalic.woff2": "3621c6894388833626fd4cf132087a3f46a54a21",
     "/assets/fonts/SFMono/stylesheet.css": "9d845bf2b6a9e53e38bfc797758fbe38c2b99470",
-    "/assets/i18n/en.json": "a49c22bbb421fbe03ff9e071b985a01148f2fc6e",
-    "/assets/i18n/es.json": "6822c810b99008aad6612018196452bdd24633df",
+    "/assets/i18n/en.json": "2ded34614a0dc9a6a0b237da399bc787a9b05697",
+    "/assets/i18n/es.json": "194b82c5d6a32968d568f2edb3cb663c91b398c6",
     "/assets/icons/cv plantilla.pdf": "566ecef3024cc9a771c7c80420a3726793a1e26d",
     "/assets/icons/folder.svg": "024e52150f03c8e0f77d17979a27ae94830678be",
     "/assets/icons/icon-128x128.png": "6ec621358618a961643b4ad9552b2e181e72ac8e",
@@ -318,14 +326,14 @@
     "/fa-solid-900.6bcd6c9c0a9fcfbf.woff2": "a9922842a120a7f1eaced667480c5e185a106d69",
     "/fa-solid-900.9d21645b52658faa.svg": "33fe5758f3992d8da2635c4fa230b54376dd18d1",
     "/favicon.ico": "216416b0e8efb71cc8e66e11cc40baf206704576",
-    "/index.html": "578b09398762bc40c9622d65692171c9749bd1c2",
-    "/main.06a977be44e28b08.js": "bc08d86d27548d40efe768d112402e08712dcb5a",
+    "/index.html": "7240f52c31e42643d3ba032d20f4b0213f6ea5ab",
+    "/main.c4265f591c4b74d3.js": "2f528522b2faaa8d70161a0b733687c003d417a8",
     "/manifest.webmanifest": "d9e92565b3be092fe728cd4c269af5e866223f8f",
     "/owl.video.play.e3b436436832b027.png": "c0d64356ec2758cb280d183b4829c923e5ff61e5",
     "/polyfills.b023f0c90a74d353.js": "1877be2379348ee258cae3552261d597d62d5d79",
     "/runtime.4ad7a1d062b8043c.js": "923274de45dd331f029a65e467779b3bfa099941",
     "/scripts.8c844e0f4a27dcd1.js": "918911acf148c5fb11000ba58f7ba971cc71b517",
-    "/styles.34645d821f29795f.css": "82cab4c17c1360b2dbc1a7fe0a32d1395cd4bb89"
+    "/styles.0f6597a0bbbd17ad.css": "f937a8234a0646e1a350554fd1e103f4bbe2efe1"
   },
   "navigationUrls": [
     {
