@@ -22,5 +22,12 @@ export class MoreProyectsComponent implements OnInit {
             window.scrollTo(0, 0)
         });
     }
+    redirect(route: string, event) {
+      const id = event.target.id;
+      if(id=='demoLink' || id=='ghLink'){
+        return
+      }
+      window.open(route, '_blank');
+    }
 
 }

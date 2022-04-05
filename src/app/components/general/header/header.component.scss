@@ -3,6 +3,19 @@
     height: 70px;
     background: $Navy;
     font-family: $CodeFont;
+    .menu-ul{
+      li{
+        margin: 0px 13px;
+      }
+      // First and Last li has no margin
+      li:first-child{
+        margin-left: 0px;
+      }
+      li:last-child{
+        margin-right: 0px;
+      }
+
+    }
     .menu-responsive {
         position: fixed;
         top: 0px;
@@ -15,6 +28,29 @@
         visibility: visible;
         outline: 0px;
         transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+        li{
+          a{
+            display: flex !important;
+          }
+          .cv-btn{
+            width: fit-content !important;
+            margin-left: 20px;
+          }
+          .language-container{
+            width: 200px;
+            margin-left: 18px;
+            margin-top: 50px;
+            padding-left: 0px;
+            padding-bottom: 0px;
+          }
+          .language-container-selector{
+            display: flex;
+            img{
+              width: 35px;
+            }
+          }
+
+        }
     }
     .aside-show {
         transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
@@ -76,9 +112,13 @@
             }
         }
     }
+    .cv-btn{
+      padding: 7px 15px !important;
+    }
     .nav-link {
+        padding: 5px 0px;
         color: inherit;
-        margin: 0 10px;
+        margin: 0px;
         font-size: 13px;
         &:hover {
             color: $Green;
@@ -87,6 +127,10 @@
     .nav-number {
         color: $Green;
         font-size: 12px;
+    }
+    .nav-text{
+      color: $LightestSlate !important;
+      padding-bottom: 4px;
     }
     .menu-wrapper {
         top: 0;
@@ -192,7 +236,6 @@
     background: #172a45;
     border-radius: 5px;
     cursor: pointer;
-    margin-left: 30px;
 }
 
 .language-container-selector {

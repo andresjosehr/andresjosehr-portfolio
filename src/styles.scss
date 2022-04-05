@@ -102,13 +102,35 @@ a{
     }
 }
 
+.underline {
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+  color: $Green !important;
+}
+.underline:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 3px;
+  content: "";
+  display: block;
+  height: 1px;
+  left: 50%;
+  position: absolute;
+  background: $Green;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0%;
+}
+.underline:hover:after {
+  width: 100%;
+  left: 0;
+}
 
 @media (min-width: 768px) and (max-width: 1100px){
     .proyect-container{
         margin: 30px 0 !important;
         height: 385px !important;
     }
-    
+
 }
 @media (min-width: 1100px) and (max-width: 1300px){
     .container{
@@ -120,7 +142,7 @@ a{
     .container{
         max-width: 800px;
     }
-    
+
 }
 
 @media (min-width: 880px) and (max-width: 992px){
@@ -158,13 +180,13 @@ a{
     .banner h2, .banner h3, .big-title{
         font-size: 60px !important;
     }
-    
+
 }
 @media (max-width: 480px){
     .banner h2, .banner h3, .big-title{
         font-size: 50px !important;
     }
-    
+
 }
 @media (max-width: 376px){
     .banner h2, .banner h3, .big-title{

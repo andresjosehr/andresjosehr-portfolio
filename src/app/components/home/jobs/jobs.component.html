@@ -13,14 +13,16 @@
                         <ng-template ngbNavContent>
                           <h4 class='title-tab-content'>{{job.Title}} | <span class="company-tab-content">{{job.Tab}}</span></h4>
                           <h5 class="job-time">{{job.Date}}</h5>
-                          <p class="job-description">{{job.Description}}</p>
+                          <!-- {{job.Description | json}} -->
+                          <p *ngFor='let jobDescriptionParagraph of job.Description; let i = index' class="job-description"
+                          [innerHTML]="jobDescriptionParagraph | translate"></p>
                           <span></span>
                         </ng-template>
                     </li>
               </ul>
-              <div [ngbNavOutlet]="nav" class="mt-2"></div> 
+              <div [ngbNavOutlet]="nav" class="mt-2"></div>
             </div>
-            
+
         </div>
     </div>
 </section>

@@ -1,17 +1,19 @@
 {
 
-    "Header.Item1": "About me",
-    "Header.Item2": "Experience",
-    "Header.Item3": "Projects",
-    "Header.Item4": "Contact",
+    "Header.Item1" : "About me",
+    "Header.Item2" : "Experience",
+    "Header.Item3" : "Projects",
+    "Header.Item4" : "Contact",
+    "Header.cvBtn" : "Resume",
+    "Header.cvName": "CV_Jose_Hernandez_Ingles.pdf",
 
     "Banner.Pretitle": "Hello! My name is",
-    "Banner.Description": "With 4 years of experience developing systems, interfaces, bots, and technological solutions to make the web a better place. In my work, I like to lead, propose and execute ideas, write and refactor clean, reusable, and scalable.",
+    "Banner.Description": "I have <span class='underline'>4 years of experience</span> developing systems, interfaces, bots, and technological solutions to make the web a better place. I am dedicated to writing and refactoring clean, reusable, and scalable code in <span class='underline'>Angular</span> and sometimes in <span class='underline'>Laravel</span> applying good practices and development standards.",
     "Banner.ActionBtn": "Get in touch",
 
     "AboutMe.Title": "About me",
     "AboutMe.Paragraphs": [
-        "In my 4 years as a developer, I seek to train every day. I have worked writing unit tests, performing continuous integration, and covering backend developer roles with Laravel, ExpressJS, Mysql, and MongoDB. I have led teams having empathy, exercising motivation to partners, and setting plans and goals together.",
+        "In my <span class='underline'>4 years as a developer</span>, I seek to train every day. I have worked writing <span class='underline'>unit tests</span>, <span class='underline'>performing continuous integration</span>, and covering backend developer roles with <span class='underline'>Laravel and Mysql</span>. I have led teams having empathy, exercising motivation to partners, and setting plans and goals together.",
         "My skills also include implementing system improvements, optimizing sites, standardizing patterns, and suggesting and executing ideas that add value to the project I'm working on.",
         "Some of the technologies that I have trained and worked on include (but are not limited to):"
     ],
@@ -22,37 +24,61 @@
             "Tab": "Project",
             "Title": "Fullstack developer",
             "Date": "December 2019 - Present",
-            "Description": "Creation and maintenance of a monitoring platform with graphics in WordPress. Functional programming in templates and plugins to add the necessary monitoring features. Implementation of continuous integration and daily backups. Creation and maintenance of a second Monitoring Platform Done in Angular, Angular Material, Laravel, Mysql, RxJS, Sass with graphics (configurable), alarm system, and user management and configuration of general parameters. Planning meetings in reports."
+            "Description": [
+              "Creation and maintenance of a monitoring platform with graphics in WordPress.",
+              "Functional programming in templates and plugins to add the necessary monitoring features.",
+              "Implementation of continuous integration and daily backups.",
+              "Creation and maintenance of a second Monitoring Platform Done in Angular, Angular Material, Laravel, Mysql, RxJS, Sass with graphics (configurable), alarm system, and user management and configuration of general parameters.",
+              "Planning meetings in reports."
+            ]
         },
         {
             "Tab": "Freelancer",
             "Title": "Independent",
             "Date": "May 2016 - Present",
-            "Description": "Implementing continuous improvements, working on frontend and backend. Creating platforms with Angular, Laravel, ExpressJS, WordPress programmed with functional, reactive, and object-oriented programming paradigms."
+            "Description": [
+              "Implementing continuous improvements, working on frontend and backend.",
+              "Creating platforms with Angular, Laravel, ExpressJS, WordPress programmed with functional, reactive, and object-oriented programming paradigms.",
+              "Automation of processes with data structures.",
+              "Design layout with SASS, Bootstrap, Materialize, Bulma, etc."
+            ]
         },
         {
             "Tab": "Moebius",
             "Title": "FullStack developer",
             "Date": "July 2017 - October 2018",
-            "Description": "Leading a team of 4 people in the development of a Tourism Data management platform made in Angular, Laravel, and MySQL. Implementation CI / CD in Azure. Refactoring and optimizing application load times. Coding of API requests with RxJS. Writing weekly reports about goals and plans."
+            "Description": [
+              "Leading a team of 4 people in the development of a Tourism Data management platform made in Angular, Laravel, and MySQL.",
+              "Implementation CI / CD in Azure. Refactoring and optimizing application load times.",
+              "Coding of API requests with RxJS.",
+              "Creation of modules with complex reactive forms",
+              "Writing weekly reports about goals and plans."
+            ]
         },
         {
             "Tab": "TechLatam",
             "Title": "Frontend developer",
             "Date": "February 2016 - May 2017",
-            "Description": "Creation of WordPress templates with ACF, functional programming in Javascript / jQuery, styles in SASS, integration of design improvements, and template loading times. Effective communication with the design team, working with Avocode / Figma."
+            "Description": [
+              "Creation of WordPress templates with ACF, functional programming in Javascript / jQuery, styles in SASS",
+              "integration of design improvements, and template loading times.",
+              "Effective communication with the design team, working with Avocode / Figma."
+            ]
         },
         {
             "Tab": "CANTV",
             "Title": "System analyst",
             "Date": "November 2015 - December 2016",
-            "Description": "CANTV, largest telecommunications company in the country. As regular assignments, I had to program new functionalities for an existing employee management platform made in Angular and ExpressJS, Perform refactoring of old code. Ensure compatibility of each dependency in every update, along with the regular Angular update as well."
+            "Description": [
+              "Programming of new functionalities for an existing employee management platform made in Angular and ExpressJS.",
+              "Perform refactoring of old code. Ensuring compatibility of every dependency in every update, along with regular Angular update as well."
+            ]
         },
         {
             "Tab": "IEP",
             "Title": "English teacher",
             "Date": "January 2015 - July 2015",
-            "Description": "Teaching English at a basic level to an enrollment of more than 200 students."
+            "Description": ["Teaching English at a basic level to an enrollment of more than 200 students."]
         }
     ],
 
@@ -60,7 +86,7 @@
     "FeatureProjects.Label": "Featured Project",
     "FeatureProjects.Projects": [{
             "Title": "Agrourbana",
-            "Description": "Monitoring application made from scratch with auth module, configurable graphics, configurable alarms, and user management. It also has feedback form logic for parameter configuration.",
+            "Description": "Monitoring application made from scratch with auth module, <span class='underline'>configurable graphics</span>, <span class='underline'>configurable alarms</span>, and <span class='underline'>user management</span>. It also has feedback form logic for parameter configuration.",
             "imgs": [
                 "assets/images/agrourbana/agrourbana1.png",
                 "assets/images/agrourbana/agrourbana2.png",
@@ -72,7 +98,7 @@
         },
         {
             "Title": "Tu super plan",
-            "Description": "Health plan quote that has a search engine with which advanced queries are made. Plans are displayed based on the user's age, monthly income, and location. It has online chat, contact form, notification system by whatsapp and mail, auth, and internet information management through the role of administrator.",
+            "Description": "Health plan quote that has a search engine with which advanced queries are made. Plans are displayed based on the user's age, monthly income, and location. It has <span class='underline'>online chat</span, <span class='underline'>contact form</span>, <span class='underline'>notification system by whatsapp and mail</span>, <span class='underline'>auth</span>, and <span class='underline'>internet information management through the role of administrator.</span>",
             "imgs": [
                 "assets/images/tusuperplan/tusuperplan1.png",
                 "assets/images/tusuperplan/tusuperplan2.png",
@@ -84,7 +110,7 @@
         },
         {
             "Title": "Proyexiot",
-            "Description": "Data monitoring platform belonging to water wells, tugboats, and various installations made from scratch with auth module, configurable graphics, configurable alarms, user management, and geolocation with openlayers.",
+            "Description": "Data monitoring platform belonging to water wells, tugboats, and various installations made from scratch with auth module, <span class='underline'>configurable graphics</span>, <span class='underline'>configurable alarms</span>, <span class='underline'>user management</span>, and <span class='underline'>geolocation with openlayers.</span>",
             "imgs": [
                 "assets/images/proyex/proyex1.png",
                 "assets/images/proyex/proyex2.png",
@@ -125,57 +151,57 @@
     "OtherProjects.Projects": [{
             "Title": "Pokemon",
             "Description": "Pokemon search engine that uses the pokeapi. Object-oriented programming was used to organize the information of the pokemons along with their respective image.",
-            "Link-gh": "https://github.com/andresjosehr/pokemon-angular",
-            "Link-demo": "https://andresjosehr.com/projects/pokemon-list",
+            "ghLink": "https://github.com/andresjosehr/pokemon-angular",
+            "demoLink": "https://andresjosehr.com/projects/pokemon-list",
             "Technologies": ["Angular", "RxJs", "API", "Bootstrap"]
         },
         {
             "Title": "Coming soon page",
             "Description": "Personal project of a two-column split page to be used as a 'Coming soon page'. Scheduled to be a fully responsive design. It has a form field to subscribe by email.",
-            "Link-gh": "https://github.com/andresjosehr/coming-soon-page",
-            "Link-demo": "https://andresjosehr.com/projects/coming-soon-page",
+            "ghLink": "https://github.com/andresjosehr/coming-soon-page",
+            "demoLink": "https://andresjosehr.com/projects/coming-soon-page",
             "Technologies": ["Angular", "SASS", "CSS GRID", "Reactive form"]
         },
         {
             "Title": "Four card feature section",
             "Description": "A single page that has a minimal design, listing four features on four cards. Input animations are done with angular animations.",
-            "Link-gh": "https://github.com/andresjosehr/fourd-card-feature-section",
-            "Link-demo": "https://andresjosehr.com/projects/four-card-feature-section",
+            "ghLink": "https://github.com/andresjosehr/fourd-card-feature-section",
+            "demoLink": "https://andresjosehr.com/projects/four-card-feature-section",
             "Technologies": ["Angular", "SASS", "CSS GRID"]
         },
         {
             "Title": "Testimonial slider",
             "Description": "Design of a single page that tells that two testimonials that transition into a slider programmed in angular. The testimonial data is consulted an API developed in ExpressJS stored in Heroku that obtains the data from a MongoDB database.",
-            "Link-gh": "https://github.com/andresjosehr/testimonials-slider-app",
-            "Link-demo": "https://andresjosehr.com/projects/testimonials-slider",
+            "ghLink": "https://github.com/andresjosehr/testimonials-slider-app",
+            "demoLink": "https://andresjosehr.com/projects/testimonials-slider",
             "Technologies": ["Angular", "ExpressJS", "MongoDB", "Angular animations", "CSS GRID"]
         },
         {
             "Title": "Article preview",
             "Description": "Preview component of an article. It has been developed in angular and the data is queried through an API developed in NodeJS and the data is stored in a MongoDB database.",
-            "Link-gh": "https://github.com/andresjosehr/article-preview-app",
-            "Link-demo": "https://andresjosehr.com/projects/article-preview",
+            "ghLink": "https://github.com/andresjosehr/article-preview-app",
+            "demoLink": "https://andresjosehr.com/projects/article-preview",
             "Technologies": ["Angular", "ExpressJS", "MongoDB", "CSS GRID"]
         },
         {
             "Title": "Social proof section",
             "Description": "Personal project of a page designed from a Figma layout. Angular was used for development together with SASS and CSS GRID.",
-            "Link-gh": "https://github.com/andresjosehr/social-proof-section",
-            "Link-demo": "https://andresjosehr.com/projects/social-proof-section",
+            "ghLink": "https://github.com/andresjosehr/social-proof-section",
+            "demoLink": "https://andresjosehr.com/projects/social-proof-section",
             "Technologies": ["Angular", "CSS GRID", "GIT"]
         },
         {
             "Title": "FAQ accordion card",
             "Description": "FAQ accordion with logic and animations made in Angular.",
-            "Link-gh": "https://andresjosehr.github.io/faq-accordion/",
-            "Link-demo": "https://andresjosehr.com/projects/faq-accordion",
+            "ghLink": "https://andresjosehr.github.io/faq-accordion/",
+            "demoLink": "https://andresjosehr.com/projects/faq-accordion",
             "Technologies": ["Angular", "CSS GRID", "Angular animations"]
         },
         {
             "Title": "Profile card",
             "Description": "Simple one-page design that features a profile letter with basic information about a person.",
-            "Link-gh": "https://github.com/andresjosehr/profile-card-component",
-            "Link-demo": "https://andresjosehr.com/projects/profile-card-component",
+            "ghLink": "https://github.com/andresjosehr/profile-card-component",
+            "demoLink": "https://andresjosehr.com/projects/profile-card-component",
             "Technologies": ["Angular", "SASS", "GIT"]
         }
     ],

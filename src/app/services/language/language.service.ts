@@ -10,13 +10,13 @@ export class LanguageService {
   language: "es" | "en";
 
   constructor(
-    private translateService: TranslateService,
+    public translateService: TranslateService,
     private location: Location,
   ) {}
 
   initLanguage(){
     this.translateService.addLangs(["en", "es"])
-    let language = navigator.language || (navigator as any).userLanguage; 
+    let language = navigator.language || (navigator as any).userLanguage;
     language = language.split("-").includes("es") ? "es" : "en"
     this.translateService.setDefaultLang(language)
 

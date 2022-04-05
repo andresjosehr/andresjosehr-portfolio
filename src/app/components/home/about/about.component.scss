@@ -22,7 +22,7 @@
             border-radius: 3px;
             bottom: 290px;
             left: 23px;
-                
+
         }
 
         img{
@@ -47,6 +47,9 @@
         font-size: 13px;
         font-family: $CodeFont;
         color: $Slate;
+        span{
+          padding-bottom: 5px;
+        }
 
         &:before {
             content: '▹';
@@ -84,7 +87,7 @@
 
 @media (max-width: 500px){
     .about{
-        
+
         .about-img-container {
             width: 100%;
 
