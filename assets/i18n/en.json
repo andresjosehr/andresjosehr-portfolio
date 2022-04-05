@@ -131,16 +131,16 @@
             "Title": "Hands game",
             "Description": "The rock-paper-scissors game extended. A personal project developed in angular in which you play randomly against the machine. It has the use of services, interfaces, and components.",
             "imgs": ["assets/images/hands-game.png"],
-            "Link-gh": "https://github.com/andresjosehr/hands-game",
-            "Link-demo": "https://andresjosehr.com/projects/hands-game",
+            "ghLink": "https://github.com/andresjosehr/hands-game",
+            "demoLink": "https://andresjosehr.com/projects/hands-game",
             "Technologies": ["Angular", "CSS GRID", "SASS", "Angular animations"]
         },
         {
             "Title": "Countries viewer",
             "Description": "An interface that consumes an API of countries with which you can view a list of countries, see details of each country, filter by name and region. It also has a dark mode to switch between dark and light themes.",
             "imgs": ["assets/images/countries-viewer.png"],
-            "Link-gh": "https://github.com/andresjosehr/countries-viewer",
-            "Link-demo": "https://andresjosehr.com/projects/countries-viewer",
+            "ghLink": "https://github.com/andresjosehr/countries-viewer",
+            "demoLink": "https://andresjosehr.com/projects/countries-viewer",
             "Technologies": ["Angular", "RxJS", "SASS", "API"]
         }
     ],
