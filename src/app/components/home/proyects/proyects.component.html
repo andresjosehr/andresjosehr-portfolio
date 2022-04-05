@@ -39,8 +39,8 @@
                             </li>
                         </ul>
                         <div [class.text-right]='i%2==0' [class.text-left]='i%2!=0' class="proyect-links">
-                            <a *ngIf="project['gh-link']" style='color: inherit' [href]="project['gh-link']" target="_blank"><i class="ml-3 fab fa-github"></i></a>
-                            <a *ngIf="project['Link-demo']" style='color: inherit' [href]="project['Link-demo']" target="_blank"><i class="ml-3 fas fa-external-link-alt"></i></a>
+                            <a *ngIf="project['ghLink']" style='color: inherit' [href]="project['ghLink']" target="_blank"><i class="ml-3 fab fa-github"></i></a>
+                            <a *ngIf="project['demoLink']" style='color: inherit' [href]="project['demoLink']" target="_blank"><i class="ml-3 fas fa-external-link-alt"></i></a>
                         </div>
                     </div>
                 </div>
