@@ -133,7 +133,7 @@
             "Description": "Juego de piedra papel y tijeras extendido. Un proyecto personal desarrollado en angular en el que juegas al azar contra la máquina. Cuenta con la utilización de servicios, interfaces y componentes.",
             "imgs": ["assets/images/hands-game.png"],
             "ghLink": "https://github.com/andresjosehr/hands-game",
-            "demoLink": "https://andresjosehr.com/projects/hands-game",
+            "demoLink": "https://proyectos.andresjosehr.com/hands-game",
             "Technologies": ["Angular", "CSS GRID", "SASS", "Angular animations"]
         },
         {
@@ -141,7 +141,7 @@
             "Description": "Interfaz que consume una API de países con el que se pueden visualizar lista de países, ver detalles de cada país, filtrar por nombre y región. Ademas cuenta con un dark mode para alternar entre el tema oscuro y el claro.",
             "imgs": ["assets/images/countries-viewer.png"],
             "ghLink": "https://github.com/andresjosehr/countries-viewer",
-            "demoLink": "https://andresjosehr.com/projects/countries-viewer",
+            "demoLink": "https://proyectos.andresjosehr.com/countries-viewer",
             "Technologies": ["Angular", "RxJS", "SASS", "API"]
         }
     ],
@@ -153,56 +153,56 @@
             "Title": "Pokemon",
             "Description": "Buscador de pokemons que utiliza la pokeapi. Se usó programación orientada a objetos para organizar la información de los pokemons junto con su respectiva imagen.",
             "ghLink": "https://github.com/andresjosehr/pokemon-angular",
-            "demoLink": "https://andresjosehr.com/proyectos/pokemon-list",
+            "demoLink": "https://proyectos.andresjosehr.com/pokemon-list",
             "Technologies": ["Angular", "RxJs", "API", "Bootstrap"]
         },
         {
             "Title": "Coming soon page",
             "Description": "Proyecto personal de una página dividida de dos columnas para ser usado como 'Coming soon page'. Programada para ser totalmente responsive design. Cuenta con un campo de formulario para suscribirse por correo electrónico.",
             "ghLink": "https://github.com/andresjosehr/coming-soon-page",
-            "demoLink": "https://andresjosehr.com/proyectos/coming-soon-page",
+            "demoLink": "https://proyectos.andresjosehr.com/coming-soon-page",
             "Technologies": ["Angular", "SASS", "CSS GRID", "Reactive form"]
         },
         {
             "Title": "Four card feature section",
             "Description": "Una sola página que cuenta con un diseño minimalista que enumera 4 características en 4 cards. Se usan animaciones de entrada con angular animations.",
             "ghLink": "https://github.com/andresjosehr/fourd-card-feature-section",
-            "demoLink": "https://andresjosehr.com/proyectos/four-card-feature-section",
+            "demoLink": "https://proyectos.andresjosehr.com/four-card-feature-section",
             "Technologies": ["Angular", "SASS", "CSS GRID"]
         },
         {
             "Title": "Testimonial slider",
             "Description": "Diseño de una sola página que cuenta que dos testimonios que hacen transición en un slider programado en angular. Los datos de los testimonios son consultados una API desarrollada en ExpressJS almacenada en Heroku que obtiene los datos de una base de datos MongoDB.",
             "ghLink": "https://github.com/andresjosehr/testimonials-slider-app",
-            "demoLink": "https://andresjosehr.com/proyectos/testimonials-slider",
+            "demoLink": "https://proyectos.andresjosehr.com/testimonials-slider",
             "Technologies": ["Angular", "ExpressJS", "MongoDB", "Angular animations", "CSS GRID"]
         },
         {
             "Title": "Article preview",
             "Description": "Componente de preview de un artículo. Se desarrolló en angular y los datos son consultados a través de una API desarrollada en NodeJS y los datos se encuentran almacenados en una base de datos MongoDB.",
             "ghLink": "https://github.com/andresjosehr/article-preview-app",
-            "demoLink": "https://andresjosehr.com/proyectos/article-preview",
+            "demoLink": "https://proyectos.andresjosehr.com/article-preview",
             "Technologies": ["Angular", "ExpressJS", "MongoDB", "CSS GRID"]
         },
         {
             "Title": "Social proof section",
             "Description": "Proyecto personal de una página diseñada a partir de un diseño hecho en figma. Se utilizó angular para el desarrollo junto con SASS y CSS GRID.",
             "ghLink": "https://github.com/andresjosehr/social-proof-section",
-            "demoLink": "https://andresjosehr.com/proyectos/social-proof-section",
+            "demoLink": "https://proyectos.andresjosehr.com/social-proof-section",
             "Technologies": ["Angular", "CSS GRID", "GIT"]
         },
         {
             "Title": "FAQ accordion card",
             "Description": "Acordeón de preguntas frecuentes con lógica y animnaciones realizadas en Angular.",
             "ghLink": "https://andresjosehr.github.io/faq-accordion/",
-            "demoLink": "https://andresjosehr.com/proyectos/faq-accordion",
+            "demoLink": "https://proyectos.andresjosehr.com/faq-accordion",
             "Technologies": ["Angular", "CSS GRID", "Angular animations"]
         },
         {
             "Title": "Profile card",
             "Description": "Simple diseño de una página que cuenta con una carta de perfil con información básica de una persona.",
             "ghLink": "https://andresjosehr.github.io/faq-accordion/",
-            "demoLink": "https://andresjosehr.com/proyectos/profile-card-component",
+            "demoLink": "https://proyectos.andresjosehr.com/profile-card-component",
             "Technologies": ["Angular", "SASS", "GIT"]
         }
     ],
