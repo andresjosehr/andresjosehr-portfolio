@@ -193,15 +193,15 @@
         {
             "Title": "FAQ accordion card",
             "Description": "FAQ accordion with logic and animations made in Angular.",
-            "ghLink": "https://andresjosehr.github.io/faq-accordion/",
-            "demoLink": "https://projects.andresjosehr.com/faq-accordion",
+            "ghLink": "https://github.com/andresjosehr/faq-accordion",
+            "demoLink": "https://proyectos.andresjosehr.com/faq-accordion",
             "Technologies": ["Angular", "CSS GRID", "Angular animations"]
         },
         {
             "Title": "Profile card",
             "Description": "Simple one-page design that features a profile letter with basic information about a person.",
             "ghLink": "https://github.com/andresjosehr/profile-card-component",
-            "demoLink": "https://projects.andresjosehr.com/profile-card-component",
+            "demoLink": "https://proyectos.andresjosehr.com/profile-card-component",
             "Technologies": ["Angular", "SASS", "GIT"]
         }
     ],
