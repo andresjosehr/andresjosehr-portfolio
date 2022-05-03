@@ -171,20 +171,6 @@
             "Technologies": ["Angular", "SASS", "CSS GRID"]
         },
         {
-            "Title": "Testimonial slider",
-            "Description": "Diseño de una sola página que cuenta que dos testimonios que hacen transición en un slider programado en angular. Los datos de los testimonios son consultados una API desarrollada en ExpressJS almacenada en Heroku que obtiene los datos de una base de datos MongoDB.",
-            "ghLink": "https://github.com/andresjosehr/testimonials-slider-app",
-            "demoLink": "https://proyectos.andresjosehr.com/testimonials-slider",
-            "Technologies": ["Angular", "ExpressJS", "MongoDB", "Angular animations", "CSS GRID"]
-        },
-        {
-            "Title": "Article preview",
-            "Description": "Componente de preview de un artículo. Se desarrolló en angular y los datos son consultados a través de una API desarrollada en NodeJS y los datos se encuentran almacenados en una base de datos MongoDB.",
-            "ghLink": "https://github.com/andresjosehr/article-preview-app",
-            "demoLink": "https://proyectos.andresjosehr.com/article-preview",
-            "Technologies": ["Angular", "ExpressJS", "MongoDB", "CSS GRID"]
-        },
-        {
             "Title": "Social proof section",
             "Description": "Proyecto personal de una página diseñada a partir de un diseño hecho en figma. Se utilizó angular para el desarrollo junto con SASS y CSS GRID.",
             "ghLink": "https://github.com/andresjosehr/social-proof-section",
