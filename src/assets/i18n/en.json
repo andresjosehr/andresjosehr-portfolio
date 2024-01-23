@@ -5,64 +5,63 @@
     "Header.Item3" : "Projects",
     "Header.Item4" : "Contact",
     "Header.cvBtn" : "Resume",
-    "Header.cvName": "CV_Jose_Hernandez_Ingles.pdf",
+    "Header.cvName": "Nguyen-Van-Thu-CV.pdf",
 
     "Banner.Pretitle": "Hello! My name is",
-    "Banner.Description": "I have <span class='underline'>4 years of experience</span> developing systems, interfaces, bots, and technological solutions to make the web a better place. I am dedicated to writing and refactoring clean, reusable, and scalable code in <span class='underline'>Angular</span> and sometimes in <span class='underline'>Laravel</span> applying good practices and development standards.",
+    "Banner.Description": "I have <span class='underline'>4 years of experience</span> developing systems, interfaces, bots, and technological solutions to make the web a better place. I am dedicated to writing and refactoring clean, reusable, and scalable code in <span class='underline'>C#</span> and sometimes in <span class='underline'>Typescript</span> applying good practices and development standards.",
     "Banner.ActionBtn": "Get in touch",
 
     "AboutMe.Title": "About me",
     "AboutMe.Paragraphs": [
-        "In my <span class='underline'>4 years as a developer</span>, I seek to train every day. I have worked writing <span class='underline'>unit tests</span>, <span class='underline'>performing continuous integration</span>, and covering backend developer roles with <span class='underline'>Laravel and Mysql</span>. I have led teams having empathy, exercising motivation to partners, and setting plans and goals together.",
-        "My skills also include implementing system improvements, optimizing sites, standardizing patterns, and suggesting and executing ideas that add value to the project I'm working on.",
+        "In my <span class='underline'>4 years as a developer</span>, I seek to train every day. I have worked writing <span class='underline'>unit tests</span>, <span class='underline'>performing continuous integration</span>, and covering backend developer roles with <span class='underline'>.NET Framework, .NET Core, SQL Server, Message Queue, Caching, ...</span>. I have led teams having empathy, exercising motivation to partners, and setting plans and goals together.",
+        "My skills also include implementing <span class='underline'> Monolithic, Microservices, Clean Architecture, SOA, design patterns,</span> system improvements, optimizing sites, standardizing patterns, and suggesting and executing ideas that add value to the project I'm working on.",
         "Some of the technologies that I have trained and worked on include (but are not limited to):"
     ],
 
 
     "Experience.Title": "Experience",
     "Experience.Jobs": [{
-            "Tab": "Project",
-            "Title": "Fullstack developer",
-            "Date": "December 2019 - Present",
+            "Tab": "PDP",
+            "Title": "Backend developer",
+            "Date": "December 2023 - Present",
             "Description": [
-              "Creation and maintenance of a monitoring platform with graphics in WordPress.",
-              "Functional programming in templates and plugins to add the necessary monitoring features.",
-              "Implementation of continuous integration and daily backups.",
-              "Creation and maintenance of a second Monitoring Platform Done in Angular, Angular Material, Laravel, Mysql, RxJS, Sass with graphics (configurable), alarm system, and user management and configuration of general parameters.",
-              "Planning meetings in reports."
+              "Maintenance and develop new features.",
+              "This project is ERP systems, we build the metadata from physical tables in Database, that helps client manage the policy and build dynamic contents, reports, rules depends on the metadata",
+              "It developed by the data or Data First",
+              "<span class='underline'>Technical stack: .NET 6, Angular 8+, SQL Server, Jenkins</span>"
             ]
         },
         {
-            "Tab": "Freelancer",
-            "Title": "Independent",
-            "Date": "May 2016 - Present",
+            "Tab": "E2E",
+            "Title": "Automation Engineer",
+            "Date": "November - December 2023",
             "Description": [
-              "Implementing continuous improvements, working on frontend and backend.",
-              "Creating platforms with Angular, Laravel, ExpressJS, WordPress programmed with functional, reactive, and object-oriented programming paradigms.",
-              "Automation of processes with data structures.",
-              "Design layout with SASS, Bootstrap, Materialize, Bulma, etc."
+              "Build to the proposal project to deal contract",
+              "This project need to migrate from Protractorjs to new E2E framework, we build to a skeleton project by using TestComplete 15",
+              "It's done after a month",
+              "<span class='underline'>Technical stack: Typescript, JavaScript, Selenium, ProtractorJs, TestComplete15</span>"
             ]
         },
         {
-            "Tab": "Moebius",
-            "Title": "FullStack developer",
-            "Date": "July 2017 - October 2018",
+            "Tab": "IWF",
+            "Title": "Backend developer",
+            "Date": "May - October 2023",
             "Description": [
-              "Leading a team of 4 people in the development of a Tourism Data management platform made in Angular, Laravel, and MySQL.",
-              "Implementation CI / CD in Azure. Refactoring and optimizing application load times.",
-              "Coding of API requests with RxJS.",
-              "Creation of modules with complex reactive forms",
-              "Writing weekly reports about goals and plans."
+              "IWF stands for Intelligence Workflow, it's about workflow rule in the company belong to ERP system",
+              "I build new features and maintance system. Beside, I also propose the solutions to my client and received many compliments",
+              "Optimize system",
+              "<span class='underline'>Technical stack: .NET Framework 4.7, IIS, SQL Server</span>"
             ]
         },
         {
-            "Tab": "TechLatam",
-            "Title": "Frontend developer",
-            "Date": "February 2016 - May 2017",
+            "Tab": "EPS",
+            "Title": "Backend developer",
+            "Date": "April - May 2023",
             "Description": [
-              "Creation of WordPress templates with ACF, functional programming in Javascript / jQuery, styles in SASS",
-              "integration of design improvements, and template loading times.",
-              "Effective communication with the design team, working with Avocode / Figma."
+              "EPS stands for Easten Pacific Shipping, it's a logistic system.",
+              "We build a third-party to our client, this project built on microservices with more 50 services",
+              "My misson are maintance services and develop new features by our requirement",
+              "<span class='underline'>Technical stack: .NET 6, Azure Service Bus, Azure Storage, Elastic Search, OpenTelemetry, Azure Pipeline, Azure Service Fabric</span>"
             ]
         },
         {
