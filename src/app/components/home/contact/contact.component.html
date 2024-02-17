@@ -1,20 +1,35 @@
-<section class="section contact" id='contact'>
-    <div class="container">
-        <div class="section-box">
-            <div class="mb-4" data-aos="fade-up" data-aos-duration="1000">
-                <h3 class="contact-pre-title big-subtitle">05. {{"Contact.Pretitle" | translate}}</h3>
-                <h4 class="e-font contact-title big-title">
-                    {{"Contact.Title" | translate}}
-                </h4>
-            </div>
-            <p data-aos="fade-up" data-aos-duration="1000">
-                {{"Contact.Content" | translate}}
-            </p>
-            <div class="mt-5">
-                <a (click)='analyticsService.sendAnalyticEvent("click_send_mail", "contact", "email")' href="mailto:andresjosehr@gmail.com" target="_blank" class="main-btn" data-aos="fade-up" data-aos-duration="1000">
-                    {{"Contact.Btn" | translate}}
-                </a>
-            </div>
-        </div>
+<section class="section contact" id="contact">
+  <div class="container">
+    <div class="section-box">
+      <div class="mb-4" data-aos="fade-up" data-aos-duration="1000">
+        <h3 class="contact-pre-title big-subtitle">
+          03. {{ "Contact.Pretitle" | translate }}
+        </h3>
+        <h4 class="e-font contact-title big-title">
+          {{ "Contact.Title" | translate }}
+        </h4>
+      </div>
+      <p data-aos="fade-up" data-aos-duration="1000">
+        {{ "Contact.Content" | translate }}
+      </p>
+      <div class="mt-5">
+        <a
+          (click)="
+            analyticsService.sendAnalyticEvent(
+              'click_send_mail',
+              'contact',
+              'email'
+            )
+          "
+          href="mailto:thuitptit@gmail.com"
+          target="_blank"
+          class="main-btn"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
+          {{ "Contact.Btn" | translate }}
+        </a>
+      </div>
     </div>
+  </div>
 </section>

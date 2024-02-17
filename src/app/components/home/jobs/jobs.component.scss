@@ -55,7 +55,7 @@
     text-align: left;
     white-space: nowrap;
     font-family: $CodeFont;
-    font-size: 13px;
+    font-size: 25px;
     color: $Slate;
   }
 
@@ -73,7 +73,7 @@
 
   .title-tab-content {
     color: $LightestSlate;
-    font-size: 22px;
+    font-size: 30px;
     font-weight: 500;
     margin-bottom: 5px;
 
@@ -84,7 +84,7 @@
 
   .job-time {
     font-family: $CodeFont;
-    font-size: 13px;
+    font-size: 20px;
     font-weight: normal;
     -webkit-letter-spacing: 0.05em;
     -moz-letter-spacing: 0.05em;
@@ -98,7 +98,7 @@
     position: relative;
     padding-left: 30px;
     margin-bottom: 10px;
-    font-size: 18px;
+    font-size: 25px;
 
     &:before {
       content: "▹";
