@@ -8,20 +8,37 @@
     "Header.cvName": "CV_Jose_Hernandez_Ingles.pdf",
 
     "Banner.Pretitle": "Hello! My name is",
-    "Banner.Description": "I have <span class='underline'>4 years of experience</span> developing systems, interfaces, bots, and technological solutions to make the web a better place. I am dedicated to writing and refactoring clean, reusable, and scalable code in <span class='underline'>Angular</span> and sometimes in <span class='underline'>Laravel</span> applying good practices and development standards.",
+    "Banner.Description": "I have <span class='underline'>8 years of experience</span> developing systems, interfaces, bots, and technological solutions to make the web a better place. I focus on writing and refactoring clean, reusable, and scalable code in <span class='underline'>Angular</span> and <span class='underline'>Laravel</span>, applying good practices and development standards.",
     "Banner.ActionBtn": "Get in touch",
 
     "AboutMe.Title": "About me",
     "AboutMe.Paragraphs": [
-        "In my <span class='underline'>4 years as a developer</span>, I seek to train every day. I have worked writing <span class='underline'>unit tests</span>, <span class='underline'>performing continuous integration</span>, and covering backend developer roles with <span class='underline'>Laravel and Mysql</span>. I have led teams having empathy, exercising motivation to partners, and setting plans and goals together.",
-        "My skills also include implementing system improvements, optimizing sites, standardizing patterns, and suggesting and executing ideas that add value to the project I'm working on.",
+        "In <span class='underline'>8 years of experience</span> I've covered many roles: <span class='underline'>System Analyst</span>, <span class='underline'>backend developer</span>, <span class='underline'>frontend developer</span>, and <span class='underline'>technical leader</span>. I love contributing my knowledge to create new things that help solve problems.",
+        "My capabilities also include implementing improvements in systems, optimizing sites, standardizing patterns, and suggesting and executing ideas that add value to the project I'm working on.",
+        "I also program things for my personal use, whether as a hobby or for utility.",
         "Some of the technologies that I have trained and worked on include (but are not limited to):"
     ],
 
 
     "Experience.Title": "Experience",
-    "Experience.Jobs": [{
-            "Tab": "Project",
+    "Experience.Jobs": [
+        
+        {
+            "Tab": "Global",
+            "Title": "Fullstack developer",
+            "Date": "May 2023",
+            "Description": [
+                "Technical decision leader",
+                "Technical talent recruitment for the company",
+                "Department of Technology team leader",
+                "Creation and maintenance of an internal process management platform for sales courses",
+                "Programming of custom functions and plugins for customization of a WordPress platform",
+                "Implementation of continuous integration and daily backups.",
+                "Planning meetings with reports."
+            ]
+      },
+      {
+            "Tab": "Projex",
             "Title": "Fullstack developer",
             "Date": "December 2019 - Present",
             "Description": [
@@ -85,16 +102,42 @@
     "FeatureProjects.Title": "My projects",
     "FeatureProjects.Label": "Featured Project",
     "FeatureProjects.Projects": [{
-            "Title": "Agrourbana",
-            "Description": "Monitoring application made from scratch with auth module, <span class='underline'>configurable graphics</span>, <span class='underline'>configurable alarms</span>, and <span class='underline'>user management</span>. It also has feedback form logic for parameter configuration.",
-            "imgs": [
-                "assets/images/agrourbana/agrourbana1.png",
-                "assets/images/agrourbana/agrourbana2.png",
-                "assets/images/agrourbana/agrourbana3.png",
-                "assets/images/agrourbana/agrourbana4.png",
-                "assets/images/agrourbana/agrourbana5.png"
-            ],
-            "Technologies": ["Laravel", "Angular", "SASS", "Angular Material", "RxJS"]
+        "Title": "Gisselle",
+        "Description": "Web application for internal company management that covers sales, billing, and extensive and complex tracking departments, made with <span class='underline'>Angular</span> and <span class='underline'>Laravel</span>. It works with <span class='underline'>websockets</span>, <span class='underline'>schedules</span>, <span class='underline'>Laravel jobs</span>, integrations with WordPress, Zadarma, LiveConnect, etc.",
+        "imgs": [
+        "assets/images/gisselle/Captura de pantalla 2024-05-19 1009582.png",
+        "assets/images/gisselle/Captura de pantalla 2024-05-19 115514.png",
+        "assets/images/gisselle/Captura de pantalla 2024-05-19 115702.png",
+        "assets/images/gisselle/Captura de pantalla 2024-05-19 115829.png",
+        "assets/images/gisselle/Captura de pantalla 2024-05-19 1009582.png"
+        ],
+        "Technologies": ["Laravel", "Angular", "SASS", "Angular Material", "RxJS"]
+        },
+        
+        {
+          "Title": "Emelteciot",
+          "Description": "Monitoring application for data consultation, made with <span class='underline'>Angular</span> and <span class='underline'>Laravel</span>. It applies the <span class='underline'>chart.js</span> graphics library",
+          "imgs": [
+              "assets/images/proyex2/6d7d8f04-f1f0-40c7-afbb-d2944cdb4d9c.png",
+              "assets/images/proyex2/849c117f-bed9-4406-9c13-c8669f655acc.png",
+              "assets/images/proyex2/62cdf90c-6196-4a6e-b639-8919cda4f749.png",
+              "assets/images/proyex2/8c919208-d6a8-48f4-890d-4817323b6923.png",
+              "assets/images/proyex2/8c919208-d6a8-48f4-890d-4817323b6923 (1).png"
+          ],
+          "Technologies": ["Laravel", "Angular", "SASS", "Angular Material", "RxJS"]
+        },
+        
+        {
+          "Title": "Agrourbana",
+          "Description": "Monitoring application built from scratch with auth module, <span class='underline'>configurable graphs</span>, <span class='underline'>configurable alarms</span>, and <span class='underline'>user management</span>. It also has reactive form logic for configuring parameters.",
+          "imgs": [
+              "assets/images/agrourbana/agrourbana1.png",
+              "assets/images/agrourbana/agrourbana2.png",
+              "assets/images/agrourbana/agrourbana3.png",
+              "assets/images/agrourbana/agrourbana4.png",
+              "assets/images/agrourbana/agrourbana5.png"
+          ],
+          "Technologies": ["Laravel", "Angular", "SASS", "Angular Material", "RxJS"]
         },
         {
             "Title": "Tu super plan",

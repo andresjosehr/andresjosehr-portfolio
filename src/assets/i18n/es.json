@@ -8,13 +8,14 @@
     "Header.cvName": "CV_Jose_Hernandez_Espanol.pdf",
 
     "Banner.Pretitle": "Hola! Mi nombre es",
-    "Banner.Description": "Tengo <span class='underline'>4 años de experiencia</span> desarrollando sistemas, interfaces, bots y soluciones tecnológicas para hacer de la web un lugar mejor. Me dedico a escribir y refactorizar código limpio, reutilizable y escalable en <span class='underline'>Angular</span> y en ocaciones en <span class='underline'>Laravel</span> aplicando buenas practicas y estandares de desarrollo.",
+    "Banner.Description": "Tengo <span class='underline'>8 años de experiencia</span> desarrollando sistemas, interfaces, bots y soluciones tecnológicas para hacer de la web un lugar mejor. Me dedico a escribir y refactorizar código limpio, reutilizable y escalable en <span class='underline'>Angular</span> y  <span class='underline'>Laravel</span> aplicando buenas practicas y estandares de desarrollo.",
     "Banner.ActionBtn": "Saludame",
 
     "AboutMe.Title": "Acerca de mi",
     "AboutMe.Paragraphs": [
-        "En mis <span class='underline'>4 años como desarrollador</span> busco capacitarme cada día. Al mismo tiempo he trabajado escribiendo <span class='underline'>pruebas unitarias</span>, realizando <span class='underline'>integración continua</span> y también cubriendo roles de backend developer con <span class='underline'>Laravel y Mysql</span>. También he liderado equipos teniendo empatía, ejerciendo motivación a compañeros y estableciendo planes y metas en conjunto.",
+        "En <span class='underline'>8 años de experiencia </span> he cubierto muchos roles: <span class='underline'>Analista de sistemas</span>, <span class='underline'>backend developer</span>, <span class='underline'>frontend developer</span> y <span class='underline'>lider técnico</span>. Me encanta aportar mis conocimientos para crear cosas nuevas que ayuden a resolver problemas.",
         "Mis capacidades también incluyen implementar mejoras en sistemas, optimizar sitios, estandarizar patrones y sugerir y ejecutar ideas que añadan valor al proyecto en el que este trabajando.",
+        "Tambien programo cosas para mi uso personal, bien sea por hobbie o por utilidad.",
         "Algunas de las tecnologías en las que me he capacitado y trabajado incluyen (pero no se limitan) a:"
     ],
 
@@ -22,11 +23,25 @@
     "Experience.Title": "Experiencia",
     "Experience.Jobs": [
       {
+        "Tab": "Global",
+        "Title": "Fullstack developer",
+        "Date": "Mayo 2023",
+        "Description": [
+          "Lider en la toma de desiciones tecnicas",
+          "Contratación de talento tecnico para la empresa",
+          "Lider de quipo del departamento de tecnología",
+          "Creación y mantenimiento de una plataforma de gestion de procesos internos para ventas de cursos",
+          "Programación de funciones y plugins personalizados para personalizacion de una plataforma de wordpress",
+          "Implementación de integración continua y respaldos diarios.",
+          "Reuniones de planificación en informes."
+        ]
+  },
+      {
             "Tab": "Proyex",
             "Title": "Fullstack developer",
-            "Date": "Diciembre 2019 - Actualidad",
+            "Date": "Diciembre 2019 - Mayo 2023",
             "Description": [
-              "Creación y mantenimiento de una plataforma de monitorio con gráficos en Wordpress.",
+              "Creación y mantenimiento de una plataforma de monitoreo con gráficos en Wordpress.",
               "Programación funcional en plantillas y plugins para añadir las características necesarias de monitoreo.",
               "Implementación de integración continua y respaldos diarios.",
               "Creación y mantenimiento de una segunda plataforma de Monitoreo Realizada en Angular, Angular Material, Laravel, Mysql, RxJS, Sass con gráficos (configurables), sistema de alarmas, y gestión de usuarios y configuración de parámetros generales.",
@@ -85,18 +100,45 @@
 
     "FeatureProjects.Title": "Mis proyectos",
     "FeatureProjects.Label": "Proyecto Destacado",
-    "FeatureProjects.Projects": [{
-            "Title": "Agrourbana",
-            "Description": "Aplicación de monitoreo realizada desde cero con módulo de auth, <span class='underline'>gráficos configurables</span>, <span class='underline'>alarmas configurables</span> y <span class='underline'>gestión de usuarios</span>. Cuenta también con lógica de formularios reactvios para la configuración de parámetros.",
-            "imgs": [
-                "assets/images/agrourbana/agrourbana1.png",
-                "assets/images/agrourbana/agrourbana2.png",
-                "assets/images/agrourbana/agrourbana3.png",
-                "assets/images/agrourbana/agrourbana4.png",
-                "assets/images/agrourbana/agrourbana5.png"
-            ],
-            "Technologies": ["Laravel", "Angular", "SASS", "Angular Material", "RxJS"]
-        },
+    "FeatureProjects.Projects": [
+      {
+        "Title": "Gisselle",
+        "Description": "Aplicacion web para gestion interna de empresa que abarca departamento de ventas, cobranza y seguimiento muy extensa y compleja con diversas funciones hecha en <span class='underline'>Angular</span> y <span class='underline'>Laravel</span>. Trabaja con <span class='underline'>websockets</span>, <span class='underline'>schedules</span>, <span class='underline'>jobs de laravel</span>, integraciones con wordpress, zadarma, liveconnect, etc.",
+        "imgs": [
+            "assets/images/gisselle/Captura de pantalla 2024-05-19 1009582.png",
+            "assets/images/gisselle/Captura de pantalla 2024-05-19 115514.png",
+            "assets/images/gisselle/Captura de pantalla 2024-05-19 115702.png",
+            "assets/images/gisselle/Captura de pantalla 2024-05-19 115829.png",
+            "assets/images/gisselle/Captura de pantalla 2024-05-19 1009582.png"
+        ],
+        "Technologies": ["Laravel", "Angular", "SASS", "Angular Material", "RxJS"]
+    },
+
+    {
+      "Title": "Emelteciot",
+      "Description": "Aplicación de monitoreo para consulta de datos, hecha con <span class='underline'>Angular</span> y <span class='underline'>Laravel</span>. Se aplica la libreria de graficos <span class='underline'>chart.js</span>",
+      "imgs": [
+          "assets/images/proyex2/6d7d8f04-f1f0-40c7-afbb-d2944cdb4d9c.png",
+          "assets/images/proyex2/849c117f-bed9-4406-9c13-c8669f655acc.png",
+          "assets/images/proyex2/62cdf90c-6196-4a6e-b639-8919cda4f749.png",
+          "assets/images/proyex2/8c919208-d6a8-48f4-890d-4817323b6923.png",
+          "assets/images/proyex2/8c919208-d6a8-48f4-890d-4817323b6923 (1).png"
+      ],
+      "Technologies": ["Laravel", "Angular", "SASS", "Angular Material", "RxJS"]
+  },
+
+    {
+      "Title": "Agrourbana",
+      "Description": "Aplicación de monitoreo realizada desde cero con módulo de auth, <span class='underline'>gráficos configurables</span>, <span class='underline'>alarmas configurables</span> y <span class='underline'>gestión de usuarios</span>. Cuenta también con lógica de formularios reactvios para la configuración de parámetros.",
+      "imgs": [
+          "assets/images/agrourbana/agrourbana1.png",
+          "assets/images/agrourbana/agrourbana2.png",
+          "assets/images/agrourbana/agrourbana3.png",
+          "assets/images/agrourbana/agrourbana4.png",
+          "assets/images/agrourbana/agrourbana5.png"
+      ],
+      "Technologies": ["Laravel", "Angular", "SASS", "Angular Material", "RxJS"]
+  },
         {
             "Title": "Tu super plan",
             "Description": "Cotizador de planes de salud que cuenta con un buscador con el que se hacen consultas avanzadas. Los planes son mostrados en base a la edad, ingreso mensual y ubicacion del usuario. Cuenta con <span class='underline'>chat en linea</span>, <span class='underline'>formulario de contacto</span>, <span class='underline'>sistema de notificaiones por whatsapp y correo</span>, <span class='underline'>auth</span>, y <span class='underline'>gestion de informacion internet a travez del rol de administrador</span>.",
@@ -194,7 +236,7 @@
     ],
 
     "Contact.Pretitle": "Y... ¿Ahora?",
-    "Contact.Title": "¡Saludame!",
+    "Contact.Title": "¡Salúdame!",
     "Contact.Content": "Estaré encantado de recibir tu contacto si quieres conversar acerca de nuevas oportunidades. Escríbeme, y te responderé tan pronto como vea tu mensaje.",
     "Contact.Btn": "Contactame"
 
