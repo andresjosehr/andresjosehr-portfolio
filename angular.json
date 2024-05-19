@@ -145,7 +145,6 @@
             }
         }
     },
-    "defaultProject": "andresjosehr-portfolio",
     "schematics": {
         "@schematics/angular:component": {
             "styleext": "scss"
