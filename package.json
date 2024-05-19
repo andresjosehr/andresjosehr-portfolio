@@ -23,7 +23,6 @@
     "@angular/router": "^14.3.0",
     "@angular/service-worker": "^14.3.0",
     "@fortawesome/fontawesome-free": "^5.14.0",
-    "@ng-bootstrap/ng-bootstrap": "^16.0.0",
     "@ngx-translate/core": "^13.0.0",
     "@ngx-translate/http-loader": "^6.0.0",
     "aos": "^2.3.4",
