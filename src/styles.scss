@@ -8,7 +8,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   background-color: $Navy;
-  color: $Slate;
+  color: $Slate !important;
   line-height: 1.3;
   font-family: $MainFont;
   font-size: 20px;
@@ -201,3 +201,6 @@ a {
     font-size: 18px;
   }
 }
+
+/* Importing Bootstrap SCSS file. */
+@import "bootstrap/scss/bootstrap";

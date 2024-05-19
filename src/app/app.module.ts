@@ -17,6 +17,7 @@ import {
   TranslateModule,
   TranslateService,
 } from '@ngx-translate/core';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
@@ -48,6 +49,7 @@ export function HttpLoaderFactory(http: HttpClient) {
         deps: [HttpClient],
       },
     }),
+    NgbModule,
   ],
   providers: [TranslateService],
   bootstrap: [AppComponent],
