@@ -1,4 +1,4 @@
-# Simple workflow for deploying a Angular app to GitHub Pages
+# Simple workflow for deploying an Angular app to GitHub Pages
 name: Deploy Angular app to Pages
 
 on:
@@ -35,13 +35,13 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '16' # O la versión de Node.js que necesites
+          node-version: '18.13' # Nueva versión mínima compatible con Angular CLI
 
       - name: Install dependencies
         run: npm install
 
       - name: Build Angular app
-        run: npm run build --prod
+        run: npm run build --omit=dev # Usa este flag para omitir devDependencies
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
