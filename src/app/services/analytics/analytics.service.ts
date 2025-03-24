@@ -10,12 +10,12 @@ export class AnalyticsService {
     private $gaService: GoogleAnalyticsService
   ) { }
 
-  sendAnalyticEvent(action: string, category: string, label){
-    this.$gaService.event(action, category, label)
+  sendAnalyticEvent(action: string, category: string, label: any): void{
+    this.$gaService.event(action, category, label);
   }
 
-  sendAnalyticPageView(path: string, title: string){
-    this.$gaService.pageView(path, title)
+  sendAnalyticPageView(path: string, title: string): void{
+    this.$gaService.pageView(path, title);
   }
 
 }
