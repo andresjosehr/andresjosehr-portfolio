@@ -1,7 +1,7 @@
 <nav [@animateMenu] class="navbar main-navbar on-top" [class.nav-shadow]='this.pageYPosition>0'>
     <div class="container">
         <a class="navbar-brand text-light" [routerLink]="'index'">
-            <img src='assets/images/logo.png' width='25' />
+            <img src='assets/images/ml-logo.png' width='25' />
         </a>
         <ul ngbNav #nav="ngbNav" class="menu-ul">
             <li ngbNavItem (click)='analyticsService.sendAnalyticEvent("click_about", "menu", "click")'>
@@ -24,10 +24,10 @@
               <a ngbNavLink (click)='scroll("contact")'><span class='nav-number'>05. </span> <span class="underline nav-text"> {{"Header.Item5" | translate}}</span></a>
               <ng-template ngbNavContent>Second content</ng-template>
             </li>
-            <li ngbNavItem (click)='analyticsService.sendAnalyticEvent("click_contact", "menu", "click")'>
-              <a ngbNavLink (click)='scroll("contact")'><span class='nav-number'>06. </span> <span class="underline nav-text"> {{"Header.Item6" | translate}}</span></a>
-              <ng-template ngbNavContent>Second content</ng-template>
-            </li>
+<!--            <li ngbNavItem (click)='analyticsService.sendAnalyticEvent("click_contact", "menu", "click")'>-->
+<!--              <a ngbNavLink (click)='scroll("contact")'><span class='nav-number'>06. </span> <span class="underline nav-text"> {{"Header.Item6" | translate}}</span></a>-->
+<!--              <ng-template ngbNavContent>Second content</ng-template>-->
+<!--            </li>-->
             <li ngbNavItem>
                 <a (click)="downloadCV()" class="main-btn cv-btn" ngbNavLink>
                   {{"Header.cvBtn" | translate}}

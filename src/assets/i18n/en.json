@@ -3,7 +3,7 @@
   "Header.Item2": "Education",
   "Header.Item3": "Experience",
   "Header.Item4": "Proficiency",
-  "Header.Item5": "Projects",
+  "Header.Item5": "Contact",
   "Header.Item6": "Contact",
   "Header.cvBtn": "Resume",
   "Header.cvName": "CV_Marcel_Morais_Luna.pdf",
@@ -70,7 +70,7 @@
       "Title": "I.T coordinator",
       "Date": "May 2015 - July 2018",
       "Description": [
-        "#1 Project of a new toll plaza implementation, in which I was involved in all steps, from its conception, definition of technology, hardware and software, to be used.",
+        "<span class='underline'>#1</span> Project of a new toll plaza implementation, in which I was involved in all steps, from its conception, definition of technology, hardware and software, to be used.",
         "It was included in the process:",
         "Definition of infrastructure",
         "Servers",
@@ -79,7 +79,7 @@
         "Access control",
         "Data network",
         "Radio communication.",
-        "#2 Development of tool in Java, JSF and mySQL, used to manager all contracts that the company have, in order to keep track of:",
+        "<span class='underline'>#2</span> Development of tool in Java, JSF and mySQL, used to manager all contracts that the company have, in order to keep track of:",
         "Finance",
         "Period",
         "Alert of invoices",
@@ -128,10 +128,10 @@
       "Title": "Systems Analyst",
       "Date": "May 2011 - October 2013",
       "Description": [
-        "#1 Implementing the TOLL Plaza System, responsible to manager all companies toll plazas. The application is responsible of keeping track of all vehicles that passes; manager all incoming; detects the vehicle in order to discover difference between the ticket collector and what the sensors detected. Centralized all information's from all 5 plazas and all 96 lanes in a Manager level system (N3).",
-        "#2 Client manager system, responsible to manager all contracts that can use the automatic lane. Keeping track of all records in order to create the invoice with the correct amount based on client use.",
-        "#3 Track monitoring system, predicting the need for maintenance of sensors based on vehicle detection errors.",
-        "#4 System used by HR to execute the employee performance evaluation.",
+        "<span class='underline'>#1</span> Implementing the TOLL Plaza System, responsible to manager all companies toll plazas. The application is responsible of keeping track of all vehicles that passes; manager all incoming; detects the vehicle in order to discover difference between the ticket collector and what the sensors detected. Centralized all information's from all 5 plazas and all 96 lanes in a Manager level system (N3).",
+        "<span class='underline'>#2</span> Client manager system, responsible to manager all contracts that can use the automatic lane. Keeping track of all records in order to create the invoice with the correct amount based on client use.",
+        "<span class='underline'>#3</span> Track monitoring system, predicting the need for maintenance of sensors based on vehicle detection errors.",
+        "<span class='underline'>#4</span> System used by HR to execute the employee performance evaluation.",
         "Evaluate the toll system being implemented and whether it meets the requirements requested by the company.",
         "Testing to identify the maturity of the system, considering the criticality of the project.",
         "Developed innovated solutions to meet the company's needs.",
@@ -193,15 +193,13 @@
   "Education.Title": "Education",
   "Education.Educations": [
     {
-      "Tab": "European Commission",
       "Title": "Graduated in Computer Science",
-      "Date": "Jan 2020",
+      "Date": "January 2020",
       "Description": [
         "Graduated since 2006, at Faculty of Technology and Science of Feira de Santana - Bahia"
       ]
     },
     {
-      "Tab": "X-Testing",
       "Title": "Lato Sensu in Software Engineering",
       "Date": "December 2018 - December 2019",
       "Description": [
@@ -209,17 +207,14 @@
       ]
     },
     {
-      "Tab": "Concessionary Bahia Norte",
       "Title": "MBA in Project Management",
       "Date": "May 2015 - July 2018",
       "Description": [
-        "at Faculdade Ruy Barbosa, at Salvador Bahia. Incomplete."
+        "Not complete course of Graduated Business degree at Faculdade Ruy Barbosa, at Salvador Bahia."
         ]
     }
   ],
   "FeatureProjects.Title": "Proficiency",
-
-
   "OtherProjects.Title": "More Projects",
   "OtherProjects.Projects": [
     {

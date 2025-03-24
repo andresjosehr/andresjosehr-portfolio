@@ -194,6 +194,10 @@
     transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
 }
 
+.filter-green {
+  filter: invert(79%) sepia(59%) saturate(379%) hue-rotate(102deg) brightness(104%) contrast(101%);
+}
+
 .nav-shadow {
     height: 70px;
     box-shadow: 0 10px 30px -10px rgba(2, 12, 27, 0.7);

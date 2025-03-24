@@ -99,6 +99,10 @@
 
 }
 
+.filter-green {
+  filter: invert(79%) sepia(59%) saturate(379%) hue-rotate(102deg) brightness(104%) contrast(101%);
+}
+
 
 @media(max-width: 1300px){
     .more-proyects{
