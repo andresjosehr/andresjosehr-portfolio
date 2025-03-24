@@ -2,14 +2,14 @@ import { Component, OnInit } from '@angular/core';
 import { AnalyticsService } from 'src/app/services/analytics/analytics.service';
 
 @Component({
-  selector: 'app-jobs',
-  templateUrl: './jobs.component.html',
-  styleUrls: ['./jobs.component.scss']
+  selector: 'app-experience',
+  templateUrl: './experience.component.html',
+  styleUrls: ['./experience.component.scss']
 })
-export class JobsComponent implements OnInit {
-  
-  active = 0
-  
+export class ExperienceComponent implements OnInit {
+
+  active = 0;
+
   constructor(
     public analyticsService: AnalyticsService
   ) { }

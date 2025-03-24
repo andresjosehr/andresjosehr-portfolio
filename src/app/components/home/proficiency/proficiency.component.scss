@@ -1,0 +1,33 @@
+@import "./../../../../variables.scss";
+.skills-list{
+  display: grid;
+  grid-template-columns: repeat(2,minmax(140px,200px));
+  overflow: hidden;
+  padding: 0;
+  margin: 20px 0 0 0;
+  list-style: none;
+}
+.skill-element{
+  position: relative;
+  margin-bottom: 10px;
+  padding-left: 20px;
+  font-size: 13px;
+  font-family: $CodeFont;
+  color: $Slate;
+  span{
+    padding-bottom: 5px;
+  }
+  &:before {
+    content: '▹';
+    position: absolute;
+    left: 0;
+    color: $Green;
+    font-size: 14px;
+    line-height: 12px;
+  }
+}
+
+.proficiency-col {
+  padding: 10px;
+  height: 400px;
+}

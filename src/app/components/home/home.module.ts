@@ -6,16 +6,12 @@ import { HttpClient } from '@angular/common/http';
 import { AboutComponent } from './about/about.component';
 import { BannerComponent } from './banner/banner.component';
 import { ContactComponent } from './contact/contact.component';
-import { JobsComponent } from './jobs/jobs.component';
-import { MoreProyectsComponent } from './more-proyects/more-proyects.component';
-import { ProyectsComponent } from './proyects/proyects.component';
-import { NgbModule, NgbNav, NgbNavModule } from '@ng-bootstrap/ng-bootstrap';
+import { ExperienceComponent } from './experience/experience.component';
+import { ProficiencyComponent } from './proficiency/proficiency.component';
+import { NgbNavModule } from '@ng-bootstrap/ng-bootstrap';
 import { CarouselModule } from 'ngx-owl-carousel-o';
-import { TranslateHttpLoader } from '@ngx-translate/http-loader';
-
-export function HttpLoaderFactory(http: HttpClient){
-  return new TranslateHttpLoader(http, './assets/i18n/', '.json');
-}
+import { HttpLoaderFactory } from '../general/httpLoaderFactory';
+import { EducationComponent } from './education/education.component';
 
 
 
@@ -24,10 +20,10 @@ export function HttpLoaderFactory(http: HttpClient){
     HomeComponent,
     BannerComponent,
     AboutComponent,
-    JobsComponent,
-    ProyectsComponent,
-    MoreProyectsComponent,
-    ContactComponent,
+    ExperienceComponent,
+    ProficiencyComponent,
+    EducationComponent,
+    ContactComponent
   ],
   imports: [
     CommonModule,

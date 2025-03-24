@@ -3,31 +3,25 @@
 
 ::ng-deep .jobs .jobs-tabs {
     display: flex;
-
     .tab-content{
         margin-left: 38px;
     }
-
     ul{
         display: block;
-        width: 114.33px;
         border: none;
     }
-
     a.active{
         background-color: $LightNavy !important;
         color: $Green !important;
         border-color: transparent !important;
         border-radius: 0px;
     }
-    
     a:hover{
         background-color: $LightNavy !important;
         color: $Green !important;
         border-color: transparent !important;
         border-radius: 0px;
     }
-
     a{
         display: inline-block;
         -webkit-text-decoration: none;
@@ -59,7 +53,6 @@
         font-size: 13px;
         color: $Slate;
     }
-
     li{
         border-left: 2px solid $LightestNavy;
         border-left-width: 2px;
@@ -69,10 +62,8 @@
 }
 
 .jobs{
-
     max-width: 700px;
     margin: auto;
-
     .title-tab-content{
         color: $LightestSlate;
         font-size: 22px;
@@ -83,25 +74,22 @@
             color: $Green;
         }
     }
-
     .job-time{
         font-family: $CodeFont;
         font-size: 13px;
         font-weight: normal;
-            -webkit-letter-spacing: 0.05em;
+        -webkit-letter-spacing: 0.05em;
         -moz-letter-spacing: 0.05em;
         -ms-letter-spacing: 0.05em;
         letter-spacing: 0.05em;
         color: $LightSlate;
         margin-bottom: 30px;
     }
-    
     .job-description{
         position: relative;
         padding-left: 30px;
         margin-bottom: 10px;
         font-size: 18px;
-
         &:before {
             content: '▹';
             position: absolute;
@@ -111,8 +99,6 @@
     }
 }
 
-
-
 @media (max-width: 768px){
     .jobs {
         .job-description{
@@ -121,11 +107,9 @@
     }
     ::ng-deep .jobs-tabs{
         display: block !important;
-
         .tab-content{
             margin-left: 0px !important;
         }
-
         ul {
             display: block;
             width: 100% !important;

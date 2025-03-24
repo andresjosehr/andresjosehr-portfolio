@@ -3,11 +3,11 @@ import { OwlOptions } from 'ngx-owl-carousel-o';
 import { AnalyticsService } from 'src/app/services/analytics/analytics.service';
 
 @Component({
-  selector: 'app-proyects',
-  templateUrl: './proyects.component.html',
-  styleUrls: ['./proyects.component.scss']
+  selector: 'app-proficiency',
+  templateUrl: './proficiency.component.html',
+  styleUrls: ['./proficiency.component.scss']
 })
-export class ProyectsComponent implements OnInit {
+export class ProficiencyComponent implements OnInit {
 
   customOptions: OwlOptions = {
     loop: true,
@@ -17,11 +17,12 @@ export class ProyectsComponent implements OnInit {
     navSpeed: 700,
     items: 1,
     autoplay: true,
-    autoplayTimeout:3000
-  }
+    autoplayTimeout: 3000
+  };
 
   @ViewChild('imgContainer') imgContainer: ElementRef;
 
+  proficiencyList: string[] = [""]
 
   constructor(
     public analyticsService: AnalyticsService
@@ -33,13 +34,13 @@ export class ProyectsComponent implements OnInit {
 
   }
 
-debug(){
+  debug(): void{
 
-  this.imgContainer.nativeElement.scroll({
-    top: this.imgContainer.nativeElement.scrollHeight,
-    left: 0,
-    behavior: 'smooth',    
-  });
-}
+    this.imgContainer.nativeElement.scroll({
+      top: this.imgContainer.nativeElement.scrollHeight,
+      left: 0,
+      behavior: 'smooth',
+    });
+  }
 
 }

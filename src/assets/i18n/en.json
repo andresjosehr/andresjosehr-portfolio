@@ -1,210 +1,224 @@
 {
   "Header.Item1": "About Me",
-  "Header.Item2": "Experience",
-  "Header.Item3": "Projects",
-  "Header.Item4": "Contact",
+  "Header.Item2": "Education",
+  "Header.Item3": "Experience",
+  "Header.Item4": "Proficiency",
+  "Header.Item5": "Projects",
+  "Header.Item6": "Contact",
   "Header.cvBtn": "Resume",
-  "Header.cvName": "CV_Jose_Hernandez_Spanish.pdf",
+  "Header.cvName": "CV_Marcel_Morais_Luna.pdf",
 
   "Banner.Pretitle": "Hello! My name is",
-  "Banner.Description": "I have <span class='underline'>8 years of experience</span> developing systems, interfaces, bots, and technological solutions to make the web a better place. I am dedicated to writing and refactoring clean, reusable, and scalable code in <span class='underline'>Angular</span> and <span class='underline'>Laravel</span>, applying good practices and development standards.",
-  "Banner.ActionBtn": "Say Hi",
+  "Banner.Description": "I have more then <span class='underline'>13 years of experience</span> in IT with a Bachelor's Degree in Computer Science and specialization in software engineer but I'm self-taught and like to apply new technologies when they are mature enough and it's the best fit for the project.",
+  "Banner.ActionBtn": "Send me a Hi!",
 
   "AboutMe.Title": "About Me",
   "AboutMe.Paragraphs": [
-    "In <span class='underline'>8 years of experience</span> I have covered many roles: <span class='underline'>Systems Analyst</span>, <span class='underline'>Backend Developer</span>, <span class='underline'>Frontend Developer</span>, and <span class='underline'>Technical Lead</span>. I love contributing my knowledge to create new things that help solve problems.",
-    "My capabilities also include implementing system improvements, optimizing sites, standardizing patterns, and suggesting and executing ideas that add value to the project I am working on.",
-    "I also program things for my personal use, whether for hobby or utility.",
-    "Some of the technologies I have trained and worked with include (but are not limited to):"
+    "I describe myself as a developer who loves coding, open source, and the web platform. Currently I'm working at <span class='underline'>European Commission</span> as a IT Consulting with a role of <span class='underline'>Application/Cloud Architect</span> and founder of <span class='underline'>M2L Solutions</span>, my own I.T Company",
+    "I play a pivotal role in designing and implementing software solutions that meet business needs while ensuring scalability, security, and efficiency.",
+    "Experience in the full software development lifecycle, working with analysis, design, coding, and promotion into production, creating elegant solutions using Java, PHP, C#, HTML, CSS, JavaScript, Spring Boot, Angular, bootstrap and ElasticSearch.",
+    "Competence to jump between frontend and backend work, performing tests, integrations and process automation using REST APIs, handling multiple types of calls, returning different data formats and changing structurally, when necessary.",
+    "Ability to support ongoing business requirements, maintaining and enhancing existing systems, offering client-based experiences and applying strong problem-solving skills with a get it done attitude.",
+    "Expertise to work closely with Product Owners, Analysts and QA in an Agile environment to ensure quality and security of applications, and to ensure code meets development standards and guidelines.",
+    "Experience with reviewing the architecture of existing systems and designing the architecture of new ones, deciding on all the technical components of an application, acting as a liaison between the developers and the project leaders.",
+    "I like to study, music, games, movies and series. After my little ones I can´t find spare time for all of that, but when I do have time, I try to enjoy with my family."
   ],
-
   "Experience.Title": "Experience",
   "Experience.Jobs": [
     {
-      "Tab": "Global",
+      "Tab": "European Commission",
+      "Title": "Application/Cloud Architect / Software Developer",
+      "Date": "Jan 2020",
+      "Description": [
+        "Responsibility for coding.",
+        "Review of the architecture of the existing systems.",
+        "Design and architecture of new systems.",
+        "Performing Data analysis and data modelling.",
+        "Follow- up of the whole planning and deliverables.",
+        "Identify tools and equipment which are necessary to implement the project.",
+        "Give proposals for project strategies, planning, definition of tasks and deliverables, quality control, risk analysis and management, status reports, problem reporting and organisation.",
+        "Business Process Analysis.",
+        "Production of technical documents in relation to the architecture of the systems.",
+        "Participation in technical working groups, progress meetings & meetings with the project manager.",
+        "Create unit tests"
+      ],
+      "Technologies": ["Angular", "CSS GRID", "SASS", "Angular animations"],
+      "iconSet": ""
+    },
+    {
+      "Tab": "X-Testing",
       "Title": "Fullstack Developer",
-      "Date": "May 2023",
+      "Date": "December 2018 - December 2019",
       "Description": [
-        "Leader in technical decision making",
-        "Hiring technical talent for the company",
-        "Team leader of the technology department",
-        "Creation and maintenance of an internal process management platform for course sales",
-        "Programming custom functions and plugins for customizing a WordPress platform",
-        "Implementation of continuous integration and daily backups.",
-        "Planning and reporting meetings."
-      ]
+        "Responsibility for coding.",
+        "Review of the architecture of the existing systems.",
+        "Design and architecture of new systems.",
+        "Performing Data analysis and data modelling.",
+        "Follow- up of the whole planning and deliverables.",
+        "Identify tools and equipment which are necessary to implement the project.",
+        "Give proposals for project strategies, planning, definition of tasks and deliverables, quality control, risk analysis and management, status reports, problem reporting and organisation.",
+        "Business Process Analysis.",
+        "Production of technical documents in relation to the architecture of the systems.",
+        "Participation in technical working groups, progress meetings & meetings with the project manager.",
+        "Create unit tests"
+      ],
+      "Technologies": ["Angular", "CSS GRID", "SASS", "Angular animations"],
+      "iconSet": ""
     },
     {
-      "Tab": "Proyex",
+      "Tab": "Concessionary Bahia Norte",
+      "Title": "I.T coordinator",
+      "Date": "May 2015 - July 2018",
+      "Description": [
+        "#1 Project of a new toll plaza implementation, in which I was involved in all steps, from its conception, definition of technology, hardware and software, to be used.",
+        "It was included in the process:",
+        "Definition of infrastructure",
+        "Servers",
+        "Storages",
+        "FTV System",
+        "Access control",
+        "Data network",
+        "Radio communication.",
+        "#2 Development of tool in Java, JSF and mySQL, used to manager all contracts that the company have, in order to keep track of:",
+        "Finance",
+        "Period",
+        "Alert of invoices",
+        "Adjustments",
+        "Contract extensions."
+      ],
+      "Technologies": ["Angular", "CSS GRID", "SASS", "Angular animations"],
+      "iconSet": ""
+    },
+    {
+      "Tab": "Motiro Sistemas",
       "Title": "Fullstack Developer",
-      "Date": "December 2019 - May 2023",
+      "Date": "Jun 2015 - July 2017",
       "Description": [
-        "Creation and maintenance of a monitoring platform with charts in WordPress.",
-        "Functional programming in templates and plugins to add necessary monitoring features.",
-        "Implementation of continuous integration and daily backups.",
-        "Creation and maintenance of a second Monitoring Platform made with Angular, Angular Material, Laravel, MySQL, RxJS, Sass with configurable charts, alarm systems, and user management and general configuration settings.",
-        "Planning and reporting meetings."
-      ]
+        "Responsibility for coding.",
+        "Review of the architecture of the existing systems.",
+        "Design and architecture of new systems.",
+        "Performing Data analysis and data modelling.",
+        "Follow- up of the whole planning and deliverables.",
+        "Identify tools and equipment which are necessary to implement the project.",
+        "Give proposals for project strategies, planning, definition of tasks and deliverables, quality control, risk analysis and management, status reports, problem reporting and organisation.",
+        "Business Process Analysis.",
+        "Production of technical documents in relation to the architecture of the systems.",
+        "Participation in technical working groups, progress meetings & meetings with the project manager.",
+        "Create unit tests"
+      ],
+      "Technologies": ["Angular", "CSS GRID", "SASS", "Angular animations"],
+      "iconSet": ""
     },
     {
-      "Tab": "Freelancer",
-      "Title": "Freelancer",
-      "Date": "May 2016 - Present",
+      "Tab": "Solutis Tecnologias",
+      "Title": "Team Leader",
+      "Date": "November 2013 - April 2015",
       "Description": [
-        "Continuous improvements implementation, working on frontend and backend.",
-        "Creation of platforms with Angular, Laravel, WordPress programmed with functional, reactive, and object-oriented programming paradigms.",
-        "Process automation with data structures.",
-        "Template designs with SASS, Bootstrap, Materialize, Bulma, etc."
-      ]
+        "As a team leader, user support services were performed, maintaining the level of service above the agreed standards; We have maintained the entire company infrastructure including servers, telephony, networks (wired and wireless), storage, backup systems, contract management and technical decision support. All this to maintain the high standard required by <span class='underline'>FIFA 2014</span> for the holding of the world cup of football.",
+        "Responsibility of the management of the team.",
+        "Give proposals for project strategies, planning, definition of tasks and deliverables, quality control, risk analysis and management, status reports, problem reporting and management systems, follow up and organisation.",
+        "Participation in technical working groups, progress meetings & meetings with the users.",
+        "Maintain the SLA standard."
+      ],
+      "Technologies": ["Angular", "CSS GRID", "SASS", "Angular animations"],
+      "iconSet": ""
     },
     {
-      "Tab": "Moebius",
-      "Title": "Fullstack Developer",
-      "Date": "July 2017 - October 2018",
-      "Description": [
-        "Leading a team of 4 people in the development of a tourism data management platform made in Angular, Laravel, and MySQL.",
-        "Implementation of CI/CD in Azure. Refactoring and optimizing application load times.",
-        "Coding API requests with RxJS.",
-        "Creating modules with complex reactive forms.",
-        "Writing weekly reports about goals and plans."
-      ]
-    },
-    {
-      "Tab": "TechLatam",
-      "Title": "Frontend Developer",
-      "Date": "February 2016 - May 2017",
-      "Description": [
-        "Creating WordPress templates with ACF, functional programming in JavaScript/jQuery, styles in SASS.",
-        "Integrating design and load time improvements for templates.",
-        "Effective communication with the design team, working with Avocode/Figma."
-      ]
-    },
-    {
-      "Tab": "CANTV",
+      "Tab": "Concessionary Bahia Norte",
       "Title": "Systems Analyst",
-      "Date": "November 2015 - December 2016",
+      "Date": "May 2011 - October 2013",
       "Description": [
-        "Programming new functionalities for an existing employee management platform made with Angular and ExpressJS.",
-        "Refactoring old code. Ensuring compatibility of each dependency with each update, including regular Angular updates."
-      ]
+        "#1 Implementing the TOLL Plaza System, responsible to manager all companies toll plazas. The application is responsible of keeping track of all vehicles that passes; manager all incoming; detects the vehicle in order to discover difference between the ticket collector and what the sensors detected. Centralized all information's from all 5 plazas and all 96 lanes in a Manager level system (N3).",
+        "#2 Client manager system, responsible to manager all contracts that can use the automatic lane. Keeping track of all records in order to create the invoice with the correct amount based on client use.",
+        "#3 Track monitoring system, predicting the need for maintenance of sensors based on vehicle detection errors.",
+        "#4 System used by HR to execute the employee performance evaluation.",
+        "Evaluate the toll system being implemented and whether it meets the requirements requested by the company.",
+        "Testing to identify the maturity of the system, considering the criticality of the project.",
+        "Developed innovated solutions to meet the company's needs.",
+        "Business Process Analysis",
+        "Supported the company in strategic decisions of technology to be implemented"
+      ],
+      "Technologies": ["Angular", "CSS GRID", "SASS", "Angular animations"],
+      "iconSet": ""
     },
     {
-      "Tab": "IEP",
-      "Title": "English Teacher",
-      "Date": "January 2015 - July 2015",
+      "Tab": "Capgemini",
+      "Title": "Software Developer",
+      "Date": "Jun 2009 - April 2011",
       "Description": [
-        "Teaching basic English to a student body of over 200 students."
-      ]
+        "Maintenance of the system responsible for the administration of the entrance exam and competitions conducted by the Federal University of Bahia.",
+        "Responsibility for coding.",
+        "Follow- up of the whole planning and deliverables.",
+        "Identify tools and equipment which are necessary to implement the project",
+        "Business Process Analysis",
+        "Give proposals for project strategies, planning, definition of tasks and deliverables, quality control, risk analysis and management, status reports, problem reporting and organisation.",
+        "Participation in technical working groups, progress meetings & meetings with the project manager."
+      ],
+      "Technologies": ["Angular", "CSS GRID", "SASS", "Angular animations"],
+      "iconSet": ""
+    },
+    {
+      "Tab": "Capgemini",
+      "Title": "Network Administrator",
+      "Date": "Jun 2009 - April 2011",
+      "Description": [
+        "Implementation of optical fiber implantation in university. With the change of core of the company, it was necessary to carry out the change of routing and exchange of fiber pair for the new main switch of the University. Project of great importance because it increases the bandwidth, delivering the required by the technology of the time.",
+        "Installing and configuring network appliances.",
+        "Identifying and solving any problems that arise with computer networks and systems.",
+        "Consulting with clients to specify system requirements and design solutions",
+        "Assembling new systems",
+        "Maintaining existing software and hardware and upgrading any that have become obsolete.",
+        "Monitoring computer networks and systems to identify how performance can be improved.",
+        "Working as IT support helping users.",
+        "Providing network administration and support."
+      ],
+      "Technologies": ["Angular", "CSS GRID", "SASS", "Angular animations"],
+      "iconSet": ""
+    },
+    {
+      "Tab": "Santo Antônio School",
+      "Title": "Web designer",
+      "Date": "February 2006 - December 2004",
+      "Description": [
+        "Development of the institutional webpage of the College Santo Antônio.",
+        "Developed a new webpage for the school, using new technologies. I used  HTML with JavaScript and Flash for animations.",
+        "Created an administration page, so that the teachers can be able to publish photos of activities, make all events public for visitors.",
+        "Technical support to teachers, students and employees, provided help/solutions to all problems related to I.T."
+      ],
+      "Technologies": ["Angular", "CSS GRID", "SASS", "Angular animations"],
+      "iconSet": ""
     }
   ],
 
-  "FeatureProjects.Title": "My Projects",
-  "FeatureProjects.Label": "Highlighted Project",
-  "FeatureProjects.Projects": [
+  "Education.Title": "Education",
+  "Education.Educations": [
     {
-      "Title": "Gisselle",
-      "Description": "Web application for internal company management that covers sales, collection, and tracking departments, very extensive and complex with various functions made in <span class='underline'>Angular</span> and <span class='underline'>Laravel</span>. It works with <span class='underline'>websockets</span>, <span class='underline'>schedules</span>, <span class='underline'>laravel jobs</span>, integrations with WordPress, Zadarma, LiveConnect, etc.",
-      "imgs": [
-        "assets/images/gisselle/Captura de pantalla 2024-05-19 1009582.png",
-        "assets/images/gisselle/Captura de pantalla 2024-05-19 115514.png",
-        "assets/images/gisselle/Captura de pantalla 2024-05-19 115702.png",
-        "assets/images/gisselle/Captura de pantalla 2024-05-19 115829.png",
-        "assets/images/gisselle/Captura de pantalla 2024-05-19 1009582.png"
-      ],
-      "Technologies": ["Laravel", "Angular", "SASS", "Angular Material", "RxJS"]
+      "Tab": "European Commission",
+      "Title": "Graduated in Computer Science",
+      "Date": "Jan 2020",
+      "Description": [
+        "Graduated since 2006, at Faculty of Technology and Science of Feira de Santana - Bahia"
+      ]
     },
     {
-      "Title": "Emelteciot",
-      "Description": "Monitoring application for data query, made with <span class='underline'>Angular</span> and <span class='underline'>Laravel</span>. The <span class='underline'>chart.js</span> library is applied.",
-      "imgs": [
-        "assets/images/proyex2/Captura de pantalla 2024-07-28 102852.png",
-        "assets/images/proyex2/849c117f-bed9-4406-9c13-c8669f655acc.png",
-        "assets/images/proyex2/62cdf90c-6196-4a6e-b639-8919cda4f749.png",
-        "assets/images/proyex2/8c919208-d6a8-48f4-890d-4817323b6923.png",
-        "assets/images/proyex2/8c919208-d6a8-48f4-890d-4817323b6923 (1).png"
-      ],
-      "Technologies": ["Laravel", "Angular", "SASS", "Angular Material", "RxJS"]
+      "Tab": "X-Testing",
+      "Title": "Lato Sensu in Software Engineering",
+      "Date": "December 2018 - December 2019",
+      "Description": [
+        "Concluded in 2014, the specialization in Software engineering at Ruy Barbosa University."
+      ]
     },
     {
-      "Title": "Vas Aviation",
-      "Description": "Application for tracking fuel supply requests for aircraft. It has an <span class='underline'>email module</span>, <span class='underline'>real-time notifications</span>, <span class='underline'>CSV file handling for data import</span>, <span class='underline'>price quotes</span>. Developed in <span class='underline'>Angular</span> and <span class='underline'>Laravel</span>.",
-      "imgs": [
-        "assets/images/vasaviation/capture0.png",
-        "assets/images/vasaviation/capture1.png",
-        "assets/images/vasaviation/capture2.png",
-        "assets/images/vasaviation/capture3.png",
-        "assets/images/vasaviation/capture4.png",
-        "assets/images/vasaviation/capture5.png"
-      ],
-      "Technologies": ["Laravel", "Angular", "SASS", "Angular Material", "RxJS"]
-    },
-    {
-      "Title": "GlobalJobs",
-      "Description": "E-learning platform developed with WordPress. Fully customized design, with plugins developed from scratch. It has a customized payment module, virtual classroom, course tracking dashboard.",
-      "imgs": [
-        "assets/images/globaljobs/capture1.png",
-        "assets/images/globaljobs/capture2.png",
-        "assets/images/globaljobs/capture3.png",
-        "assets/images/globaljobs/capture4.png",
-        "assets/images/globaljobs/capture5.png",
-        "assets/images/globaljobs/capture6.png"
-      ],
-      "Technologies": ["WordPress", "WordPress Codex", "PHP", "MySQL"]
-    },
-    {
-      "Title": "GlobalJobs",
-      "Description": "E-commerce platform for technology products. Developed with WordPress and implementing a shipping system for products. It has sales reporting through customized programming.",
-      "imgs": [
-        "assets/images/mbelectronics/capture0.png",
-        "assets/images/mbelectronics/capture1.png",
-        "assets/images/mbelectronics/capture2.png"
-      ],
-      "Technologies": ["WordPress", "Elementor", "Woocommerce", "WordPress Codex", "PHP", "MySQL"]
-    },
-    {
-      "Title": "Agrourbana",
-      "Description": "Monitoring application made from scratch with an auth module, <span class='underline'>configurable graphs</span>, <span class='underline'>configurable alarms</span>, and <span class='underline'>user management</span>. It also has logic for reactive forms for parameter configuration.",
-      "imgs": [
-        "assets/images/agrourbana/agrourbana1.png",
-        "assets/images/agrourbana/agrourbana2.png",
-        "assets/images/agrourbana/agrourbana3.png",
-        "assets/images/agrourbana/agrourbana4.png",
-        "assets/images/agrourbana/agrourbana5.png"
-      ],
-      "Technologies": ["Laravel", "Angular", "SASS", "Angular Material", "RxJS"]
-    },
-    {
-      "Title": "Tu Super Plan",
-      "Description": "Health plans quote that has an advanced search engine. The plans are shown based on the user's age, monthly income, and location. It has a <span class='underline'>live chat</span>, <span class='underline'>contact form</span>, <span class='underline'>notification system via WhatsApp and email</span>, <span class='underline'>auth</span>, and <span class='underline'>information management through the admin role</span>.",
-      "imgs": [
-        "assets/images/tusuperplan/tusuperplan1.png",
-        "assets/images/tusuperplan/tusuperplan2.png",
-        "assets/images/tusuperplan/tusuperplan3.png",
-        "assets/images/tusuperplan/tusuperplan4.png",
-        "assets/images/tusuperplan/tusuperplan5.png"
-      ],
-      "Technologies": ["Laravel", "Angular", "SASS", "Angular Material", "RxJS"]
-    },
-    {
-      "Title": "Proyexiot",
-      "Description": "Data monitoring platform for water wells, tugboats, and various installations made from scratch with an auth module, <span class='underline'>configurable graphs</span>, <span class='underline'>configurable alarms</span>, <span class='underline'>user management</span>, and <span class='underline'>geolocation with openlayers</span>. It also has logic for reactive forms for parameter configuration.",
-      "imgs": [
-        "assets/images/proyex/proyex1.png",
-        "assets/images/proyex/proyex2.png",
-        "assets/images/proyex/proyex3.png",
-        "assets/images/proyex/proyex4.png",
-        "assets/images/proyex/proyex5.png",
-        "assets/images/proyex/proyex6.png",
-        "assets/images/proyex/proyex7.png",
-        "assets/images/proyex/proyex8.png",
-        "assets/images/proyex/proyex9.png",
-        "assets/images/proyex/proyex10.png",
-        "assets/images/proyex/proyex11.png",
-        "assets/images/proyex/proyex12.png"
-      ],
-      "Technologies": ["Laravel", "Angular", "SASS", "Angular Material", "RxJS"]
+      "Tab": "Concessionary Bahia Norte",
+      "Title": "MBA in Project Management",
+      "Date": "May 2015 - July 2018",
+      "Description": [
+        "at Faculdade Ruy Barbosa, at Salvador Bahia. Incomplete."
+        ]
     }
   ],
+  "FeatureProjects.Title": "Proficiency",
+
 
   "OtherProjects.Title": "More Projects",
   "OtherProjects.Projects": [
@@ -257,5 +271,11 @@
   "Contact.Pretitle": "And... Now?",
   "Contact.Title": "Say Hi!",
   "Contact.Content": "I will be glad to hear from you if you want to discuss new opportunities. Write to me, and I will respond as soon as I see your message.",
-  "Contact.Btn": "Contact Me"
+  "Contact.Btn": "Contact Me",
+  "label.proficiency": "Proficiency",
+  "label.proficiency.programming": "Programming and frameworks",
+  "label.proficiency.databases": "Databases",
+  "label.proficiency.os": "Operational System",
+  "label.proficiency.network": "Network",
+  "label.proficiency.language": "Language"
 }
