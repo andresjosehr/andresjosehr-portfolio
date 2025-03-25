@@ -3,31 +3,30 @@
         <div class="section-box">
             <div class="">
                 <h3 class="section-title">
-                    <span class='n-section-title'>04.</span> {{"Education.Title" | translate}}
+                    <span class='n-section-title'>04.</span> {{ 'education.title' | translate}}
                 </h3>
             </div>
             <div class="mt-5">
                 <div class="row p-0">
-
-                    <div *ngFor='let project of "Education.Educations" | translate; let i = index'
-                     class="col-12 col-md-6 col-lg-6 col-xl-4 proyect-col" data-aos="fade-up" data-aos-duration="1000">
-                        <div class="more-proyect-box">
-                            <div class="row w-100 text-left m-0 p-0">
-                                <div class="col-6 p-0">
-                                    <img src='assets/icons/diploma.svg' width="40" class="filter-green">
+                    @for (education of educations; track education.id) {
+                        <div class="col-12 col-md-6 col-lg-6 col-xl-4 proyect-col" data-aos="fade-up" data-aos-duration="1000">
+                            <div class="more-proyect-box">
+                                <div class="row w-100 text-left m-0 p-0">
+                                    <div class="col-6 p-0">
+                                        <img src='assets/icons/diploma.svg' width="40" class="filter-green">
+                                    </div>
+                                    <h5 class="other-proyect-title mt-4">{{ education.title }}</h5>
+                                    <p class="other-proyect-description">
+                                        {{ education.description}}
+                                    </p>
+                                    <p class="other-proyect-description">
+                                        {{ education.date}}
+                                    </p>
                                 </div>
-                                <h5 class="other-proyect-title mt-4">{{project.Title}}</h5>
-                                <p class="other-proyect-description">
-                                    {{project.Description}}
-                                </p>
-                              <p class="other-proyect-description">
-                                {{project.Date}}
-                              </p>
                             </div>
                         </div>
-                    </div>
+                    }
                 </div>
-
             </div>
         </div>
     </div>

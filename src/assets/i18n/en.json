@@ -8,12 +8,12 @@
   "Header.cvBtn": "Resume",
   "Header.cvName": "CV_Marcel_Morais_Luna.pdf",
 
-  "Banner.Pretitle": "Hello! My name is",
-  "Banner.Description": "I have more then <span class='underline'>13 years of experience</span> in IT with a Bachelor's Degree in Computer Science and specialization in software engineer but I'm self-taught and like to apply new technologies when they are mature enough and it's the best fit for the project.",
-  "Banner.ActionBtn": "Send me a Hi!",
+  "banner.pre-title": "Hello! My name is",
+  "banner.description": "I have more then <span class='underline'>13 years of experience</span> in IT with a Bachelor's Degree in Computer Science and specialization in software engineer but I'm self-taught and like to apply new technologies when they are mature enough and it's the best fit for the project.",
+  "banner.action-btn": "Send me a Hi!",
 
-  "AboutMe.Title": "About Me",
-  "AboutMe.Paragraphs": [
+  "about-me.title": "About Me",
+  "about-me.Paragraphs": [
     "I describe myself as a developer who loves coding, open source, and the web platform. Currently I'm working at <span class='underline'>European Commission</span> as a IT Consulting with a role of <span class='underline'>Application/Cloud Architect</span> and founder of <span class='underline'>M2L Solutions</span>, my own I.T Company",
     "I play a pivotal role in designing and implementing software solutions that meet business needs while ensuring scalability, security, and efficiency.",
     "Experience in the full software development lifecycle, working with analysis, design, coding, and promotion into production, creating elegant solutions using Java, PHP, C#, HTML, CSS, JavaScript, Spring Boot, Angular, bootstrap and ElasticSearch.",
@@ -190,7 +190,7 @@
     }
   ],
 
-  "Education.Title": "Education",
+  "education.title": "Education",
   "Education.Educations": [
     {
       "Title": "Graduated in Computer Science",
@@ -263,10 +263,10 @@
     }
   ],
 
-  "Contact.Pretitle": "And... Now?",
-  "Contact.Title": "Say Hi!",
-  "Contact.Content": "I will be glad to hear from you if you want to discuss new opportunities. Write to me, and I will respond as soon as I see your message.",
-  "Contact.Btn": "Contact Me",
+  "contact.pre-title": "And... Now?",
+  "contact.title": "Say Hi!",
+  "contact.content": "I will be glad to hear from you if you want to discuss new opportunities. Write to me, and I will respond as soon as I see your message.",
+  "contact.btn": "Contact Me",
   "label.proficiency": "Proficiency",
   "label.proficiency.programming": "Programming and frameworks",
   "label.proficiency.databases": "Databases",

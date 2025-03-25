@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { Router, NavigationEnd } from '@angular/router';
 import { AnalyticsService } from 'src/app/services/analytics/analytics.service';
+import {DataService} from '../../../services/data/data.service';
+import {Education} from '../../../model/education.model';
 
 @Component({
   selector: 'app-more-proyects',
@@ -9,25 +10,14 @@ import { AnalyticsService } from 'src/app/services/analytics/analytics.service';
 })
 export class MoreProyectsComponent implements OnInit {
 
-  constructor(
-    private router: Router,
-    public analyticsService: AnalyticsService
-    ) { }
+    educations: Education[] = [];
 
-    ngOnInit() {
-        this.router.events.subscribe((evt) => {
-            if (!(evt instanceof NavigationEnd)) {
-                return;
-            }
-            window.scrollTo(0, 0)
-        });
-    }
-    redirect(route: string, event) {
-      const id = event.target.id;
-      if(id=='demoLink' || id=='ghLink'){
-        return
-      }
-      window.open(route, '_blank');
+    constructor(
+        private dataService: DataService,
+        public analyticsService: AnalyticsService) { }
+
+    ngOnInit(): void {
+        this.educations = this.dataService.educations;
     }
 
 }
