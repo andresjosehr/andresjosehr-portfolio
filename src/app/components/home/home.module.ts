@@ -11,7 +11,7 @@ import { ProficiencyComponent } from './proficiency/proficiency.component';
 import { NgbNavModule } from '@ng-bootstrap/ng-bootstrap';
 import { CarouselModule } from 'ngx-owl-carousel-o';
 import { HttpLoaderFactory } from '../general/httpLoaderFactory';
-import {MoreProyectsComponent} from './more-proyects/more-proyects.component';
+import {EducationComponent} from './education/education.component';
 
 
 
@@ -22,7 +22,7 @@ import {MoreProyectsComponent} from './more-proyects/more-proyects.component';
     AboutComponent,
     ExperienceComponent,
     ProficiencyComponent,
-    MoreProyectsComponent,
+    EducationComponent,
     ContactComponent
   ],
   imports: [

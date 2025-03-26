@@ -4,11 +4,11 @@ import {DataService} from '../../../services/data/data.service';
 import {Education} from '../../../model/education.model';
 
 @Component({
-  selector: 'app-more-proyects',
-  templateUrl: './more-proyects.component.html',
-  styleUrls: ['./more-proyects.component.scss']
+  selector: 'app-education',
+  templateUrl: './education.component.html',
+  styleUrls: ['./education.component.scss']
 })
-export class MoreProyectsComponent implements OnInit {
+export class EducationComponent implements OnInit {
 
     educations: Education[] = [];
 

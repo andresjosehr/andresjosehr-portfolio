@@ -4,27 +4,30 @@
       <div class="about-title mb-5" data-aos="fade-up" data-aos-duration="1000">
         <h3 class="e-font section-title">
           <span class="code-font n-section-title">03.</span>
-          {{ "Experience.Title" | translate }}
+          {{ "experience.title" | translate }}
         </h3>
       </div>
       <div class="jobs-tabs" data-aos="fade-up" data-aos-duration="1000">
         <ul ngbNav #nav="ngbNav" [(activeId)]="active" orientation="vertical"
             class="nav-tabs jobs-tabs">
-          <li *ngFor="let job of 'Experience.Jobs' | translate; let i = index"
-            [title]="job.Tab" [ngbNavItem]="i">
-            <a ngbNavLink>{{ job.Tab }}</a>
 
-            <ng-template ngbNavContent>
-              <h4 class="title-tab-content">{{ job.Title }}</h4>
-              <span class="company-tab-content">{{ job.Tab }}</span>
-              <h5 class="job-time">{{ job.Date }}</h5>
+          @for (experience of experienceList; track experience.id) {
+            <li [title]="experience.companyName" [ngbNavItem]="experience.id">
+              <a ngbNavLink>{{ experience.companyName | translate }}</a>
 
-              <p *ngFor="let jobDescriptionParagraph of job.Description; let i = index"
-                class="job-description"
-                [innerHTML]="jobDescriptionParagraph | translate" ></p>
-              <span></span>
-            </ng-template>
-          </li>
+              <ng-template ngbNavContent>
+                <h4 class="title-tab-content">{{ experience.companyName | translate }}</h4>
+                <span class="company-tab-content">{{ experience.title | translate }}</span>
+                <h5 class="job-time">{{ experience.date | translate }}</h5>
+
+                <p *ngFor="let jobDescriptionParagraph of experience.description; let i = index"
+                   class="job-description" [innerHTML]="jobDescriptionParagraph | translate" ></p>
+                <span></span>
+              </ng-template>
+            </li>
+
+          }
+
         </ul>
         <div [ngbNavOutlet]="nav" class="mt-2"></div>
       </div>

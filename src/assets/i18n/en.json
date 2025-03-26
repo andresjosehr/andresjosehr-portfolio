@@ -13,207 +13,155 @@
   "banner.action-btn": "Send me a Hi!",
 
   "about-me.title": "About Me",
-  "about-me.Paragraphs": [
-    "I describe myself as a developer who loves coding, open source, and the web platform. Currently I'm working at <span class='underline'>European Commission</span> as a IT Consulting with a role of <span class='underline'>Application/Cloud Architect</span> and founder of <span class='underline'>M2L Solutions</span>, my own I.T Company",
-    "I play a pivotal role in designing and implementing software solutions that meet business needs while ensuring scalability, security, and efficiency.",
-    "Experience in the full software development lifecycle, working with analysis, design, coding, and promotion into production, creating elegant solutions using Java, PHP, C#, HTML, CSS, JavaScript, Spring Boot, Angular, bootstrap and ElasticSearch.",
-    "Competence to jump between frontend and backend work, performing tests, integrations and process automation using REST APIs, handling multiple types of calls, returning different data formats and changing structurally, when necessary.",
-    "Ability to support ongoing business requirements, maintaining and enhancing existing systems, offering client-based experiences and applying strong problem-solving skills with a get it done attitude.",
-    "Expertise to work closely with Product Owners, Analysts and QA in an Agile environment to ensure quality and security of applications, and to ensure code meets development standards and guidelines.",
-    "Experience with reviewing the architecture of existing systems and designing the architecture of new ones, deciding on all the technical components of an application, acting as a liaison between the developers and the project leaders.",
-    "I like to study, music, games, movies and series. After my little ones I can´t find spare time for all of that, but when I do have time, I try to enjoy with my family."
-  ],
-  "Experience.Title": "Experience",
-  "Experience.Jobs": [
-    {
-      "Tab": "European Commission",
-      "Title": "Application/Cloud Architect / Software Developer",
-      "Date": "Jan 2020",
-      "Description": [
-        "Responsibility for coding.",
-        "Review of the architecture of the existing systems.",
-        "Design and architecture of new systems.",
-        "Performing Data analysis and data modelling.",
-        "Follow- up of the whole planning and deliverables.",
-        "Identify tools and equipment which are necessary to implement the project.",
-        "Give proposals for project strategies, planning, definition of tasks and deliverables, quality control, risk analysis and management, status reports, problem reporting and organisation.",
-        "Business Process Analysis.",
-        "Production of technical documents in relation to the architecture of the systems.",
-        "Participation in technical working groups, progress meetings & meetings with the project manager.",
-        "Create unit tests"
-      ],
-      "Technologies": ["Angular", "CSS GRID", "SASS", "Angular animations"],
-      "iconSet": ""
-    },
-    {
-      "Tab": "X-Testing",
-      "Title": "Fullstack Developer",
-      "Date": "December 2018 - December 2019",
-      "Description": [
-        "Responsibility for coding.",
-        "Review of the architecture of the existing systems.",
-        "Design and architecture of new systems.",
-        "Performing Data analysis and data modelling.",
-        "Follow- up of the whole planning and deliverables.",
-        "Identify tools and equipment which are necessary to implement the project.",
-        "Give proposals for project strategies, planning, definition of tasks and deliverables, quality control, risk analysis and management, status reports, problem reporting and organisation.",
-        "Business Process Analysis.",
-        "Production of technical documents in relation to the architecture of the systems.",
-        "Participation in technical working groups, progress meetings & meetings with the project manager.",
-        "Create unit tests"
-      ],
-      "Technologies": ["Angular", "CSS GRID", "SASS", "Angular animations"],
-      "iconSet": ""
-    },
-    {
-      "Tab": "Concessionary Bahia Norte",
-      "Title": "I.T coordinator",
-      "Date": "May 2015 - July 2018",
-      "Description": [
-        "<span class='underline'>#1</span> Project of a new toll plaza implementation, in which I was involved in all steps, from its conception, definition of technology, hardware and software, to be used.",
-        "It was included in the process:",
-        "Definition of infrastructure",
-        "Servers",
-        "Storages",
-        "FTV System",
-        "Access control",
-        "Data network",
-        "Radio communication.",
-        "<span class='underline'>#2</span> Development of tool in Java, JSF and mySQL, used to manager all contracts that the company have, in order to keep track of:",
-        "Finance",
-        "Period",
-        "Alert of invoices",
-        "Adjustments",
-        "Contract extensions."
-      ],
-      "Technologies": ["Angular", "CSS GRID", "SASS", "Angular animations"],
-      "iconSet": ""
-    },
-    {
-      "Tab": "Motiro Sistemas",
-      "Title": "Fullstack Developer",
-      "Date": "Jun 2015 - July 2017",
-      "Description": [
-        "Responsibility for coding.",
-        "Review of the architecture of the existing systems.",
-        "Design and architecture of new systems.",
-        "Performing Data analysis and data modelling.",
-        "Follow- up of the whole planning and deliverables.",
-        "Identify tools and equipment which are necessary to implement the project.",
-        "Give proposals for project strategies, planning, definition of tasks and deliverables, quality control, risk analysis and management, status reports, problem reporting and organisation.",
-        "Business Process Analysis.",
-        "Production of technical documents in relation to the architecture of the systems.",
-        "Participation in technical working groups, progress meetings & meetings with the project manager.",
-        "Create unit tests"
-      ],
-      "Technologies": ["Angular", "CSS GRID", "SASS", "Angular animations"],
-      "iconSet": ""
-    },
-    {
-      "Tab": "Solutis Tecnologias",
-      "Title": "Team Leader",
-      "Date": "November 2013 - April 2015",
-      "Description": [
-        "As a team leader, user support services were performed, maintaining the level of service above the agreed standards; We have maintained the entire company infrastructure including servers, telephony, networks (wired and wireless), storage, backup systems, contract management and technical decision support. All this to maintain the high standard required by <span class='underline'>FIFA 2014</span> for the holding of the world cup of football.",
-        "Responsibility of the management of the team.",
-        "Give proposals for project strategies, planning, definition of tasks and deliverables, quality control, risk analysis and management, status reports, problem reporting and management systems, follow up and organisation.",
-        "Participation in technical working groups, progress meetings & meetings with the users.",
-        "Maintain the SLA standard."
-      ],
-      "Technologies": ["Angular", "CSS GRID", "SASS", "Angular animations"],
-      "iconSet": ""
-    },
-    {
-      "Tab": "Concessionary Bahia Norte",
-      "Title": "Systems Analyst",
-      "Date": "May 2011 - October 2013",
-      "Description": [
-        "<span class='underline'>#1</span> Implementing the TOLL Plaza System, responsible to manager all companies toll plazas. The application is responsible of keeping track of all vehicles that passes; manager all incoming; detects the vehicle in order to discover difference between the ticket collector and what the sensors detected. Centralized all information's from all 5 plazas and all 96 lanes in a Manager level system (N3).",
-        "<span class='underline'>#2</span> Client manager system, responsible to manager all contracts that can use the automatic lane. Keeping track of all records in order to create the invoice with the correct amount based on client use.",
-        "<span class='underline'>#3</span> Track monitoring system, predicting the need for maintenance of sensors based on vehicle detection errors.",
-        "<span class='underline'>#4</span> System used by HR to execute the employee performance evaluation.",
-        "Evaluate the toll system being implemented and whether it meets the requirements requested by the company.",
-        "Testing to identify the maturity of the system, considering the criticality of the project.",
-        "Developed innovated solutions to meet the company's needs.",
-        "Business Process Analysis",
-        "Supported the company in strategic decisions of technology to be implemented"
-      ],
-      "Technologies": ["Angular", "CSS GRID", "SASS", "Angular animations"],
-      "iconSet": ""
-    },
-    {
-      "Tab": "Capgemini",
-      "Title": "Software Developer",
-      "Date": "Jun 2009 - April 2011",
-      "Description": [
-        "Maintenance of the system responsible for the administration of the entrance exam and competitions conducted by the Federal University of Bahia.",
-        "Responsibility for coding.",
-        "Follow- up of the whole planning and deliverables.",
-        "Identify tools and equipment which are necessary to implement the project",
-        "Business Process Analysis",
-        "Give proposals for project strategies, planning, definition of tasks and deliverables, quality control, risk analysis and management, status reports, problem reporting and organisation.",
-        "Participation in technical working groups, progress meetings & meetings with the project manager."
-      ],
-      "Technologies": ["Angular", "CSS GRID", "SASS", "Angular animations"],
-      "iconSet": ""
-    },
-    {
-      "Tab": "Capgemini",
-      "Title": "Network Administrator",
-      "Date": "Jun 2009 - April 2011",
-      "Description": [
-        "Implementation of optical fiber implantation in university. With the change of core of the company, it was necessary to carry out the change of routing and exchange of fiber pair for the new main switch of the University. Project of great importance because it increases the bandwidth, delivering the required by the technology of the time.",
-        "Installing and configuring network appliances.",
-        "Identifying and solving any problems that arise with computer networks and systems.",
-        "Consulting with clients to specify system requirements and design solutions",
-        "Assembling new systems",
-        "Maintaining existing software and hardware and upgrading any that have become obsolete.",
-        "Monitoring computer networks and systems to identify how performance can be improved.",
-        "Working as IT support helping users.",
-        "Providing network administration and support."
-      ],
-      "Technologies": ["Angular", "CSS GRID", "SASS", "Angular animations"],
-      "iconSet": ""
-    },
-    {
-      "Tab": "Santo Antônio School",
-      "Title": "Web designer",
-      "Date": "February 2006 - December 2004",
-      "Description": [
-        "Development of the institutional webpage of the College Santo Antônio.",
-        "Developed a new webpage for the school, using new technologies. I used  HTML with JavaScript and Flash for animations.",
-        "Created an administration page, so that the teachers can be able to publish photos of activities, make all events public for visitors.",
-        "Technical support to teachers, students and employees, provided help/solutions to all problems related to I.T."
-      ],
-      "Technologies": ["Angular", "CSS GRID", "SASS", "Angular animations"],
-      "iconSet": ""
-    }
-  ],
+  "about-me.description-01": "I describe myself as a developer who loves coding, open source, and the web platform. Currently I'm working at <span class='underline'>European Commission</span> as a IT Consulting with a role of <span class='underline'>Application/Cloud Architect</span> and founder of <span class='underline'>M2L Solutions</span>, my own I.T Company",
+  "about-me.description-02": "I play a pivotal role in designing and implementing software solutions that meet business needs while ensuring scalability, security, and efficiency.",
+  "about-me.description-03": "Experience in the full software development lifecycle, working with analysis, design, coding, and promotion into production, creating elegant solutions using Java, PHP, C#, HTML, CSS, JavaScript, Spring Boot, Angular, bootstrap and ElasticSearch.",
+  "about-me.description-04": "Competence to jump between frontend and backend work, performing tests, integrations and process automation using REST APIs, handling multiple types of calls, returning different data formats and changing structurally, when necessary.",
+  "about-me.description-05": "Ability to support ongoing business requirements, maintaining and enhancing existing systems, offering client-based experiences and applying strong problem-solving skills with a get it done attitude.",
+  "about-me.description-06": "Expertise to work closely with Product Owners, Analysts and QA in an Agile environment to ensure quality and security of applications, and to ensure code meets development standards and guidelines.",
+  "about-me.description-07": "Experience with reviewing the architecture of existing systems and designing the architecture of new ones, deciding on all the technical components of an application, acting as a liaison between the developers and the project leaders.",
+  "about-me.description-08":  "I like to study, music, games, movies and series. After my little ones I can´t find spare time for all of that, but when I do have time, I try to enjoy with my family.",
+
+  "experience.title": "Experience",
+
+  "experience.01.company-name": "European Commission",
+  "experience.01.title": "Application/Cloud Architect / Software Developer",
+  "experience.01.date": "Jan 2020 - current",
+  "experience.01.description-01": "Responsibility for coding.",
+  "experience.01.description-02": "Review of the architecture of the existing systems.",
+  "experience.01.description-03": "Design and architecture of new systems.",
+  "experience.01.description-04": "Performing Data analysis and data modelling.",
+  "experience.01.description-05": "Follow- up of the whole planning and deliverables.",
+  "experience.01.description-06": "Identify tools and equipment which are necessary to implement the project.",
+  "experience.01.description-07": "Give proposals for project strategies, planning, definition of tasks and deliverables, quality control, risk analysis and management, status reports, problem reporting and organisation.",
+  "experience.01.description-08": "Business Process Analysis.",
+  "experience.01.description-09": "Production of technical documents in relation to the architecture of the systems.",
+  "experience.01.description-10": "Participation in technical working groups, progress meetings & meetings with the project manager.",
+  "experience.01.description-11": "Create unit tests",
+
+  "experience.02.company-name": "X-Testing",
+  "experience.02.title": "Fullstack Developer",
+  "experience.02.date": "December 2018 - December 2019",
+  "experience.02.description-01": "Responsibility for coding.",
+  "experience.02.description-02": "Review of the architecture of the existing systems.",
+  "experience.02.description-03": "Design and architecture of new systems.",
+  "experience.02.description-04": "Performing Data analysis and data modelling.",
+  "experience.02.description-05": "Follow- up of the whole planning and deliverables.",
+  "experience.02.description-06": "Identify tools and equipment which are necessary to implement the project.",
+  "experience.02.description-07": "Give proposals for project strategies, planning, definition of tasks and deliverables, quality control, risk analysis and management, status reports, problem reporting and organisation.",
+  "experience.02.description-08": "Business Process Analysis.",
+  "experience.02.description-09": "Production of technical documents in relation to the architecture of the systems.",
+  "experience.02.description-10": "Participation in technical working groups, progress meetings & meetings with the project manager.",
+  "experience.02.description-11": "Create unit tests",
+
+  "experience.03.company-name": "Concessionary Bahia Norte",
+  "experience.03.title": "I.T coordinator",
+  "experience.03.date": "May 2015 - July 2018",
+  "experience.03.description-01": "<span class='underline'>#1</span> Project of a new toll plaza implementation, in which I was involved in all steps, from its conception, definition of technology, hardware and software, to be used.",
+  "experience.03.description-02": "It was included in the process:",
+  "experience.03.description-03": "Definition of infrastructure",
+  "experience.03.description-04": "Servers",
+  "experience.03.description-05": "Storages",
+  "experience.03.description-06":  "FTV System",
+  "experience.03.description-07": "Access control",
+  "experience.03.description-08": "Data network",
+  "experience.03.description-09":  "Radio communication.",
+  "experience.03.description-10":  "<span class='underline'>#2</span> Development of tool in Java, JSF and mySQL, used to manager all contracts that the company have, in order to keep track of:",
+  "experience.03.description-11": "Finance",
+  "experience.03.description-12": "Period",
+  "experience.03.description-13": "Alert of invoices",
+  "experience.03.description-14": "Adjustments",
+  "experience.03.description-15": "Contract extensions.",
+
+  "experience.04.company-name": "Motiro Sistemas",
+  "experience.04.title": "Fullstack Developer",
+  "experience.04.date": "Jun 2015 - July 2017",
+
+  "experience.04.description-01": "Responsibility for coding.",
+  "experience.04.description-02": "Review of the architecture of the existing systems.",
+  "experience.04.description-03": "Design and architecture of new systems.",
+  "experience.04.description-04": "Performing Data analysis and data modelling.",
+  "experience.04.description-05": "Follow- up of the whole planning and deliverables.",
+  "experience.04.description-06": "Identify tools and equipment which are necessary to implement the project.",
+  "experience.04.description-07": "Give proposals for project strategies, planning, definition of tasks and deliverables, quality control, risk analysis and management, status reports, problem reporting and organisation.",
+  "experience.04.description-08": "Business Process Analysis.",
+  "experience.04.description-09": "Production of technical documents in relation to the architecture of the systems.",
+  "experience.04.description-10": "Participation in technical working groups, progress meetings & meetings with the project manager.",
+  "experience.04.description-11": "Create unit tests",
+
+  "experience.05.company-name": "Solutis Tecnologias",
+  "experience.05.title": "Team Leader",
+  "experience.05.date": "November 2013 - April 2015",
+
+  "experience.05.description-01": "As a team leader, user support services were performed, maintaining the level of service above the agreed standards; We have maintained the entire company infrastructure including servers, telephony, networks (wired and wireless), storage, backup systems, contract management and technical decision support. All this to maintain the high standard required by <span class='underline'>FIFA 2014</span> for the holding of the world cup of football.",
+  "experience.05.description-02": "Responsibility of the management of the team.",
+  "experience.05.description-03": "Give proposals for project strategies, planning, definition of tasks and deliverables, quality control, risk analysis and management, status reports, problem reporting and management systems, follow up and organisation.",
+  "experience.05.description-04": "Participation in technical working groups, progress meetings & meetings with the users.",
+  "experience.05.description-05": "Maintain the SLA standard.",
+
+  "experience.06.company-name": "Concessionary Bahia Norte",
+  "experience.06.title": "Systems Analyst",
+  "experience.06.date": "May 2011 - October 2013",
+
+  "experience.06.description-01": "<span class='underline'>#1</span> Implementing the TOLL Plaza System, responsible to manager all companies toll plazas. The application is responsible of keeping track of all vehicles that passes; manager all incoming; detects the vehicle in order to discover difference between the ticket collector and what the sensors detected. Centralized all information's from all 5 plazas and all 96 lanes in a Manager level system (N3).",
+  "experience.06.description-02": "<span class='underline'>#2</span> Client manager system, responsible to manager all contracts that can use the automatic lane. Keeping track of all records in order to create the invoice with the correct amount based on client use.",
+  "experience.06.description-03": "<span class='underline'>#3</span> Track monitoring system, predicting the need for maintenance of sensors based on vehicle detection errors.",
+  "experience.06.description-04": "<span class='underline'>#4</span> System used by HR to execute the employee performance evaluation.",
+  "experience.06.description-05": "Evaluate the toll system being implemented and whether it meets the requirements requested by the company.",
+  "experience.06.description-06": "Testing to identify the maturity of the system, considering the criticality of the project.",
+  "experience.06.description-07": "Developed innovated solutions to meet the company's needs.",
+  "experience.06.description-08": "Business Process Analysis",
+  "experience.06.description-09": "Supported the company in strategic decisions of technology to be implemented",
+
+  "experience.07.company-name": "Capgemini",
+  "experience.07.title": "Software Developer",
+  "experience.07.date": "Jun 2009 - April 2011",
+
+  "experience.07.description-01": "Maintenance of the system responsible for the administration of the entrance exam and competitions conducted by the Federal University of Bahia.",
+  "experience.07.description-02": "Responsibility for coding.",
+  "experience.07.description-03": "Follow- up of the whole planning and deliverables.",
+  "experience.07.description-04": "Identify tools and equipment which are necessary to implement the project",
+  "experience.07.description-05": "Business Process Analysis",
+  "experience.07.description-06": "Give proposals for project strategies, planning, definition of tasks and deliverables, quality control, risk analysis and management, status reports, problem reporting and organisation.",
+  "experience.07.description-07": "Participation in technical working groups, progress meetings & meetings with the project manager.",
+
+  "experience.08.company-name": "Capgemini",
+  "experience.08.title": "Network Administrator",
+  "experience.08.date": "Jun 2006 - April 2009",
+
+  "experience.08.description-01": "Implementation of optical fiber implantation in university. With the change of core of the company, it was necessary to carry out the change of routing and exchange of fiber pair for the new main switch of the University. Project of great importance because it increases the bandwidth, delivering the required by the technology of the time.",
+  "experience.08.description-02": "Installing and configuring network appliances.",
+  "experience.08.description-03": "Identifying and solving any problems that arise with computer networks and systems.",
+  "experience.08.description-04": "Consulting with clients to specify system requirements and design solutions",
+  "experience.08.description-05": "Assembling new systems",
+  "experience.08.description-06": "Maintaining existing software and hardware and upgrading any that have become obsolete.",
+  "experience.08.description-07": "Monitoring computer networks and systems to identify how performance can be improved.",
+  "experience.08.description-08": "Working as IT support helping users.",
+  "experience.08.description-09": "Providing network administration and support.",
+
+  "experience.09.company-name": "Santo Antônio School",
+  "experience.09.title": "Web designer",
+  "experience.09.date": "February 2004 - December 2004",
+
+  "experience.09.description-01": "Development of the institutional webpage of the College Santo Antônio.",
+  "experience.09.description-02": "Developed a new webpage for the school, using new technologies. I used  HTML with JavaScript and Flash for animations.",
+  "experience.09.description-03": "Created an administration page, so that the teachers can be able to publish photos of activities, make all events public for visitors.",
+  "experience.09.description-04": "Technical support to teachers, students and employees, provided help/solutions to all problems related to I.T.",
+
 
   "education.title": "Education",
-  "Education.Educations": [
-    {
-      "Title": "Graduated in Computer Science",
-      "Date": "January 2020",
-      "Description": [
-        "Graduated since 2006, at Faculty of Technology and Science of Feira de Santana - Bahia"
-      ]
-    },
-    {
-      "Title": "Lato Sensu in Software Engineering",
-      "Date": "December 2018 - December 2019",
-      "Description": [
-        "Concluded in 2014, the specialization in Software engineering at Ruy Barbosa University."
-      ]
-    },
-    {
-      "Title": "MBA in Project Management",
-      "Date": "May 2015 - July 2018",
-      "Description": [
-        "Not complete course of Graduated Business degree at Faculdade Ruy Barbosa, at Salvador Bahia."
-        ]
-    }
-  ],
+  "education.01.title": "Graduated in Computer Science",
+  "education.01.date": "January 2002 - Jun 2006",
+  "education.01.description": "Graduated since 2006, at Faculty of Technology and Science of Feira de Santana - Bahia",
+
+  "education.02.title": "Lato Sensu in Software Engineering",
+  "education.02.date": "January 2012 - Jun 2014",
+  "education.02.description": "Concluded in 2014, the specialization in Software engineering at Ruy Barbosa University.",
+
+  "education.03.title": "MBA in Project Management",
+  "education.03.date": "May 2015 - July 2016",
+  "education.03.description": "Not complete course of Graduated Business degree at Ruy Barbosa University, at Salvador Bahia.",
+
   "FeatureProjects.Title": "Proficiency",
   "OtherProjects.Title": "More Projects",
   "OtherProjects.Projects": [
@@ -272,5 +220,37 @@
   "label.proficiency.databases": "Databases",
   "label.proficiency.os": "Operational System",
   "label.proficiency.network": "Network",
-  "label.proficiency.language": "Language"
+  "label.proficiency.language": "Language",
+
+  "label.proficiency.java": "Java",
+  "label.proficiency.cSharp": "C#",
+  "label.proficiency.spring": "Spring",
+  "label.proficiency.html": "HTML",
+  "label.proficiency.angular": "Angular",
+  "label.proficiency.ionic": "Ionic",
+  "label.proficiency.css": "CSS & SCSS",
+  "label.proficiency.typeScript": "TypeScript",
+
+  "label.proficiency.oracle": "Oracle",
+  "label.proficiency.mysql": "MySQL",
+  "label.proficiency.postgres": "PostgreSQL",
+  "label.proficiency.maria-db": "MariaDB",
+  "label.proficiency.mongo-db": "MongoDB",
+  "label.proficiency.redis": "Redis",
+  "label.proficiency.other-sql": "Others SQL and NoSQL",
+
+  "label.proficiency.windows": "Windows",
+  "label.proficiency.linux": "Linux",
+  "label.proficiency.macos": "MacOS",
+
+  "label.proficiency.cisco": "Cisco",
+  "label.proficiency.extreme": "Extreme",
+  "label.proficiency.juniper": "Juniper",
+  "label.proficiency.d-link": "D-Link",
+
+  "label.proficiency.portuguese": "Portuguese (Native) ",
+  "label.proficiency.english": "English",
+  "label.proficiency.french": "French",
+  "label.proficiency.dutch": "Dutch"
+
 }
