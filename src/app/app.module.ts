@@ -1,6 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeModule } from './components/home/home.module';
@@ -30,7 +29,6 @@ import { HttpLoaderFactory } from './components/general/httpLoaderFactory';
         ServiceWorkerModule.register('ngsw-worker.js', {
             enabled: environment.production,
         }),
-        // NgxGoogleAnalyticsModule.forRoot(environment.trackAnalyticID),
         TranslateModule.forRoot({
             loader: {
                 provide: TranslateLoader,

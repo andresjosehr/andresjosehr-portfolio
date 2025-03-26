@@ -1,10 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import * as AOS from 'aos';
 import { Title, Meta } from '@angular/platform-browser';
-import { TranslateService } from '@ngx-translate/core';
-import {LanguageService} from "src/app/services/language/language.service"
-import { Location } from '@angular/common';
-import { Router } from '@angular/router';
+import {LanguageService} from 'src/app/services/language/language.service';
+
 
 @Component({
   selector: 'app-root',
@@ -21,17 +19,14 @@ export class AppComponent implements OnInit{
     ){
     }
   ngOnInit(): void{
-
     this.languageService.initLanguage();
-
 
     this.titleService.setTitle('Marcel Luna @ M2L Solutions | FullStack Developer');
 
     this.metaService.addTags([
       {name: 'keywords', content: 'fullstack, software, developer, java, angular, css'},
-      {name: 'description', content: 'Con 4 años de experiencia desarrollando sistemas, interfaces, bots y soluciones tecnológicas  para hacer de la web un lugar mejor. En mi trabajo me gusta liderar, proponer y ejecutar ideas, escribir y refactorizar código limpio, reutilizable y escalable.'},
+      {name: 'description', content: 'I have more then 13 years of experience in IT with a Bachelor\'s Degree in Computer Science and specialization in software engineer but I\'m self-taught and like to apply new technologies when they are mature enough and it\'s the best fit for the project.'},
     ]);
-
 
     AOS.init();
 

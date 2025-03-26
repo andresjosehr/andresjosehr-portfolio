@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import {Router} from '@angular/router';
 import {trigger, style, animate, transition, stagger, query } from '@angular/animations';
-import { AnalyticsService } from 'src/app/services/analytics/analytics.service';
 
 @Component({
   selector: 'app-banner',
@@ -25,10 +25,15 @@ import { AnalyticsService } from 'src/app/services/analytics/analytics.service';
 export class BannerComponent implements OnInit {
 
   constructor(
-    public analyticsService: AnalyticsService
+    private router: Router,
   ) { }
 
   ngOnInit(): void {
+  }
+
+  sayHi(): void {
+    const contact: string = 'contact';
+    this.router.navigate(['/home']).then(() => document.getElementById(contact).scrollIntoView({behavior: 'smooth'}));
   }
 
 }

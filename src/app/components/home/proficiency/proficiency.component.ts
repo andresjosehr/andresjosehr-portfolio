@@ -1,6 +1,5 @@
 import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
 import { OwlOptions } from 'ngx-owl-carousel-o';
-import { AnalyticsService } from 'src/app/services/analytics/analytics.service';
 
 @Component({
   selector: 'app-proficiency',
@@ -22,10 +21,9 @@ export class ProficiencyComponent implements OnInit {
 
   @ViewChild('imgContainer') imgContainer: ElementRef;
 
-  proficiencyList: string[] = [""]
+  proficiencyList: string[] = [''];
 
   constructor(
-    public analyticsService: AnalyticsService
   ) { }
 
   ngOnInit(): void {

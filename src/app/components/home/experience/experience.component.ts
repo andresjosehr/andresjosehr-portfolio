@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { AnalyticsService } from 'src/app/services/analytics/analytics.service';
 import {DataService} from '../../../services/data/data.service';
 import {Experience} from '../../../model/experience.model';
 
@@ -14,7 +13,6 @@ export class ExperienceComponent implements OnInit {
   experienceList: Experience[];
 
   constructor(
-    public analyticsService: AnalyticsService,
     private dataService: DataService,
   ) { }
 

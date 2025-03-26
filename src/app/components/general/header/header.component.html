@@ -4,24 +4,24 @@
             <img src='assets/images/ml-logo.png' width='25' />
         </a>
         <ul ngbNav #nav="ngbNav" class="menu-ul">
-            <li ngbNavItem (click)='analyticsService.sendAnalyticEvent("click_about", "menu", "click")'>
-                <a ngbNavLink (click)='scroll("about")'><span class='nav-number'>01. </span> <span class="underline nav-text"> {{"Header.Item1" | translate}}</span></a>
+            <li ngbNavItem>
+                <a ngbNavLink (click)='scroll("about")'><span class='nav-number'>01. </span> <span class="underline nav-text"> {{"header.item1" | translate}}</span></a>
                 <ng-template ngbNavContent>First content</ng-template>
             </li>
-            <li ngbNavItem (click)='analyticsService.sendAnalyticEvent("click_education", "menu", "click")'>
-                <a ngbNavLink (click)='scroll("education")'><span class='nav-number'>02. </span> <span class="underline nav-text"> {{"Header.Item2" | translate}}</span></a>
+            <li ngbNavItem>
+                <a ngbNavLink (click)='scroll("education")'><span class='nav-number'>02. </span> <span class="underline nav-text"> {{"header.item2" | translate}}</span></a>
                 <ng-template ngbNavContent>Second content</ng-template>
             </li>
-            <li ngbNavItem (click)='analyticsService.sendAnalyticEvent("click_expirience", "menu", "click")'>
-                <a ngbNavLink (click)='scroll("experience")'><span class='nav-number'>03. </span> <span class="underline nav-text"> {{"Header.Item3" | translate}}</span></a>
+            <li ngbNavItem>
+                <a ngbNavLink (click)='scroll("experience")'><span class='nav-number'>03. </span> <span class="underline nav-text"> {{"header.item3" | translate}}</span></a>
                 <ng-template ngbNavContent>Second content</ng-template>
             </li>
-            <li ngbNavItem (click)='analyticsService.sendAnalyticEvent("click_contact", "menu", "click")'>
-                <a ngbNavLink (click)='scroll("proficiency")'><span class='nav-number'>04. </span> <span class="underline nav-text"> {{"Header.Item4" | translate}}</span></a>
+            <li ngbNavItem>
+                <a ngbNavLink (click)='scroll("proficiency")'><span class='nav-number'>04. </span> <span class="underline nav-text"> {{"header.item4" | translate}}</span></a>
                 <ng-template ngbNavContent>Second content</ng-template>
             </li>
-            <li ngbNavItem (click)='analyticsService.sendAnalyticEvent("click_contact", "menu", "click")'>
-              <a ngbNavLink (click)='scroll("contact")'><span class='nav-number'>05. </span> <span class="underline nav-text"> {{"Header.Item5" | translate}}</span></a>
+            <li ngbNavItem>
+              <a ngbNavLink (click)='scroll("contact")'><span class='nav-number'>05. </span> <span class="underline nav-text"> {{"header.item5" | translate}}</span></a>
               <ng-template ngbNavContent>Second content</ng-template>
             </li>
 <!--            <li ngbNavItem (click)='analyticsService.sendAnalyticEvent("click_contact", "menu", "click")'>-->
@@ -30,7 +30,7 @@
 <!--            </li>-->
             <li ngbNavItem>
                 <a (click)="downloadCV()" class="main-btn cv-btn" ngbNavLink>
-                  {{"Header.cvBtn" | translate}}
+                  {{"header.cv-btn" | translate}}
                 </a>
             </li>
             <li>
@@ -69,29 +69,34 @@
             <aside [class.aside-show]='responsiveMenuVisible' [class.nav-shadow]='this.pageYPosition>0' class="on-top">
                 <nav>
                     <ol>
-                        <li (click)='analyticsService.sendAnalyticEvent("click_about", "menu", "click")'>
+                        <li>
                             <a (click)='scroll("about")'>
-                                <span>01. </span> {{"Header.Item1" | translate}}
+                                <span>01. </span> {{"header.item1" | translate}}
                             </a>
                         </li>
-                        <li (click)='analyticsService.sendAnalyticEvent("click_experience", "menu", "click")'>
-                            <a (click)='scroll("jobs")'>
-                                <span>02. </span> {{"Header.Item2" | translate}}
+                        <li>
+                            <a (click)='scroll("education")'>
+                                <span>02. </span> {{"header.item2" | translate}}
                             </a>
                         </li>
-                        <li (click)='analyticsService.sendAnalyticEvent("click_jobs", "menu", "click")'>
-                          <a (click)='scroll("proyects")'>
-                              <span>03. </span> {{"Header.Item3" | translate}}
+                        <li>
+                          <a (click)='scroll("experience")'>
+                              <span>03. </span> {{"header.item3" | translate}}
                           </a>
                       </li>
-                      <li (click)='analyticsService.sendAnalyticEvent("click_contact", "menu", "click")'>
-                        <a (click)='scroll("proyects")'>
-                            <span>04. </span> {{"Header.Item4" | translate}}
+                      <li>
+                        <a (click)='scroll("proficiency")'>
+                            <span>04. </span> {{"header.item4" | translate}}
+                        </a>
+                      </li>
+                      <li>
+                        <a (click)='scroll("contact")'>
+                          <span>04. </span> {{"header.item5" | translate}}
                         </a>
                       </li>
                       <li>
                           <a (click)="downloadCV()" class="main-btn cv-btn">
-                            {{"Header.cvBtn" | translate}}
+                            {{"header.cv-btn" | translate}}
                           </a>
                       </li>
                       <li>

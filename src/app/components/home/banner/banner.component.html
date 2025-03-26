@@ -6,7 +6,7 @@
                     <h1>{{ 'banner.pre-title' | translate}}</h1>
                 </div>
                 <div class='banner-title'>
-                    <h2>Marcel Luna.</h2>
+                    <h2>Marcel Morais Luna</h2>
                     <h3>FullStack Developer</h3>
                 </div>
                 <div class='banner-description'>
@@ -14,7 +14,7 @@
                 </div>
             </div>
             <div class="div-btn-banner">
-                <a (click)='analyticsService.sendAnalyticEvent("click_send_mail", "banner", "email")' href="mailto:marcel@marcelluna.com" target="_black" class="main-btn">
+                <a (click)="sayHi()" target="_black" class="main-btn">
                     {{ 'banner.action-btn' | translate}}
                 </a>
             </div>

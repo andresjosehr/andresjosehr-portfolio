@@ -13,9 +13,7 @@
         {{ 'contact.content' | translate }}
       </p>
       <div class="mt-5">
-        <a
-          (click)=" analyticsService.sendAnalyticEvent( 'click_send_mail', 'contact', 'email')"
-          href="mailto:marcel@marcelluna.com" target="_blank" class="main-btn" data-aos="fade-up" data-aos-duration="1000">
+        <a href="mailto:marcel@marcelluna.com" target="_blank" class="main-btn" data-aos="fade-up" data-aos-duration="1000">
           {{ 'contact.btn' | translate }}
         </a>
       </div>
