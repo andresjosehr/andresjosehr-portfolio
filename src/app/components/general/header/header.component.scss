@@ -1,8 +1,8 @@
-@import "./../../../../variables.scss";
+@use "./../../../../variables.scss";
 .main-navbar {
     height: 70px;
-    background: $Navy;
-    font-family: $CodeFont;
+    background: variables.$Navy;
+    font-family: variables.$CodeFont;
     .menu-ul{
       li{
         margin: 0px 13px;
@@ -64,12 +64,12 @@
         -webkit-box-align: center;
         align-items: center;
         flex-direction: column;
-        background-color: $LightNavy;
+        background-color: variables.$LightNavy;
         height: 100%;
         position: relative;
         right: -625px;
         margin-left: auto;
-        font-family: $CodeFont;
+        font-family: variables.$CodeFont;
         box-shadow: rgba(2, 12, 27, 0.7) -10px 0px 30px -15px;
         padding: 25px;
         transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
@@ -82,7 +82,7 @@
             width: 100%;
             flex-direction: column;
             text-align: center;
-            color: $LightestSlate;
+            color: variables.$LightestSlate;
             ol {
                 width: 100%;
                 padding: 0px;
@@ -93,7 +93,7 @@
                     margin: 0px auto 10px;
                     span {
                         display: block;
-                        color: $Green;
+                        color: variables.$Green;
                         font-size: 14px;
                         margin-bottom: 5px;
                     }
@@ -121,15 +121,15 @@
         margin: 0px;
         font-size: 13px;
         &:hover {
-            color: $Green;
+            color: variables.$Green;
         }
     }
     .nav-number {
-        color: $Green;
+        color: variables.$Green;
         font-size: 12px;
     }
     .nav-text{
-      color: $LightestSlate !important;
+      color: variables.$LightestSlate !important;
       padding-bottom: 4px;
     }
     .menu-wrapper {
@@ -150,14 +150,14 @@
         .hamburger-menu {
             position: relative;
             transform: translateY(25px);
-            background: $Green;
+            background: variables.$Green;
             transition: all 0ms 300ms;
             &:before {
                 content: "";
                 position: absolute;
                 left: 0;
                 bottom: 8px;
-                background: $Green;
+                background: variables.$Green;
                 transition: bottom 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms cubic-bezier(0.23, 1, 0.32, 1);
             }
             &:after {
@@ -165,7 +165,7 @@
                 position: absolute;
                 left: 0;
                 top: 8px;
-                background: $Green;
+                background: variables.$Green;
                 transition: top 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms cubic-bezier(0.23, 1, 0.32, 1);
             }
             &.animate {
@@ -230,7 +230,7 @@
     color: inherit;
     margin: 0 10px;
     font-size: 13px;
-    font-family: $CodeFont;
+    font-family: variables.$CodeFont;
 }
 
 .language-container {
@@ -262,18 +262,6 @@
     background: #172a45 !important;
 }
 
-// .language-container-selector.active:after {
-//     content: " ";
-//     background: #58e2c4;
-//     width: 61%;
-//     height: 1px;
-//     position: absolute;
-//     border-radius: 10px;
-//     left: 0;
-//     right: 0;
-//     margin: auto;
-//     margin-top: 21px;
-// }
 .arrow-language {
     font-size: 10px;
     height: 10px;

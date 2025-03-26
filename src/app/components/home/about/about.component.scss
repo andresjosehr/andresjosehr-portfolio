@@ -1,4 +1,4 @@
-@import "./../../../../variables.scss";
+@use "./../../../../variables.scss";
 
 .about{
     .about-description{
@@ -10,7 +10,7 @@
         margin: auto;
         &:after{
             content: '';
-            border: 2px solid $Green;
+            border: 2px solid variables.$Green;
             z-index: 0;
             display: block;
             position: relative;

@@ -1,4 +1,4 @@
-@import "./../../../../variables.scss";
+@use "./../../../../variables.scss";
 
 
 ::ng-deep .jobs .jobs-tabs {
@@ -11,14 +11,14 @@
         border: none;
     }
     a.active{
-        background-color: $LightNavy !important;
-        color: $Green !important;
+        background-color: variables.$LightNavy !important;
+        color: variables.$Green !important;
         border-color: transparent !important;
         border-radius: 0px;
     }
     a:hover{
-        background-color: $LightNavy !important;
-        color: $Green !important;
+        background-color: variables.$LightNavy !important;
+        color: variables.$Green !important;
         border-color: transparent !important;
         border-radius: 0px;
     }
@@ -49,12 +49,12 @@
         transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
         text-align: left;
         white-space: nowrap;
-        font-family: $CodeFont;
+        font-family: variables.$CodeFont;
         font-size: 13px;
-        color: $Slate;
+        color: variables.$Slate;
     }
     li{
-        border-left: 2px solid $LightestNavy;
+        border-left: 2px solid variables.$LightestNavy;
         border-left-width: 2px;
         border-left-style: solid;
         border-left-color: rgb(48, 60, 85);
@@ -65,24 +65,24 @@
     max-width: 700px;
     margin: auto;
     .title-tab-content{
-        color: $LightestSlate;
+        color: variables.$LightestSlate;
         font-size: 22px;
         font-weight: 500;
         margin-bottom: 5px;
 
         .company-tab-content{
-            color: $Green;
+            color: variables.$Green;
         }
     }
     .job-time{
-        font-family: $CodeFont;
+        font-family: variables.$CodeFont;
         font-size: 13px;
         font-weight: normal;
         -webkit-letter-spacing: 0.05em;
         -moz-letter-spacing: 0.05em;
         -ms-letter-spacing: 0.05em;
         letter-spacing: 0.05em;
-        color: $LightSlate;
+        color: variables.$LightSlate;
         margin-bottom: 30px;
     }
     .job-description{
@@ -94,7 +94,7 @@
             content: '▹';
             position: absolute;
             left: 0;
-            color: $Green;
+            color: variables.$Green;
         }
     }
 }

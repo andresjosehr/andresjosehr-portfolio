@@ -1,4 +1,4 @@
-@import "./../../../../variables.scss";
+@use "./../../../../variables.scss";
 .skills-list{
   display: grid;
   grid-template-columns: repeat(2,minmax(140px,200px));
@@ -12,8 +12,8 @@
   margin-bottom: 10px;
   padding-left: 20px;
   font-size: 13px;
-  font-family: $CodeFont;
-  color: $Slate;
+  font-family: variables.$CodeFont;
+  color: variables.$Slate;
   span{
     padding-bottom: 5px;
   }
@@ -21,7 +21,7 @@
     content: '▹';
     position: absolute;
     left: 0;
-    color: $Green;
+    color: variables.$Green;
     font-size: 14px;
     line-height: 12px;
   }

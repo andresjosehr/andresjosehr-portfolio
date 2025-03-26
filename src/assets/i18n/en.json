@@ -251,6 +251,10 @@
   "label.proficiency.portuguese": "Portuguese (Native) ",
   "label.proficiency.english": "English",
   "label.proficiency.french": "French",
-  "label.proficiency.dutch": "Dutch"
+  "label.proficiency.dutch": "Dutch",
+
+  "label.email": "Enter your e-mail",
+  "label.name": "Enter your name",
+  "label.message": "Enter your message"
 
 }

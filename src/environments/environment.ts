@@ -4,6 +4,8 @@
 
 export const environment = {
   production: false,
+  emailId: '52ad0f555e3cc621a646915035ad11e1',
+  emailTo: 'contact@marcelluna.com'
 };
 
 /*

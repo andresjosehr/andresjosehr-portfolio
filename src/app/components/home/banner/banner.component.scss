@@ -1,5 +1,5 @@
 
-@import "./../../../../variables.scss";
+@use "./../../../../variables.scss";
 
 .banner{
     min-height: 100vh;
@@ -18,20 +18,20 @@
                 margin: 0 0 20px 3px;
                 font-size: 16px;
                 font-weight: normal;
-                font-family: $CodeFont;
+                font-family: variables.$CodeFont;
             }
             h2, h3 {
                 font-weight: 600;
                 font-size: 80px;
                 line-height: 1.1;
                 margin: 0;
-                font-family: $MainFont;
+                font-family: variables.$MainFont;
             }
             h2{
-                color: $LightestSlate;
+                color: variables.$LightestSlate;
             }
             h3{
-                color: $Slate;
+                color: variables.$Slate;
             }
             .banner-description{
                 margin-bottom: 70px;

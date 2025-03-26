@@ -1,7 +1,7 @@
-@import "./../../../../variables.scss";
+@use "./../../../../variables.scss";
 
 footer{
-    color: $LightSlate;
+    color: variables.$LightSlate;
 
     .footer-left-bar:after, .footer-right-bar:after{
         content: '';
@@ -9,7 +9,7 @@ footer{
         width: 1px;
         height: 90px;
         margin: 0 auto;
-        background-color: $LightSlate;
+        background-color: variables.$LightSlate;
     }
 
     .footer-left-bar li, .footer-right-bar li{
@@ -24,7 +24,7 @@ footer{
 
         i{
             font-size: 19px;
-            color: $LightSlate;
+            color: variables.$LightSlate;
         }
 
         li{
@@ -47,7 +47,7 @@ footer{
         }
 
         a{
-            font-family: $CodeFont;
+            font-family: variables.$CodeFont;
             font-size: 12px;
             -webkit-letter-spacing: 0.1em;
             -moz-letter-spacing: 0.1em;
@@ -58,14 +58,14 @@ footer{
             writing-mode: vertical-rl;
             margin: 20px auto;
             padding: 10px;
-            color: $LightSlate;
+            color: variables.$LightSlate;
         }
     }
     .footer-credits{
-        font-family: $CodeFont;
+        font-family: variables.$CodeFont;
         font-size: 12px;
         line-height: 1;
-    
+
         position: absolute;
         margin: auto;
         left: 0;
@@ -73,7 +73,7 @@ footer{
         margin-top: -60px;
 
         a{
-            color: $LightSlate;
+            color: variables.$LightSlate;
             -webkit-transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
             transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
             transition-property: all;
@@ -83,7 +83,7 @@ footer{
 
             &:hover, &:focus {
                 text-decoration: none;
-                color: $Green;
+                color: variables.$Green;
             }
         }
     }

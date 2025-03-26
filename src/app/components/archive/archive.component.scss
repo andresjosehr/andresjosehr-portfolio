@@ -1,4 +1,4 @@
-@import "./../../../variables.scss";
+@use "./../../../variables.scss";
 
 .archive{
     margin: 0 auto;
@@ -13,21 +13,21 @@
         line-height: 1.1;
         margin: 0;
         font-weight: 600;
-        color: $LightestSlate;
+        color: variables.$LightestSlate;
         margin: 0 0 10px 0;
-        font-family: $MainFont;
+        font-family: variables.$MainFont;
     }
     .archive-subtitle{
-        color: $Green;
+        color: variables.$Green;
         margin: 0 0 20px 0;
         font-size: 16px;
-        font-family: $CodeFont;
+        font-family: variables.$CodeFont;
         font-weight: normal;
         line-height: 1.5;
     }
 
     .archive-table-container{
-        visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); 
+        visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
         transition: opacity 0.5s cubic-bezier(0.645, 0.045, 0.355, 1) 0.2s, transform 0.5s cubic-bezier(0.645, 0.045, 0.355, 1) 0.2s;
         margin: 100px -20px;
 
@@ -40,7 +40,7 @@
                 line-height: 1.5;
                 padding: 10px 20px;
             }
-            tbody{ 
+            tbody{
                 tr{
                     visibility: visible;
                     opacity: 1;
@@ -49,12 +49,12 @@
 
 
                     &:hover, &:focus {
-                        background-color: $LightNavy;
+                        background-color: variables.$LightNavy;
                     }
 
                     .proyect-date{
-                        color: $Green;
-                        font-family: $CodeFont;
+                        color: variables.$Green;
+                        font-family: variables.$CodeFont;
                         font-size: 16px;
                         font-weight: normal;
                         cursor: default;
@@ -65,14 +65,14 @@
 
                     .proyect-title{
                         padding-top: 15px;
-                        color: $LightestSlate;
+                        color: variables.$LightestSlate;
                         font-size: 20px;
                         font-weight: 700;
                         cursor: default;
                         line-height: 1.5;
                         padding: 10px 20px;
                     }
-                    
+
                     .proyect-company{
                         width: 15%;
                         padding-top: 15px;
@@ -83,18 +83,18 @@
                     }
                     .proyect-skills{
                         font-size: 12px;
-                        font-family: $CodeFont;
+                        font-family: variables.$CodeFont;
                         cursor: default;
                         line-height: 1.5;
                         padding: 10px 20px;
                     }
-                    
+
                     .proyect-links{
                         cursor: default;
                         line-height: 1.5;
                         padding: 10px 20px;
                     }
-                    
+
                     .separator{
                         margin: 0 5px;
                         display: inline-block;
@@ -110,7 +110,7 @@
         }
 
     }
-    
+
 }
 
 @media (max-width: 768px){

@@ -1,4 +1,6 @@
-@import "./variables.scss";
+@use "./variables.scss";
+/* Importing Bootstrap SCSS file. */
+@use "bootstrap/scss/bootstrap";
 
 body {
   margin: 0;
@@ -7,25 +9,25 @@ body {
   overflow-x: hidden;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
-  background-color: $Navy;
-  color: $Slate !important;
+  background-color: variables.$Navy;
+  color: variables.$Slate !important;
   line-height: 1.3;
-  font-family: $MainFont;
+  font-family: variables.$MainFont;
   font-size: 20px;
 }
 .section-box {
   padding: 130px 0;
 }
 .section {
-  background: $Navy;
+  background: variables.$Navy;
 }
 
 .code-font {
-  font-family: $CodeFont;
+  font-family: variables.$CodeFont;
 }
 
 .e-font {
-  font-family: $MainFont;
+  font-family: variables.$MainFont;
 }
 
 .section-title {
@@ -43,15 +45,15 @@ body {
   white-space: nowrap;
   font-size: 32px;
   font-weight: 600;
-  color: $LightestSlate;
-  font-family: $MainFont;
+  color: variables.$LightestSlate;
+  font-family: variables.$MainFont;
   margin: 0 0 10px 0;
 
   .n-section-title {
     margin-right: 10px;
-    font-family: $CodeFont;
+    font-family: variables.$CodeFont;
     font-weight: normal;
-    color: $Green;
+    color: variables.$Green;
     font-size: 20px;
     position: relative;
     bottom: 4px;
@@ -62,7 +64,7 @@ body {
     display: block;
     height: 1px;
     width: 300px;
-    background-color: $LightestNavy;
+    background-color: variables.$LightestNavy;
     position: relative;
     top: -5px;
     margin-left: 20px;
@@ -70,12 +72,12 @@ body {
 }
 
 .main-btn {
-  color: $Green;
+  color: variables.$Green;
   background-color: transparent;
-  border: 1px solid $Green;
+  border: 1px solid variables.$Green;
   border-radius: 3px;
   font-size: 13px;
-  font-family: $CodeFont;
+  font-family: variables.$CodeFont;
   line-height: 1;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -97,7 +99,7 @@ a {
 
   &:hover {
     text-decoration: none;
-    color: $Green;
+    color: variables.$Green;
   }
 }
 
@@ -109,7 +111,7 @@ p {
   text-decoration: none;
   display: inline-block;
   position: relative;
-  color: $Green !important;
+  color: variables.$Green !important;
 }
 .underline:after {
   background: none repeat scroll 0 0 transparent;
@@ -119,7 +121,7 @@ p {
   height: 1px;
   left: 50%;
   position: absolute;
-  background: $Green;
+  background: variables.$Green;
   transition: width 0.3s ease 0s, left 0.3s ease 0s;
   width: 0%;
 }
@@ -205,6 +207,3 @@ p {
     font-size: 18px;
   }
 }
-
-/* Importing Bootstrap SCSS file. */
-@import "bootstrap/scss/bootstrap";

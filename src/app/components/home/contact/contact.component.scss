@@ -1,4 +1,4 @@
-@import "./../../../../variables.scss";
+@use "./../../../../variables.scss";
 
 .contact{
 
@@ -29,7 +29,7 @@
         white-space: nowrap;
         font-size: 60px;
         font-weight: 600;
-        color: $LightestSlate;
+        color: variables.$LightestSlate;
         margin: auto;
         width: fit-content;
     }
@@ -48,9 +48,9 @@
         white-space: nowrap;
         font-size: 32px;
         display: block;
-        color: $Green;
+        color: variables.$Green;
         font-size: 16px;
-        font-family: $CodeFont;
+        font-family: variables.$CodeFont;
         font-weight: normal;
         margin-bottom: 20px;
         -webkit-box-pack: center;
@@ -62,8 +62,27 @@
 
 }
 
+.form-control {
+  background-color: #172a45;
+  border-color: variables.$Green;
+}
+
+::placeholder {
+  color: #64ffda;
+  opacity: 1; /* Firefox */
+}
+
+::-ms-input-placeholder { /* Edge 12 -18 */
+  color: #64ffda;
+}
+
+
+.form-group {
+  margin-bottom: 10px;
+}
+
 @media (max-width: 768px){
-    
+
     .contact{
         height: 100vh;
         padding: 0 !important;
