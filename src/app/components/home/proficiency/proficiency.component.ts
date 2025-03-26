@@ -2,9 +2,10 @@ import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
 import { OwlOptions } from 'ngx-owl-carousel-o';
 
 @Component({
-  selector: 'app-proficiency',
-  templateUrl: './proficiency.component.html',
-  styleUrls: ['./proficiency.component.scss']
+    selector: 'app-proficiency',
+    templateUrl: './proficiency.component.html',
+    styleUrls: ['./proficiency.component.scss'],
+    standalone: false
 })
 export class ProficiencyComponent implements OnInit {
 
