@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { HttpClient, HttpHeaders, HttpParams } from '@angular/common/http';
+import { HttpClient, HttpParams } from '@angular/common/http';
 import { environment } from '../../environments/environment';
 import { Observable } from 'rxjs';
 
@@ -17,7 +17,6 @@ export class ApiService {
     params = params.append('name', name);
     params = params.append('email', email);
     params = params.append('message', message);
-    return this.httpClient.post(this.apiUrl, null, { params: params });
-
+    return this.httpClient.get(this.apiUrl, { params: params });
   }
 }
