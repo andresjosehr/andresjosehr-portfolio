@@ -28,6 +28,8 @@ export class ContactComponent implements OnInit {
   }
 
   sendEmail(): void {
+    this.isMessageSent = false;
+    this.isMessageFailed = false;
     this.apiService.sendMail(this.sendEmailForm.get('name').value,
       this.sendEmailForm.get('email').value, this.sendEmailForm.get('message').value)
       .subscribe({
