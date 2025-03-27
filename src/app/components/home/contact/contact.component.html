@@ -18,10 +18,10 @@
             <input type="text" class="form-control text-success" id="name" formControlName="name" placeholder="{{ 'label.name' | translate }}">
           </div>
           <div class="form-group input-settings">
-            <input type="text" class="form-control text-success" id="email" formControlName="from" placeholder="{{ 'label.email' | translate }}">
+            <input type="text" class="form-control text-success" id="email" formControlName="email" placeholder="{{ 'label.email' | translate }}">
           </div>
           <div class="form-group input-settings">
-            <textarea type="text" class="form-control text-success" id="text" formControlName="text" placeholder="{{ 'label.message' | translate }}"></textarea>
+            <textarea type="text" class="form-control text-success" id="text" formControlName="message" placeholder="{{ 'label.message' | translate }}"></textarea>
           </div>
 
           <button type="submit" [disabled]="sendEmailForm.invalid" class="main-btn" data-aos="fade-up" data-aos-duration="1000">{{ 'contact.btn' | translate }}</button>

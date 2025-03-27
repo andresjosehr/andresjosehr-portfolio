@@ -3,14 +3,14 @@
     "version": 1,
     "newProjectRoot": "projects",
     "projects": {
-        "andresjosehr-portfolio": {
+        "app": {
             "projectType": "application",
             "schematics": {},
             "root": "",
             "sourceRoot": "src",
             "prefix": "app",
             "i18n": {
-                "sourceLocale": "es",
+                "sourceLocale": "en",
                 "locales": {
                     "en-US": "src/locale/messages.en.xlf"
                 }
@@ -20,7 +20,7 @@
                     "builder": "@angular-devkit/build-angular:application",
                     "options": {
                         "outputPath": {
-                          "base": "dist/andresjosehr-portfolio"
+                          "base": "dist"
                         },
                         "index": "src/index.html",
                         "polyfills": [
@@ -34,7 +34,7 @@
                             "src/.htaccess"
                         ],
                         "styles": [
-                            "node_modules/@fortawesome/fontawesome-free/css/all.css",
+                            "node_modules/@fontawesome/fontawesome-free/css/all.css",
                             "node_modules/bootstrap/dist/css/bootstrap.min.css",
                             "node_modules/aos/dist/aos.css",
                             "node_modules/ngx-owl-carousel-o/lib/styles/prebuilt-themes/owl.carousel.min.css",
@@ -84,18 +84,18 @@
                 "serve": {
                     "builder": "@angular-devkit/build-angular:dev-server",
                     "options": {
-                      "buildTarget": "andresjosehr-portfolio:build"
+                      "buildTarget": "app:build"
                     },
                     "configurations": {
                         "production": {
-                          "buildTarget": "andresjosehr-portfolio:build:production"
+                          "buildTarget": "app:build:production"
                         }
                     }
                 },
                 "extract-i18n": {
                     "builder": "@angular-devkit/build-angular:extract-i18n",
                     "options": {
-                      "buildTarget": "andresjosehr-portfolio:build"
+                      "buildTarget": "app:build"
                     }
                 },
                 "test": {
@@ -133,11 +133,11 @@
                     "builder": "@angular-devkit/build-angular:protractor",
                     "options": {
                         "protractorConfig": "e2e/protractor.conf.js",
-                        "devServerTarget": "andresjosehr-portfolio:serve"
+                        "devServerTarget": "app:serve"
                     },
                     "configurations": {
                         "production": {
-                            "devServerTarget": "andresjosehr-portfolio:serve:production"
+                            "devServerTarget": "app:serve:production"
                         }
                     }
                 }

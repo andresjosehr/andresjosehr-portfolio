@@ -1,0 +1,8 @@
+{
+  "/email": {
+    "target": "https://api.marcelluna.com/",
+    "secure": false,
+    "changeOrigin": true,
+    "logLevel": "debug"
+  }
+}
