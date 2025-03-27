@@ -1,7 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import {FormBuilder, FormGroup, Validators} from '@angular/forms';
-import { MailtrapClient } from 'mailtrap';
-import { environment } from '../../../../environments/environment';
 import { ApiService } from '../../../services/api.service';
 
 @Component({
