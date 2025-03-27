@@ -12,6 +12,8 @@ import { ApiService } from '../../../services/api.service';
 })
 export class ContactComponent implements OnInit {
   sendEmailForm: FormGroup;
+  isMessageSent = false;
+  isMessageFailed = false;
 
   constructor(
     private apiService: ApiService,
@@ -29,8 +31,8 @@ export class ContactComponent implements OnInit {
     this.apiService.sendMail(this.sendEmailForm.get('name').value,
       this.sendEmailForm.get('email').value, this.sendEmailForm.get('message').value)
       .subscribe({
-        next: (value: string) => console.log(value),
-        error: (error: string) => console.log(error),
+        next: (value: string) => this.isMessageSent = true,
+        error: (error: string) => this.isMessageFailed = true,
       });
   }
 

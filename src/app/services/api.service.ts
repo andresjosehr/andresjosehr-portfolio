@@ -8,7 +8,7 @@ import { Observable } from 'rxjs';
 })
 export class ApiService {
 
-  apiUrl = environment.apiUrl + '/email';
+  apiUrl = environment.apiUrl;
 
   constructor(private httpClient: HttpClient) {}
 

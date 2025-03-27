@@ -34,7 +34,7 @@
                             "src/.htaccess"
                         ],
                         "styles": [
-                            "node_modules/@fontawesome/fontawesome-free/css/all.css",
+                            "node_modules/@fortawesome/fontawesome-free/css/all.css",
                             "node_modules/bootstrap/dist/css/bootstrap.min.css",
                             "node_modules/aos/dist/aos.css",
                             "node_modules/ngx-owl-carousel-o/lib/styles/prebuilt-themes/owl.carousel.min.css",
@@ -89,6 +89,10 @@
                     "configurations": {
                         "production": {
                           "buildTarget": "app:build:production"
+                        },
+                        "proxy": {
+                          "buildTarget": "app:build:production",
+                          "proxyConfig": "proxy.conf.json"
                         }
                     }
                 },

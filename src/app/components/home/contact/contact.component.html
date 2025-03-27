@@ -13,6 +13,17 @@
         {{ 'contact.content' | translate }}
       </p>
       <div class="mt-5">
+        @if (isMessageSent) {
+          <p class="success" data-aos="fade-up" data-aos-duration="1000">
+            {{ 'label.success' | translate }}
+          </p>
+        }
+        @if (isMessageFailed) {
+          <p class="failed" data-aos="fade-up" data-aos-duration="1000">
+            {{ 'label.failed' | translate }}
+          </p>
+        }
+
         <form [formGroup]="sendEmailForm" (ngSubmit)="sendEmail()">
           <div class="form-group input-settings">
             <input type="text" class="form-control text-success" id="name" formControlName="name" placeholder="{{ 'label.name' | translate }}">
@@ -29,5 +40,6 @@
 
       </div>
     </div>
+
   </div>
 </section>

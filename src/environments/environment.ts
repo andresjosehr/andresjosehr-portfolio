@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  apiUrl: 'https://api.marcelluna.com'
+  apiUrl: './email'
 };
 
 /*

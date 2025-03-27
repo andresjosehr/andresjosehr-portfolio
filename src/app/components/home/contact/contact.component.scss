@@ -95,3 +95,11 @@
         }
     }
 }
+
+.success {
+  color: variables.$Green;
+}
+
+.failed {
+  color: darkred;
+}
