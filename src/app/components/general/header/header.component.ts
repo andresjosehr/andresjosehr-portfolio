@@ -27,7 +27,7 @@ export class HeaderComponent implements OnInit {
   responsiveMenuVisible = false;
   pageYPosition: number;
   languageFormControl: UntypedFormControl = new UntypedFormControl();
-  cvName = 'CV_Marcel_Morais_Luna.pdf';
+  cvName = 'Marcel_Luna_DIGIT-TM_II-CV_012025.pdf';
 
   constructor(
     private router: Router,
