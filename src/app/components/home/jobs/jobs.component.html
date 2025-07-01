@@ -1,13 +1,13 @@
 <section class="section" id="jobs">
   <div class="container jobs">
     <div class="section-box">
-      <div class="about-title mb-5" data-aos="fade-up" data-aos-duration="1000">
+      <div class="about-title mb-5" data-animate="slideInUp" data-animate-duration="1000">
         <h3 class="e-font section-title">
           <span class="code-font n-section-title">02.</span>
           {{ "Experience.Title" | translate }}
         </h3>
       </div>
-      <div class="jobs-tabs" data-aos="fade-up" data-aos-duration="1000">
+      <div class="jobs-tabs" data-animate="fadeInUp" data-animate-duration="1200" data-animate-delay="300">
         <ul
           ngbNav
           #nav="ngbNav"
@@ -19,6 +19,8 @@
             *ngFor="let job of 'Experience.Jobs' | translate; let i = index"
             [title]="job.Tab"
             [ngbNavItem]="i"
+            data-animate="scaleIn"
+            [attr.data-animate-delay]="600 + (i * 150)"
           >
             <a ngbNavLink>{{ job.Tab }}</a>
             <ng-template ngbNavContent>
@@ -35,6 +37,8 @@
                 "
                 class="job-description"
                 [innerHTML]="jobDescriptionParagraph | translate"
+                data-animate="fadeInLeft"
+                [attr.data-animate-delay]="i * 200"
               ></p>
               <span></span>
             </ng-template>

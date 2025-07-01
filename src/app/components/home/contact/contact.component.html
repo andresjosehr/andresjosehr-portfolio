@@ -1,18 +1,25 @@
 <section class="section" id="contact">
   <div class="container contact">
     <div class="section-box">
-      <div class="mb-4" data-aos="fade-up" data-aos-duration="1000">
+      <div class="mb-4" data-animate="fadeInDown" data-animate-duration="1000">
         <h3 class="contact-pre-title big-subtitle">
           05. {{ "Contact.Pretitle" | translate }}
         </h3>
-        <h4 class="e-font contact-title big-title">
+        <h4 class="e-font contact-title big-title"
+            data-animate="typewriter"
+            data-animate-delay="500">
           {{ "Contact.Title" | translate }}
         </h4>
       </div>
-      <p data-aos="fade-up" data-aos-duration="1000">
+      <p data-animate="morphIn"
+         data-animate-duration="1200"
+         data-animate-delay="2500">
         {{ "Contact.Content" | translate }}
       </p>
-      <div class="mt-5">
+      <div class="mt-5"
+           data-animate="scaleIn"
+           data-animate-duration="800"
+           data-animate-delay="3500">
         <a
           (click)="
             analyticsService.sendAnalyticEvent(
@@ -23,10 +30,7 @@
           "
           href="mailto:andresjosehr@gmail.com"
           target="_blank"
-          class="main-btn"
-          data-aos="fade-up"
-          data-aos-duration="1000"
-        >
+          class="main-btn contact-btn">
           {{ "Contact.Btn" | translate }}
         </a>
       </div>

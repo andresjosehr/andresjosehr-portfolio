@@ -1,21 +1,23 @@
 <section class="section banner">
-    <div [@bannerTrigger] class="container">
+    <div class="container">
         <div class="section-box-banner">
             <div class="content">
-                <div>
-                    <!-- <h1>Hola, mi nombre es</h1> -->
+                <div class="banner-pretitle">
                     <h1>{{"Banner.Pretitle" | translate}}</h1>
                 </div>
                 <div class='banner-title'>
-                    <h2>José Hernández.</h2>
-                    <h3>Software Developer</h3>
+                    <h2 class="banner-name">José Hernández.</h2>
+                    <h3 class="banner-subtitle">Software Developer</h3>
                 </div>
                 <div class='banner-description'>
                     <p [innerHTML]='"Banner.Description" | translate' class="mt-4"></p>
                 </div>
             </div>
             <div class="div-btn-banner">
-                <a (click)='analyticsService.sendAnalyticEvent("click_send_mail", "banner", "email")' href="mailto:andresjosehr@gmail.com" target="_black" class="main-btn">
+                <a (click)='analyticsService.sendAnalyticEvent("click_send_mail", "banner", "email")'
+                   href="mailto:andresjosehr@gmail.com"
+                   target="_black"
+                   class="main-btn">
                     {{"Banner.ActionBtn" | translate}}
                 </a>
             </div>
