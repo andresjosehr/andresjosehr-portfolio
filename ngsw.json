@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1751388554544,
+  "timestamp": 1751388854787,
   "index": "https://andresjosehr.com/index.html",
   "assetGroups": [
     {
@@ -13,7 +13,7 @@
       "urls": [
         "https://andresjosehr.com/favicon.ico",
         "https://andresjosehr.com/index.html",
-        "https://andresjosehr.com/main.89627cad2798e778.js",
+        "https://andresjosehr.com/main.f31d0b2d22427ee7.js",
         "https://andresjosehr.com/manifest.webmanifest",
         "https://andresjosehr.com/polyfills.b2ffacb8a89e08bc.js",
         "https://andresjosehr.com/runtime.3d228e631dea61a8.js",
@@ -386,8 +386,8 @@
     "https://andresjosehr.com/fa-solid-900.d5b0a3566b352ee9.ttf": "eb8914f6b1797b45ee0883e6089d92695d9f9441",
     "https://andresjosehr.com/fa-solid-900.e67670b0779338ff.woff": "a22acd7697f36e7d4cc31a853c70e776eac54bb1",
     "https://andresjosehr.com/favicon.ico": "216416b0e8efb71cc8e66e11cc40baf206704576",
-    "https://andresjosehr.com/index.html": "12082c1046d69d40c64319c3e3b911c117ec2e2a",
-    "https://andresjosehr.com/main.89627cad2798e778.js": "603357882841884e4d66b15c6e1dd0de1a07c562",
+    "https://andresjosehr.com/index.html": "5ead6c77d6ebc9287d3169959c5a24c996c5545b",
+    "https://andresjosehr.com/main.f31d0b2d22427ee7.js": "b892d8004d6f807ccd9cbf4978eb3394812dc5f7",
     "https://andresjosehr.com/manifest.webmanifest": "d9e92565b3be092fe728cd4c269af5e866223f8f",
     "https://andresjosehr.com/owl.video.play.e3b436436832b027.png": "c0d64356ec2758cb280d183b4829c923e5ff61e5",
     "https://andresjosehr.com/polyfills.b2ffacb8a89e08bc.js": "9e3a830b74b164d9bdefb2399343fcef2783ab10",
