@@ -47,4 +47,9 @@ testem.log
 .DS_Store
 Thumbs.db
 
+# gh-pages deployment
+.gh-pages-tmp/
+.publish/
+
+# Deployment artifacts
 public/
