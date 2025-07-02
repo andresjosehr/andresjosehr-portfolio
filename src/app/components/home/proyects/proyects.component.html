@@ -1,169 +1,67 @@
 <section class="section proyects" id='proyects'>
     <div class="container">
         <div class="section-box">
-            <div data-animate="slideInUp" data-animate-duration="1000">
+            <div data-aos="fade-up" data-aos-duration="1000">
                 <h3 class="section-title">
                     <span class='n-section-title'>03.</span> {{"FeatureProjects.Title" | translate}}
                 </h3>
             </div>
 
-            <div *ngFor='let project of "FeatureProjects.Projects" | translate; let i = index'
-                 class="d-flex proyect-container"
-                 data-animate="morphIn"
-                 data-animate-duration="1200"
-                 [attr.data-animate-delay]="300 + (i * 400)">
-
-                <!-- PROYECTOS PARES (lado izquierdo) -->
-                <ng-container *ngIf="i%2==0">
-                    <owl-carousel-o class='owl-carousel-o' [options]="customOptions">
-                        <ng-container *ngFor="let img of project.imgs">
-                            <ng-template carouselSlide [id]="project.Title+slide+i">
-                                <div #imgContainer class='img-container'>
-                                    <img class='img-feature-proyect rounded' [src]="img" [alt]="project.Title">
-                                </div>
-                            </ng-template>
-                        </ng-container>
-                    </owl-carousel-o>
-
-                    <div class="img-feature-proyect-container"
-                         data-animate="scaleIn"
-                         data-animate-duration="1000"
-                         [attr.data-animate-delay]="500 + (i * 400)">
-                        <div class="img-feature-proyect-box">
-                            <div class="img-container" style='width: auto;'>
-                                <img class='img-feature-proyect rounded project-image'
-                                     [src]="project.imgs[0]"
-                                     [alt]="project.imgs[0]"
-                                     width='600px'>
+            <div *ngFor='let project of "FeatureProjects.Projects" | translate; let i = index' class="d-flex proyect-container" data-aos="fade-up" data-aos-duration="1000">
+                <owl-carousel-o class='owl-carousel-o' [options]="customOptions" *ngIf="i%2==0">
+                    <ng-container *ngFor="let img of project.imgs">
+                        <ng-template carouselSlide [id]="project.Title+slide+i">
+                            <div #imgContainer class='img-container'>
+                                <img class='img-feature-proyect rounded' [src]="img" [alt]="project.Title">
                             </div>
+                        </ng-template>
+                    </ng-container>
+                </owl-carousel-o>
+                <div class="img-feature-proyect-container" data-aos="fade-up" data-aos-duration="1000" *ngIf="i%2==0">
+                    <div class="img-feature-proyect-box">
+                        <div class="img-container" style='width: auto;'>
+                            <img class='img-feature-proyect rounded' [src]="project.imgs[0]" [alt]="project.imgs[0]" width='600px'>
                         </div>
                     </div>
+                </div>
+                <div [class.proyect-info-right]='i%2==0' [class.proyect-info-left]='i%2!=0' class="h-100" style="background-image: url('{{project.img}}');">
+                    <div class="proyect-box">
+                        <h4 [class.text-right]='i%2==0' [class.text-left]='i%2!=0' class="feature-proyect">{{"FeatureProjects.Label" | translate}}</h4>
+                        <h5 [class.text-right]='i%2==0' [class.text-left]='i%2!=0' class="proyect-name">{{project.Title}}</h5>
 
-                    <div class='proyect-info-left'>
-                        <div class='proyect-box'>
-                            <div class='feature-proyect'>
-                                <p class='feature-proyect-title'
-                                   data-animate="fadeInRight"
-                                   [attr.data-animate-delay]="700 + (i * 400)">
-                                   {{"FeatureProjects.Label" | translate}}
-                                </p>
-                            </div>
-                            <h4 class='proyect-name'
-                               data-animate="glitch"
-                               [attr.data-animate-delay]="800 + (i * 400)">
-                               {{project.Title}}
-                            </h4>
-                            <div class="proyect-description-box"
-                                 data-animate="fadeInRight"
-                                 data-animate-duration="800"
-                                 [attr.data-animate-delay]="900 + (i * 400)">
-                                <p class='proyect-description' [innerHTML]="project.Description"></p>
-                            </div>
-                            <ul class="proyect-skills"
-                                data-animate="fadeInUp"
-                                [attr.data-animate-delay]="1000 + (i * 400)">
-                                <li *ngFor='let technology of project.Technologies'
-                                    class="skill-item"
-                                    data-animate="scaleIn"
-                                    [attr.data-animate-delay]="1100 + (i * 400)">
-                                    <span class="underline technology">{{technology}}</span>
-                                </li>
-                            </ul>
-                            <div class="proyect-links"
-                                 data-animate="fadeInUp"
-                                 [attr.data-animate-delay]="1200 + (i * 400)">
-                                <a (click)='analyticsService.sendAnalyticEvent("click_pokemonlist_github", "proyects", "click")'
-                                   style='color: inherit'
-                                   [href]="project.ghLink"
-                                   target="_blank">
-                                    <i class="fab fa-github"></i>
-                                </a>
-                                <a (click)='analyticsService.sendAnalyticEvent("click_pokemonlist_external_link", "proyects", "click")'
-                                   style='color: inherit'
-                                   [href]="project.demoLink"
-                                   target="_blank">
-                                    <i class="fas fa-external-link-alt"></i>
-                                </a>
-                            </div>
+                        <div class="proyect-description-box" (click)='debug()'>
+                            <p class="mb-0" [innerHTML]="project.Description">
+                            </p>
+                        </div>
+                        <ul [class.justify-content-end]='i%2==0' [class.justify-content-start]='i%2!=0' class="proyect-skills">
+                            <li *ngFor='let technology of project.Technologies' class="ml-3">
+                              <span class="underline technology">{{technology}}</span>
+                            </li>
+                        </ul>
+                        <div [class.text-right]='i%2==0' [class.text-left]='i%2!=0' class="proyect-links">
+                            <a *ngIf="project['ghLink']" style='color: inherit' [href]="project['ghLink']" target="_blank"><i class="ml-3 fab fa-github"></i></a>
+                            <a *ngIf="project['demoLink']" style='color: inherit' [href]="project['demoLink']" target="_blank"><i class="ml-3 fas fa-external-link-alt"></i></a>
                         </div>
                     </div>
-                </ng-container>
-
-                <!-- PROYECTOS IMPARES (lado derecho) -->
-                <ng-container *ngIf="i%2!=0">
-                    <div class='proyect-info-right'>
-                        <div class='proyect-box'>
-                            <div class='feature-proyect'>
-                                <p class='feature-proyect-title'
-                                   data-animate="fadeInLeft"
-                                   [attr.data-animate-delay]="700 + (i * 400)">
-                                   {{"FeatureProjects.Label" | translate}}
-                                </p>
+                </div>
+                <owl-carousel-o class='owl-carousel-o' [options]="customOptions" *ngIf="i%2!=0">
+                    <ng-container *ngFor="let img of project.imgs">
+                        <ng-template carouselSlide [id]="project.Title+slide+i">
+                            <div class='img-container'>
+                                <img class='img-feature-proyect rounded' [src]="img" [alt]="project.Title">
                             </div>
-                            <h4 class='proyect-name'
-                               data-animate="glitch"
-                               [attr.data-animate-delay]="800 + (i * 400)">
-                               {{project.Title}}
-                            </h4>
-                            <div class="proyect-description-box"
-                                 data-animate="fadeInLeft"
-                                 data-animate-duration="800"
-                                 [attr.data-animate-delay]="900 + (i * 400)">
-                                <p class='proyect-description' [innerHTML]="project.Description"></p>
-                            </div>
-                            <ul class="proyect-skills justify-content-end text-right"
-                                data-animate="fadeInUp"
-                                [attr.data-animate-delay]="1000 + (i * 400)">
-                                <li *ngFor='let technology of project.Technologies'
-                                    class="skill-item"
-                                    data-animate="scaleIn"
-                                    [attr.data-animate-delay]="1100 + (i * 400)">
-                                    <span class="underline technology">{{technology}}</span>
-                                </li>
-                            </ul>
-                            <div class="proyect-links justify-content-end text-right"
-                                 data-animate="fadeInUp"
-                                 [attr.data-animate-delay]="1200 + (i * 400)">
-                                <a (click)='analyticsService.sendAnalyticEvent("click_pokemonlist_github", "proyects", "click")'
-                                   style='color: inherit'
-                                   [href]="project.ghLink"
-                                   target="_blank">
-                                    <i class="fab fa-github"></i>
-                                </a>
-                                <a (click)='analyticsService.sendAnalyticEvent("click_pokemonlist_external_link", "proyects", "click")'
-                                   style='color: inherit'
-                                   [href]="project.demoLink"
-                                   target="_blank">
-                                    <i class="fas fa-external-link-alt"></i>
-                                </a>
-                            </div>
+                        </ng-template>
+                    </ng-container>
+                </owl-carousel-o>
+                <div class="img-feature-proyect-container" data-aos="fade-up" data-aos-duration="1000" *ngIf="i%2!=0">
+                    <div class="img-feature-proyect-box">
+                        <div class="img-container" style='width: auto;'>
+                            <img class='img-feature-proyect rounded' [src]="project.imgs[0]" [alt]="project.imgs[0]" width='600px'>
                         </div>
                     </div>
-
-                    <owl-carousel-o class='owl-carousel-o' [options]="customOptions">
-                        <ng-container *ngFor="let img of project.imgs">
-                            <ng-template carouselSlide [id]="project.Title+slide+i">
-                                <div class='img-container'>
-                                    <img class='img-feature-proyect rounded' [src]="img" [alt]="project.Title">
-                                </div>
-                            </ng-template>
-                        </ng-container>
-                    </owl-carousel-o>
-
-                    <div class="img-feature-proyect-container"
-                         data-animate="scaleIn"
-                         data-animate-duration="1000"
-                         [attr.data-animate-delay]="500 + (i * 400)">
-                        <div class="img-feature-proyect-box">
-                            <div class="img-container" style='width: auto;'>
-                                <img class='img-feature-proyect rounded project-image'
-                                     [src]="project.imgs[0]"
-                                     [alt]="project.imgs[0]"
-                                     width='600px'>
-                            </div>
-                        </div>
-                    </div>
-                </ng-container>
+                </div>
+            </div>
+            <div>
             </div>
         </div>
     </div>
