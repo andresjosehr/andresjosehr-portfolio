@@ -1,7 +1,17 @@
 <section class="section banner">
     <!-- Video de fondo -->
-    <video autoplay muted loop class="banner-video">
+    <video
+        autoplay
+        muted
+        defaultmuted
+        loop
+        playsinline
+        preload="auto"
+        disablepictureinpicture
+        class="banner-video">
         <source src="assets/images/banner-video2.mp4" type="video/mp4">
+        <!-- Fallback para navegadores que no soportan el video -->
+        Tu navegador no soporta videos HTML5.
     </video>
 
     <!-- Overlay para oscurecer el video -->
@@ -34,4 +44,6 @@
             </div>
         </div>
     </div>
+
+
 </section>

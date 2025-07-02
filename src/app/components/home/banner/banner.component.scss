@@ -5,6 +5,13 @@
     position: relative;
     overflow: hidden;
 
+    // Fallback: imagen de fondo en caso de que el video no funcione (comentado para evitar interferencia)
+    // background: linear-gradient(135deg, #0a192f 0%, #172a45 50%, #1e3a5f 100%);
+    // También puedes usar una imagen específica como fallback:
+    // background-image: url('assets/images/banner-fallback.jpg');
+    // background-size: cover;
+    // background-position: center;
+
     // Video de fondo
     .banner-video {
         position: absolute;
@@ -31,7 +38,7 @@
         display: table;
         height: 100vh;
         position: relative;
-        z-index: 10;
+        z-index: 3;
 
         .section-box-banner{
             display: table-cell;
@@ -40,7 +47,7 @@
             .content{
                 margin-top: 98px;
                 position: relative;
-                z-index: 10;
+                z-index: 4;
             }
 
             .banner-pretitle h1{

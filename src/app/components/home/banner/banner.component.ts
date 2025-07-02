@@ -45,6 +45,7 @@ export class BannerComponent implements OnInit, AfterViewInit, OnDestroy {
 
   ngAfterViewInit(): void {
     this.initAnimations();
+    this.initVideoPlayback();
   }
 
   ngOnDestroy(): void {
@@ -201,5 +202,71 @@ export class BannerComponent implements OnInit, AfterViewInit, OnDestroy {
 
   public updateCursorBlinkRate(rate: number): void {
     this.typewriterConfig.cursorBlinkRate = rate;
+  }
+
+  // Método para manejar la reproducción del video de forma robusta
+  private initVideoPlayback(): void {
+    const video = this.elementRef.nativeElement.querySelector('.banner-video') as HTMLVideoElement;
+
+    if (!video) return;
+
+    // Asegurar que el video esté completamente silenciado
+    video.muted = true;
+    video.volume = 0;
+
+    // Configurar eventos del video
+    video.addEventListener('loadeddata', () => {
+      this.attemptVideoPlay(video);
+    });
+
+    video.addEventListener('canplaythrough', () => {
+      this.attemptVideoPlay(video);
+    });
+
+    // Si el video ya está cargado, intentar reproducir
+    if (video.readyState >= 2) {
+      this.attemptVideoPlay(video);
+    }
+  }
+
+  private attemptVideoPlay(video: HTMLVideoElement): void {
+    // Solo intentar reproducir si el video no se está reproduciendo ya
+    if (video.paused && !video.ended) {
+      // Asegurar que esté silenciado antes de intentar reproducir
+      video.muted = true;
+      video.volume = 0;
+
+      video.play().catch(error => {
+        // Manejar el error silenciosamente - es normal que los navegadores bloqueen autoplay
+        if (error.name === 'NotAllowedError') {
+          console.log('Autoplay bloqueado por el navegador. El video se reproducirá después de la primera interacción del usuario.');
+          this.setupUserInteractionPlayback(video);
+        } else {
+          console.warn('Error al reproducir video:', error);
+        }
+      });
+    }
+  }
+
+  private setupUserInteractionPlayback(video: HTMLVideoElement): void {
+    const playOnInteraction = () => {
+      if (video.paused) {
+        video.muted = true;
+        video.volume = 0;
+        video.play().catch(error => {
+          console.warn('Error al reproducir video después de interacción:', error);
+        });
+      }
+    };
+
+    // Agregar listeners para diferentes tipos de interacción
+    const events = ['click', 'touchstart', 'keydown', 'scroll'];
+
+    events.forEach(eventType => {
+      document.addEventListener(eventType, playOnInteraction, {
+        once: true,
+        passive: true
+      });
+    });
   }
 }
