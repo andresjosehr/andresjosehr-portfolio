@@ -1,8 +1,14 @@
 @import "./../../../../variables.scss";
 .main-navbar {
     height: 70px;
-    background: $Navy;
+    background: transparent;
     font-family: $CodeFont;
+    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+
+    &.nav-shadow {
+        background: $Navy;
+    }
+
     .menu-ul{
       li{
         margin: 0px 13px;
@@ -196,6 +202,7 @@
 
 .nav-shadow {
     height: 70px;
+    background: $Navy !important; // Fondo sólido cuando hay scroll
     box-shadow: 0 10px 30px -10px rgba(2, 12, 27, 0.7);
     transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
 }

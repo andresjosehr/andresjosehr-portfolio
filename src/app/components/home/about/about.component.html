@@ -1,4 +1,4 @@
-<section class="section about" id='about'>
+<section class="section about" id='about' (keydown)="onKeyDown($event)" tabindex="0">
     <div class="container">
         <div class="section-box">
             <div class="about-title" data-animate="slideInUp" data-animate-duration="1000">
@@ -64,15 +64,33 @@
                      data-animate-duration="1200"
                      data-animate-delay="600">
                     <div class="about-img-container">
-                        <img (click)='analyticsService.sendAnalyticEvent("click_image", "about", "image")'
-                             class="rounded about-image"
-                             width="400"
-                             height="300"
-                             src="assets/images/me4.jpg"
-                             alt="José Andrés">
+                        <img (click)='onImageClick()'
+                             class="rounded about-image clickable"
+                             width="100%"
+                             src="assets/images/me5.jpg"
+                             alt="José Andrés"
+                             title="Click para ver imagen ampliada">
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
+
+    <!-- Modal para imagen ampliada -->
+    <div class="image-modal-overlay"
+         *ngIf="isImageModalOpen"
+         (click)="onModalBackdropClick($event)"
+         [@fadeInOut]>
+        <div class="image-modal-container">
+            <button class="modal-close-btn"
+                    (click)="closeImageModal()"
+                    aria-label="Cerrar modal">
+                <span>&times;</span>
+            </button>
+            <img class="modal-image"
+                 src="assets/images/me5.jpg"
+                 alt="José Andrés - Imagen ampliada"
+                 [@zoomIn]>
         </div>
     </div>
 </section>

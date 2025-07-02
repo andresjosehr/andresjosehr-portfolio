@@ -1,13 +1,34 @@
 import { Component, OnInit, AfterViewInit, ElementRef } from '@angular/core';
+import { trigger, state, style, transition, animate } from '@angular/animations';
 import { AnalyticsService } from 'src/app/services/analytics/analytics.service';
 import { AnimationsService } from 'src/app/services/animations/animations.service';
 
 @Component({
   selector: 'app-about',
   templateUrl: './about.component.html',
-  styleUrls: ['./about.component.scss']
+  styleUrls: ['./about.component.scss'],
+  animations: [
+    trigger('fadeInOut', [
+      transition(':enter', [
+        style({ opacity: 0 }),
+        animate('300ms ease-in', style({ opacity: 1 }))
+      ]),
+      transition(':leave', [
+        animate('300ms ease-out', style({ opacity: 0 }))
+      ])
+    ]),
+    trigger('zoomIn', [
+      transition(':enter', [
+        style({ transform: 'scale(0.3)', opacity: 0 }),
+        animate('400ms cubic-bezier(0.25, 0.8, 0.25, 1)',
+          style({ transform: 'scale(1)', opacity: 1 }))
+      ])
+    ])
+  ]
 })
 export class AboutComponent implements OnInit, AfterViewInit {
+
+  isImageModalOpen = false;
 
   constructor(
     public analyticsService: AnalyticsService,
@@ -20,6 +41,33 @@ export class AboutComponent implements OnInit, AfterViewInit {
 
   ngAfterViewInit(): void {
     this.initAnimations();
+  }
+
+  onImageClick(): void {
+    this.analyticsService.sendAnalyticEvent("click_image", "about", "image");
+    this.openImageModal();
+  }
+
+  openImageModal(): void {
+    this.isImageModalOpen = true;
+    document.body.style.overflow = 'hidden'; // Prevenir scroll del body
+  }
+
+  closeImageModal(): void {
+    this.isImageModalOpen = false;
+    document.body.style.overflow = 'auto'; // Restaurar scroll del body
+  }
+
+  onModalBackdropClick(event: Event): void {
+    if (event.target === event.currentTarget) {
+      this.closeImageModal();
+    }
+  }
+
+  onKeyDown(event: KeyboardEvent): void {
+    if (event.key === 'Escape') {
+      this.closeImageModal();
+    }
   }
 
   private initAnimations(): void {
@@ -73,12 +121,6 @@ export class AboutComponent implements OnInit, AfterViewInit {
         duration: 1200,
         delay: 600
       });
-    }
-
-    // Animar imagen con efectos hover
-    const image = aboutSection.querySelector('.about-image');
-    if (image) {
-      this.animationsService.addHoverEffects(image as HTMLElement, ['lift']);
     }
   }
 }

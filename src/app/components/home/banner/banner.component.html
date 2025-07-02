@@ -1,4 +1,12 @@
 <section class="section banner">
+    <!-- Video de fondo -->
+    <video autoplay muted loop class="banner-video">
+        <source src="assets/images/banner-video2.mp4" type="video/mp4">
+    </video>
+
+    <!-- Overlay para oscurecer el video -->
+    <div class="banner-overlay"></div>
+
     <div class="container">
         <div class="section-box-banner">
             <div class="content">
@@ -14,12 +22,15 @@
                 </div>
             </div>
             <div class="div-btn-banner">
-                <a (click)='analyticsService.sendAnalyticEvent("click_send_mail", "banner", "email")'
-                   href="mailto:andresjosehr@gmail.com"
-                   target="_black"
-                   class="main-btn">
-                    {{"Banner.ActionBtn" | translate}}
-                </a>
+                <app-dynamic-button
+                    [text]='"Banner.ActionBtn" | translate'
+                    href="mailto:andresjosehr@gmail.com"
+                    target="_blank"
+                    analyticsEvent="click_send_mail"
+                    analyticsCategory="banner"
+                    analyticsLabel="email"
+                    variant="primary">
+                </app-dynamic-button>
             </div>
         </div>
     </div>

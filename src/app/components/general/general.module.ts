@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FooterComponent } from './footer/footer.component'
 import { HeaderComponent } from './header/header.component'
+import { DynamicButtonComponent } from './dynamic-button/dynamic-button.component'
 import { NgbModule, NgbDropdownModule } from '@ng-bootstrap/ng-bootstrap';
 import { RouterModule } from '@angular/router';
 import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
@@ -16,7 +17,8 @@ export function HttpLoaderFactory(http: HttpClient){
 @NgModule({
   declarations: [
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    DynamicButtonComponent
   ],
   imports: [
     CommonModule,
@@ -33,6 +35,6 @@ export function HttpLoaderFactory(http: HttpClient){
       }
     })
   ],
-  exports: [HeaderComponent, FooterComponent]
+  exports: [HeaderComponent, FooterComponent, DynamicButtonComponent]
 })
 export class GeneralModule { }

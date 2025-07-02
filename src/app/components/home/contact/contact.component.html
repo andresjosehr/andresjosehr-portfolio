@@ -20,19 +20,15 @@
            data-animate="scaleIn"
            data-animate-duration="800"
            data-animate-delay="3500">
-        <a
-          (click)="
-            analyticsService.sendAnalyticEvent(
-              'click_send_mail',
-              'contact',
-              'email'
-            )
-          "
+        <app-dynamic-button
+          [text]='"Contact.Btn" | translate'
           href="mailto:andresjosehr@gmail.com"
           target="_blank"
-          class="main-btn contact-btn">
-          {{ "Contact.Btn" | translate }}
-        </a>
+          analyticsEvent="click_send_mail"
+          analyticsCategory="contact"
+          analyticsLabel="email"
+          variant="primary">
+        </app-dynamic-button>
       </div>
     </div>
   </div>

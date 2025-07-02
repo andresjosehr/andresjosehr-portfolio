@@ -8,7 +8,6 @@
     }
 
     .about-img-container{
-        width: 324px;
         margin: auto;
 
         &:after{
@@ -17,10 +16,10 @@
             z-index: 0;
             display: block;
             position: relative;
-            width: 394px;
-            height: 305px;
+            width: 530px;
+            height: 366px;
             border-radius: 3px;
-            bottom: 290px;
+            bottom: 350px;
             left: 23px;
 
         }
@@ -28,6 +27,16 @@
         img{
             z-index: 2;
             position: relative;
+
+            &.clickable {
+                cursor: pointer;
+                transition: transform 0.3s ease, filter 0.3s ease;
+
+                &:hover {
+                    transform: scale(1.02);
+                    filter: brightness(1.1);
+                }
+            }
         }
     }
 
@@ -63,6 +72,70 @@
 
 }
 
+// Estilos para el modal de imagen
+.image-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    backdrop-filter: blur(5px);
+}
+
+.image-modal-container {
+    position: relative;
+    max-width: 90vw;
+    max-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-image {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 8px;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.8);
+    border: 2px solid $Green;
+}
+
+.modal-close-btn {
+    position: absolute;
+    top: -50px;
+    right: -10px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 2px solid $Green;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: $Green;
+    font-size: 24px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    backdrop-filter: blur(10px);
+
+    &:hover {
+        background: rgba(255, 255, 255, 0.2);
+        transform: scale(1.1);
+        color: white;
+        border-color: white;
+    }
+
+    span {
+        line-height: 1;
+        margin-top: -2px;
+    }
+}
+
 @media (min-width: 992px) and (max-width: 1300px){
     .about-img-container{
         margin-left: auto;
@@ -82,6 +155,19 @@
             bottom: 190px;
             left: 74px;
         }
+    }
+
+    .modal-close-btn {
+        top: -40px;
+        right: 0;
+        width: 35px;
+        height: 35px;
+        font-size: 20px;
+    }
+
+    .image-modal-container {
+        max-width: 95vw;
+        max-height: 80vh;
     }
 }
 

@@ -1,0 +1,37 @@
+<a
+  [href]="href"
+  [target]="target"
+  [class.disabled]="disabled"
+  [attr.aria-disabled]="disabled"
+  class="dynamic-btn"
+  [class.dynamic-btn-primary]="variant === 'primary'"
+  [class.dynamic-btn-secondary]="variant === 'secondary'"
+  (click)="onButtonClick($event)">
+
+  <!-- Background animado -->
+  <div class="btn-bg"></div>
+
+  <!-- Efecto de ondas líquidas -->
+  <div class="liquid-container">
+    <div class="liquid-wave wave-1"></div>
+    <div class="liquid-wave wave-2"></div>
+    <div class="liquid-wave wave-3"></div>
+  </div>
+
+  <!-- Partículas -->
+  <div class="particles-container">
+    <div class="particle" *ngFor="let p of [1,2,3,4,5,6,7,8]; index as i"></div>
+  </div>
+
+  <!-- Efecto de brillo -->
+  <div class="shine-effect"></div>
+
+  <!-- Texto del botón -->
+  <span class="btn-text">{{ text }}</span>
+
+  <!-- Efecto glitch overlay -->
+  <div class="glitch-overlay">
+    <span class="glitch-text">{{ text }}</span>
+    <span class="glitch-text">{{ text }}</span>
+  </div>
+</a>

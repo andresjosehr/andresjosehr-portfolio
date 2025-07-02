@@ -5,6 +5,28 @@
     position: relative;
     overflow: hidden;
 
+    // Video de fondo
+    .banner-video {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        z-index: 1;
+    }
+
+    // Overlay para oscurecer el video
+    .banner-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(10, 25, 47, 0.85); // Más oscuro para mejor legibilidad
+        z-index: 2;
+    }
+
     .container{
         display: table;
         height: 100vh;
@@ -96,8 +118,9 @@
             .banner-description{
                 margin-bottom: 70px;
                 opacity: 0;
-                transform: perspective(1000px) rotateX(90deg) translateZ(100px);
-                transition: all 1s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+                transform: translateY(20px);
+                filter: blur(3px);
+                transition: all 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 
                 p{
                     max-width: 500px;
