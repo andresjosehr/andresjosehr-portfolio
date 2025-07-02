@@ -93,7 +93,7 @@ export class ParticlesService {
     this.renderer.setStyle(this.canvas, 'left', '0');
     this.renderer.setStyle(this.canvas, 'width', '100%');
     this.renderer.setStyle(this.canvas, 'height', '100%');
-    this.renderer.setStyle(this.canvas, 'z-index', '0');
+    this.renderer.setStyle(this.canvas, 'z-index', '1');
     this.renderer.setStyle(this.canvas, 'pointer-events', 'none');
 
     this.renderer.appendChild(document.body, this.canvas);

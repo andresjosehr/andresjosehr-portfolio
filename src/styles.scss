@@ -15,6 +15,8 @@ body {
 }
 .section-box {
   padding: 130px 0;
+  position: relative;
+  z-index: 2;
 }
 .section {
   background: $Navy;
@@ -130,6 +132,11 @@ a {
     height: 385px !important;
   }
 }
+.container {
+  position: relative;
+  z-index: 2;
+}
+
 @media (min-width: 1100px) and (max-width: 1300px) {
   .container {
     max-width: 950px;
