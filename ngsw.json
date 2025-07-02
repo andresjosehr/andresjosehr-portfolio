@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1751388920444,
+  "timestamp": 1751422395018,
   "index": "https://andresjosehr.com/index.html",
   "assetGroups": [
     {
@@ -13,12 +13,11 @@
       "urls": [
         "https://andresjosehr.com/favicon.ico",
         "https://andresjosehr.com/index.html",
-        "https://andresjosehr.com/main.a6dbd7278c1ebaaf.js",
+        "https://andresjosehr.com/main.5212ee32468c54f5.js",
         "https://andresjosehr.com/manifest.webmanifest",
         "https://andresjosehr.com/polyfills.b2ffacb8a89e08bc.js",
-        "https://andresjosehr.com/runtime.3d228e631dea61a8.js",
-        "https://andresjosehr.com/scripts.68ed26d13e2edc19.js",
-        "https://andresjosehr.com/styles.a75abfc841f5acce.css"
+        "https://andresjosehr.com/runtime.781c226ce143bf35.js",
+        "https://andresjosehr.com/styles.2469aee59b992c9c.css"
       ],
       "patterns": []
     },
@@ -125,6 +124,7 @@
         "https://andresjosehr.com/assets/images/agrourbana/agrourbana5.png",
         "https://andresjosehr.com/assets/images/andresjosehr-portfolio.png",
         "https://andresjosehr.com/assets/images/andresjosehr-preview.png",
+        "https://andresjosehr.com/assets/images/banner-video2.mp4",
         "https://andresjosehr.com/assets/images/countries-viewer.png",
         "https://andresjosehr.com/assets/images/cronometraje-proyect.png",
         "https://andresjosehr.com/assets/images/favicon.ico",
@@ -148,6 +148,7 @@
         "https://andresjosehr.com/assets/images/me2.jpg",
         "https://andresjosehr.com/assets/images/me3.jpg",
         "https://andresjosehr.com/assets/images/me4.jpg",
+        "https://andresjosehr.com/assets/images/me5.jpg",
         "https://andresjosehr.com/assets/images/messages_0 (1).amr",
         "https://andresjosehr.com/assets/images/messages_0 (2).amr",
         "https://andresjosehr.com/assets/images/messages_0 (3).amr",
@@ -306,6 +307,7 @@
     "https://andresjosehr.com/assets/images/agrourbana/agrourbana5.png": "fbd83bd8ce5840cccae8c7076e77c6f3f0ccdfa9",
     "https://andresjosehr.com/assets/images/andresjosehr-portfolio.png": "c3f5f78ae98aef40b42a045d63ab92861ce069ea",
     "https://andresjosehr.com/assets/images/andresjosehr-preview.png": "710c45795ebadba3c723bb4fab4761d4c093151a",
+    "https://andresjosehr.com/assets/images/banner-video2.mp4": "55ca5715c1f62d5c8e772446eed392dc9f381ea6",
     "https://andresjosehr.com/assets/images/countries-viewer.png": "e1f49421394a27b2904c3f7cb8a90f35c93948c2",
     "https://andresjosehr.com/assets/images/cronometraje-proyect.png": "f22cab2f9b8788892fd6074c6c23596651270840",
     "https://andresjosehr.com/assets/images/favicon.ico": "216416b0e8efb71cc8e66e11cc40baf206704576",
@@ -329,6 +331,7 @@
     "https://andresjosehr.com/assets/images/me2.jpg": "e279721832bc286215271a0991bbdda899e3320c",
     "https://andresjosehr.com/assets/images/me3.jpg": "b2b8ec821507870673e76cef7a849b02416bb64f",
     "https://andresjosehr.com/assets/images/me4.jpg": "91df954345e247cfce435b631ad3f8a4184cd2d8",
+    "https://andresjosehr.com/assets/images/me5.jpg": "c7b2f2bc0fb04ac2b66101cd81a51b953b41de35",
     "https://andresjosehr.com/assets/images/messages_0 (1).amr": "ecb0302d3ab746cc967f2de72fea882d3981b287",
     "https://andresjosehr.com/assets/images/messages_0 (2).amr": "eb142dd136078da941e014f5258344254ae2f217",
     "https://andresjosehr.com/assets/images/messages_0 (3).amr": "2aab471aaf209c3a0159faa067e7ec83651c9323",
@@ -386,14 +389,13 @@
     "https://andresjosehr.com/fa-solid-900.d5b0a3566b352ee9.ttf": "eb8914f6b1797b45ee0883e6089d92695d9f9441",
     "https://andresjosehr.com/fa-solid-900.e67670b0779338ff.woff": "a22acd7697f36e7d4cc31a853c70e776eac54bb1",
     "https://andresjosehr.com/favicon.ico": "216416b0e8efb71cc8e66e11cc40baf206704576",
-    "https://andresjosehr.com/index.html": "9995442c17a2b3a67c59a8d494b4e0d7c7bca442",
-    "https://andresjosehr.com/main.a6dbd7278c1ebaaf.js": "7c81386d19aca67f4d3e4c08fbe34dfb38ba8476",
+    "https://andresjosehr.com/index.html": "967a6adc7e29c894f6abc0a03c6e4dcb11920312",
+    "https://andresjosehr.com/main.5212ee32468c54f5.js": "d2a4540209b3f0dbb20875c82173a340b2ff92b9",
     "https://andresjosehr.com/manifest.webmanifest": "d9e92565b3be092fe728cd4c269af5e866223f8f",
     "https://andresjosehr.com/owl.video.play.e3b436436832b027.png": "c0d64356ec2758cb280d183b4829c923e5ff61e5",
     "https://andresjosehr.com/polyfills.b2ffacb8a89e08bc.js": "9e3a830b74b164d9bdefb2399343fcef2783ab10",
-    "https://andresjosehr.com/runtime.3d228e631dea61a8.js": "12bcb17a5e3a0f62ec12a6846e1671c5a67d02f9",
-    "https://andresjosehr.com/scripts.68ed26d13e2edc19.js": "cffb6dcf1e317b2859024c20248dd0c50ce6b885",
-    "https://andresjosehr.com/styles.a75abfc841f5acce.css": "355c8b9e6d7a63750a07f1f3ae59dec5ba7391ea"
+    "https://andresjosehr.com/runtime.781c226ce143bf35.js": "a768e0bb240bfdfddd5427e03c43d57e341fa729",
+    "https://andresjosehr.com/styles.2469aee59b992c9c.css": "1fc745322fc0bf33ba91e8d9bbebf74535a4811f"
   },
   "navigationUrls": [
     {
