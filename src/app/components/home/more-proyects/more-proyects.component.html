@@ -1,70 +1,42 @@
 <section class="section more-proyects">
     <div class="container">
         <div class="section-box">
-            <div class="" data-animate="slideInUp" data-animate-duration="1000">
+            <div class="">
                 <h3 class="section-title">
                     <span class='n-section-title'>04.</span> {{"OtherProjects.Title" | translate}}
                 </h3>
             </div>
             <div class="mt-5">
                 <div class="row p-0">
+
                     <div *ngFor='let project of "OtherProjects.Projects" | translate; let i = index'
                       (click)="redirect(project['demoLink'], $event)"
-                     class="col-12 col-md-6 col-lg-6 col-xl-4 proyect-col"
-                     data-animate="scaleIn"
-                     data-animate-duration="800"
-                     [attr.data-animate-delay]="200 + (i * 150)">
+                     class="col-12 col-md-6 col-lg-6 col-xl-4 proyect-col" data-aos="fade-up" data-aos-duration="1000">
                         <div class="more-proyect-box">
                             <div class="row w-100 text-left m-0 p-0">
-                                <div class="col-6 p-0"
-                                     data-animate="rotateIn"
-                                     [attr.data-animate-delay]="400 + (i * 150)">
+                                <div class="col-6 p-0">
                                     <img src='assets/icons/folder.svg' width="40">
                                 </div>
-                                <div class="col-6 d-flex p-0 justify-content-end"
-                                     data-animate="fadeInRight"
-                                     [attr.data-animate-delay]="500 + (i * 150)">
-                                    <a (click)='analyticsService.sendAnalyticEvent("click_pokemonlist_external_link", "proyects", "click")'
-                                       style='color: inherit'
-                                       [href]="project['demoLink']"
-                                       target="_blank"
-                                       class="project-link">
-                                        <i id="demoLink" class="ml-3 fas fa-external-link-alt"></i>
-                                    </a>
-                                    <a (click)='analyticsService.sendAnalyticEvent("click_pokemonlist_github", "proyects", "click")'
-                                       style='color: inherit'
-                                       [href]="project['ghLink']"
-                                       target="_blank"
-                                       class="project-link">
-                                        <i id="ghLink" class="ml-4 fab fa-github"></i>
-                                    </a>
+                                <div class="col-6 d-flex p-0 justify-content-end">
+                                    <a (click)='analyticsService.sendAnalyticEvent("click_pokemonlist_external_link", "proyects", "click")' style='color: inherit' [href]="project['demoLink']" target="_blank"><i id="demoLink" class="ml-3 fas fa-external-link-alt"></i></a>
+                                    <a (click)='analyticsService.sendAnalyticEvent("click_pokemonlist_github", "proyects", "click")' style='color: inherit' [href]="project['ghLink']" target="_blank"><i id="ghLink" class="ml-4 fab fa-github"></i></a>
                                 </div>
-                                <h5 class="other-proyect-title mt-4"
-                                    data-animate="fadeInUp"
-                                    [attr.data-animate-delay]="600 + (i * 150)">
-                                    {{project.Title}}
-                                </h5>
-                                <p class="other-proyect-description"
-                                   data-animate="fadeInUp"
-                                   [attr.data-animate-delay]="700 + (i * 150)">
+                                <h5 class="other-proyect-title mt-4">{{project.Title}}</h5>
+                                <p class="other-proyect-description">
                                     {{project.Description}}
                                 </p>
                             </div>
-                            <div class="ul-container"
-                                 data-animate="fadeInUp"
-                                 [attr.data-animate-delay]="800 + (i * 150)">
-                                <ul>
-                                    <li *ngFor='let technology of project.Technologies; let j = index'
-                                        class="technology-item"
-                                        data-animate="scaleIn"
-                                        [attr.data-animate-delay]="900 + (i * 150) + (j * 50)">
-                                        <span class="underline technology">{{technology}}</span>
+                            <div>
+                                <ul class="more-proyects-skills">
+                                    <li *ngFor='let technology of project.Technologies'>
+                                      <span class="underline">{{technology}}</span>
                                     </li>
                                 </ul>
                             </div>
                         </div>
                     </div>
                 </div>
+
             </div>
             <!-- <div class="w-100 text-center mt-5 pt-5">
                 <a [routerLink]="'/proyectos'" class='main-btn'>Ver todo</a>
