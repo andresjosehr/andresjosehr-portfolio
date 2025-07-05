@@ -256,7 +256,7 @@
   }
 
   // Estado activo/presionado
-  &:active {
+  &:hover {
     transform: translateY(-2px) rotateX(2deg) scale(0.98);
 
     .glitch-overlay {
