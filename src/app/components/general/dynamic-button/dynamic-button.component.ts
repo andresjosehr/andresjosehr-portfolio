@@ -2,9 +2,10 @@ import { Component, Input, Output, EventEmitter } from '@angular/core';
 import { AnalyticsService } from 'src/app/services/analytics/analytics.service';
 
 @Component({
-  selector: 'app-dynamic-button',
-  templateUrl: './dynamic-button.component.html',
-  styleUrls: ['./dynamic-button.component.scss']
+    selector: 'app-dynamic-button',
+    templateUrl: './dynamic-button.component.html',
+    styleUrls: ['./dynamic-button.component.scss'],
+    standalone: false
 })
 export class DynamicButtonComponent {
   @Input() text: string = '';

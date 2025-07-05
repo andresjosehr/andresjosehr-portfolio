@@ -3,9 +3,10 @@ import { Router, NavigationEnd } from '@angular/router';
 import { AnalyticsService } from 'src/app/services/analytics/analytics.service';
 
 @Component({
-  selector: 'app-more-proyects',
-  templateUrl: './more-proyects.component.html',
-  styleUrls: ['./more-proyects.component.scss']
+    selector: 'app-more-proyects',
+    templateUrl: './more-proyects.component.html',
+    styleUrls: ['./more-proyects.component.scss'],
+    standalone: false
 })
 export class MoreProyectsComponent implements OnInit {
 
