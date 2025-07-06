@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { FooterComponent } from './footer/footer.component'
 import { HeaderComponent } from './header/header.component'
 import { DynamicButtonComponent } from './dynamic-button/dynamic-button.component'
+import { SplashScreenComponent } from './splash-screen/splash-screen.component'
 import { NgbModule, NgbDropdownModule } from '@ng-bootstrap/ng-bootstrap';
 import { RouterModule } from '@angular/router';
 import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
@@ -18,7 +19,8 @@ export function HttpLoaderFactory(http: HttpClient){
   declarations: [
     HeaderComponent,
     FooterComponent,
-    DynamicButtonComponent
+    DynamicButtonComponent,
+    SplashScreenComponent
   ],
   imports: [
     CommonModule,
@@ -35,6 +37,6 @@ export function HttpLoaderFactory(http: HttpClient){
       }
     })
   ],
-  exports: [HeaderComponent, FooterComponent, DynamicButtonComponent]
+  exports: [HeaderComponent, FooterComponent, DynamicButtonComponent, SplashScreenComponent]
 })
 export class GeneralModule { }

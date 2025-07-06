@@ -6,6 +6,7 @@ import {LanguageService} from "src/app/services/language/language.service"
 import { Location } from '@angular/common';
 import { Router } from '@angular/router';
 import { ParticlesService } from './services/particles/particles.service';
+import { LoadingService } from './services/loading/loading.service';
 
 @Component({
     selector: 'app-root',
@@ -15,6 +16,7 @@ import { ParticlesService } from './services/particles/particles.service';
 })
 export class AppComponent implements OnInit, OnDestroy{
   title = 'andresjosehr-portfolio';
+  appContentVisible = false;
   private lenis: Lenis;
 
   constructor(
@@ -23,7 +25,8 @@ export class AppComponent implements OnInit, OnDestroy{
     private translateService: TranslateService,
     private location: Location,
     private languageService: LanguageService,
-    private particlesService: ParticlesService
+    private particlesService: ParticlesService,
+    private loadingService: LoadingService
     ){
     }
   ngOnInit(): void{
@@ -36,9 +39,6 @@ export class AppComponent implements OnInit, OnDestroy{
       {name: 'keywords', content: 'Frontend, software, developer'},
       {name: 'description', content: 'Con 4 años de experiencia desarrollando sistemas, interfaces, bots y soluciones tecnológicas  para hacer de la web un lugar mejor. En mi trabajo me gusta liderar, proponer y ejecutar ideas, escribir y refactorizar código limpio, reutilizable y escalable.'},
     ]);
-
-    // Inicializar Lenis para smooth scrolling
-    this.initLenis();
 
     // Inicializar partículas globales después de un breve delay
     setTimeout(() => {
@@ -70,6 +70,18 @@ export class AppComponent implements OnInit, OnDestroy{
 
     // Destruir partículas
     this.particlesService.destroy();
+  }
+
+  onSplashAnimationCompleted(): void {
+    this.appContentVisible = true;
+    
+    // Inicializar Lenis después de que el contenido sea visible
+    setTimeout(() => {
+      this.initLenis();
+    }, 100);
+    
+    // Iniciar animaciones de los componentes
+    this.loadingService.startAnimations();
   }
 
 }

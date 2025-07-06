@@ -1,5 +1,9 @@
 @import "./variables.scss";
 
+html {
+  background-color: $Navy;
+}
+
 body {
   margin: 0;
   width: 100%;

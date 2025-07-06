@@ -1,6 +1,7 @@
 import { Component, OnInit, AfterViewInit, ElementRef, OnDestroy } from '@angular/core';
 import { AnalyticsService } from 'src/app/services/analytics/analytics.service';
-import { AnimationsService } from 'src/app/services/animations/animations.service';
+import { LoadingService } from 'src/app/services/loading/loading.service';
+import { Subscription } from 'rxjs';
 
 // Configuración centralizada de animaciones
 interface AnimationConfig {
@@ -33,24 +34,42 @@ export class BannerComponent implements OnInit, AfterViewInit, OnDestroy {
   };
 
   private animationTimeouts: number[] = [];
+  private animationsStarted = false;
+  private loadingSubscription?: Subscription;
+  private videoElement?: HTMLVideoElement;
 
   constructor(
     public analyticsService: AnalyticsService,
-    private animationsService: AnimationsService,
-    private elementRef: ElementRef
+    private elementRef: ElementRef,
+    private loadingService: LoadingService
   ) { }
 
   ngOnInit(): void {
-    // Configuración inicial si es necesaria
+    // Suscribirse a cuando las animaciones deben comenzar
+    this.loadingSubscription = this.loadingService.animationsStarted$.subscribe((shouldStart) => {
+      if (shouldStart && !this.animationsStarted) {
+        this.animationsStarted = true;
+        this.initAnimations();
+        this.showVideo();
+      }
+    });
   }
 
   ngAfterViewInit(): void {
-    this.initAnimations();
     this.initVideoPlayback();
+    // Check if animations should already be started
+    if (this.loadingService.animationsStarted && !this.animationsStarted) {
+      this.animationsStarted = true;
+      this.initAnimations();
+      this.showVideo();
+    }
   }
 
   ngOnDestroy(): void {
     this.clearAllTimeouts();
+    if (this.loadingSubscription) {
+      this.loadingSubscription.unsubscribe();
+    }
   }
 
   private initAnimations(): void {
@@ -205,11 +224,20 @@ export class BannerComponent implements OnInit, AfterViewInit, OnDestroy {
     this.typewriterConfig.cursorBlinkRate = rate;
   }
 
+  private showVideo(): void {
+    if (this.videoElement) {
+      // Mostrar video inmediatamente cuando se inician las animaciones
+      this.videoElement.classList.add('loaded');
+    }
+  }
+
   // Método para manejar la reproducción del video de forma robusta
   private initVideoPlayback(): void {
     const video = this.elementRef.nativeElement.querySelector('.banner-video') as HTMLVideoElement;
 
     if (!video) return;
+
+    this.videoElement = video;
 
     // Asegurar que el video esté completamente silenciado
     video.muted = true;

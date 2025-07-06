@@ -5,14 +5,15 @@
   "Header.Item4": "Contacto",
   "Header.cvBtn": "Curriculum",
   "Header.cvName": "CV_Jose_Hernandez_Espanol.pdf",
+  "Loading": "Cargando...",
 
   "Banner.Pretitle": "Hola! Mi nombre es",
-  "Banner.Description": "Tengo <span class='underline'>8 años de experiencia</span> desarrollando sistemas, interfaces, bots y soluciones tecnológicas para hacer de la web un lugar mejor. Me dedico a escribir y refactorizar código limpio, reutilizable y escalable en <span class='underline'>Angular</span> y  <span class='underline'>Laravel</span> aplicando buenas practicas y estandares de desarrollo.",
+  "Banner.Description": "Tengo <span class='underline'>9 años de experiencia</span> desarrollando sistemas, interfaces, bots y soluciones tecnológicas para hacer de la web un lugar mejor. Me dedico a escribir y refactorizar código limpio, reutilizable y escalable en <span class='underline'>Angular</span> y  <span class='underline'>Laravel</span> aplicando buenas practicas y estandares de desarrollo.",
   "Banner.ActionBtn": "Saludame",
 
   "AboutMe.Title": "Acerca de mi",
   "AboutMe.Paragraphs": [
-    "En <span class='underline'>8 años de experiencia </span> he cubierto muchos roles: <span class='underline'>Analista de sistemas</span>, <span class='underline'>backend developer</span>, <span class='underline'>frontend developer</span> y <span class='underline'>lider técnico</span>. Me encanta aportar mis conocimientos para crear cosas nuevas que ayuden a resolver problemas.",
+    "En <span class='underline'>9 años de experiencia </span> he cubierto muchos roles: <span class='underline'>Analista de sistemas</span>, <span class='underline'>backend developer</span>, <span class='underline'>frontend developer</span> y <span class='underline'>lider técnico</span>. Me encanta aportar mis conocimientos para crear cosas nuevas que ayuden a resolver problemas.",
     "Mis capacidades también incluyen implementar mejoras en sistemas, optimizar sitios, estandarizar patrones y sugerir y ejecutar ideas que añadan valor al proyecto en el que este trabajando.",
     "Tambien programo cosas para mi uso personal, bien sea por hobbie o por utilidad.",
     "Algunas de las tecnologías en las que me he capacitado y trabajado incluyen (pero no se limitan) a:"

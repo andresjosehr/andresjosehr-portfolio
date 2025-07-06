@@ -34,6 +34,7 @@
     "aos": "^2.3.4",
     "bootstrap": "^4.5.0",
     "lenis": "^1.3.4",
+    "lottie-web": "^5.13.0",
     "ngx-google-analytics": "^11.2.0",
     "ngx-owl-carousel-o": "^20.0.0",
     "rxjs": "~6.5.5",

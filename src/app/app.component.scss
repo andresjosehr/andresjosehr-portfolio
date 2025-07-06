@@ -1,0 +1,12 @@
+@import '../variables.scss';
+
+:host {
+  background-color: $Navy;
+  min-height: 100vh;
+  display: block;
+}
+
+.app-content {
+  background-color: $Navy;
+  min-height: 100vh;
+}
