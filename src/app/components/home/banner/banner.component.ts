@@ -226,8 +226,9 @@ export class BannerComponent implements OnInit, AfterViewInit, OnDestroy {
 
   private showVideo(): void {
     if (this.videoElement) {
-      // Mostrar video inmediatamente cuando se inician las animaciones
+      // Mostrar video y comenzar reproducción cuando se inician las animaciones
       this.videoElement.classList.add('loaded');
+      this.startVideoPlayback();
     }
     
     // Mostrar overlay con la misma animación que el video
@@ -237,7 +238,23 @@ export class BannerComponent implements OnInit, AfterViewInit, OnDestroy {
     }
   }
 
-  // Método para manejar la reproducción del video de forma robusta
+  private startVideoPlayback(): void {
+    if (!this.videoElement) return;
+
+    // Asegurar que el video esté silenciado
+    this.videoElement.muted = true;
+    this.videoElement.volume = 0;
+
+    // Intentar reproducir el video
+    this.videoElement.play().catch(error => {
+      console.warn('Error al reproducir video después del splash screen:', error);
+      
+      // Si falla, configurar para reproducir en la primera interacción
+      this.setupUserInteractionPlayback(this.videoElement!);
+    });
+  }
+
+  // Método para configurar el video sin reproducir automáticamente
   private initVideoPlayback(): void {
     const video = this.elementRef.nativeElement.querySelector('.banner-video') as HTMLVideoElement;
 
@@ -249,39 +266,12 @@ export class BannerComponent implements OnInit, AfterViewInit, OnDestroy {
     video.muted = true;
     video.volume = 0;
 
-    // Configurar eventos del video
-    video.addEventListener('loadeddata', () => {
-      this.attemptVideoPlay(video);
-    });
-
-    video.addEventListener('canplaythrough', () => {
-      this.attemptVideoPlay(video);
-    });
-
-    // Si el video ya está cargado, intentar reproducir
-    if (video.readyState >= 2) {
-      this.attemptVideoPlay(video);
-    }
+    // Solo configurar el video, no reproducir automáticamente
+    // La reproducción se iniciará cuando se oculte el splash screen
+    console.log('Video configurado, esperando señal del splash screen para reproducir');
   }
 
-  private attemptVideoPlay(video: HTMLVideoElement): void {
-    // Solo intentar reproducir si el video no se está reproduciendo ya
-    if (video.paused && !video.ended) {
-      // Asegurar que esté silenciado antes de intentar reproducir
-      video.muted = true;
-      video.volume = 0;
 
-      video.play().catch(error => {
-        // Manejar el error silenciosamente - es normal que los navegadores bloqueen autoplay
-        if (error.name === 'NotAllowedError') {
-          console.log('Autoplay bloqueado por el navegador. El video se reproducirá después de la primera interacción del usuario.');
-          this.setupUserInteractionPlayback(video);
-        } else {
-          console.warn('Error al reproducir video:', error);
-        }
-      });
-    }
-  }
 
   private setupUserInteractionPlayback(video: HTMLVideoElement): void {
     const playOnInteraction = () => {

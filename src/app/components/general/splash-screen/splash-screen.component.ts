@@ -197,7 +197,7 @@ export class SplashScreenComponent implements OnInit, OnDestroy {
       
       setTimeout(() => {
         this.hideSplashScreen();
-      }, remainingTime);
+      }, remainingTime + 1600);
     }
   }
 
