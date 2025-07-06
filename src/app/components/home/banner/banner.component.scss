@@ -4,7 +4,7 @@
     min-height: 100vh;
     position: relative;
     overflow: hidden;
-    z-index: 5;
+    z-index: 9999;
 
     // Fallback: imagen de fondo en caso de que el video no funcione (comentado para evitar interferencia)
     // background: linear-gradient(135deg, #0a192f 0%, #172a45 50%, #1e3a5f 100%);
