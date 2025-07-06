@@ -4,7 +4,7 @@
     background: transparent;
     font-family: $CodeFont;
     transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
-    z-index: 9999999 !important;
+    // z-index: 9999999 !important;
 
     &.nav-shadow {
         background: $Navy;
