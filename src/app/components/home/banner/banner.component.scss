@@ -39,6 +39,12 @@
         height: 100%;
         background: rgba(10, 25, 47, 0.85); // Más oscuro para mejor legibilidad
         z-index: 2;
+        opacity: 0;
+        transition: opacity 1s ease-in-out;
+
+        &.loaded {
+            opacity: 1;
+        }
     }
 
     .container{

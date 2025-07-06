@@ -229,6 +229,12 @@ export class BannerComponent implements OnInit, AfterViewInit, OnDestroy {
       // Mostrar video inmediatamente cuando se inician las animaciones
       this.videoElement.classList.add('loaded');
     }
+    
+    // Mostrar overlay con la misma animación que el video
+    const overlay = this.elementRef.nativeElement.querySelector('.banner-overlay') as HTMLElement;
+    if (overlay) {
+      overlay.classList.add('loaded');
+    }
   }
 
   // Método para manejar la reproducción del video de forma robusta
