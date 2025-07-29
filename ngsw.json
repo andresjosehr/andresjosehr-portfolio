@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1753755587945,
+  "timestamp": 1753756460320,
   "index": "https://andresjosehr.com/index.html",
   "assetGroups": [
     {
@@ -215,8 +215,8 @@
     "https://andresjosehr.com/assets/fonts/SFMono/SFMono-SemiboldItalic.woff": "4bb2ddc7da8064698328e123bd3ec673f674a90d",
     "https://andresjosehr.com/assets/fonts/SFMono/SFMono-SemiboldItalic.woff2": "3621c6894388833626fd4cf132087a3f46a54a21",
     "https://andresjosehr.com/assets/fonts/SFMono/stylesheet.css": "9d845bf2b6a9e53e38bfc797758fbe38c2b99470",
-    "https://andresjosehr.com/assets/i18n/en.json": "0b08233dd8dc6b1093c14f7e58ccc97d5f09fa6f",
-    "https://andresjosehr.com/assets/i18n/es.json": "cca49787a5ad0258cb9fb0f35cc52d6cd7a45643",
+    "https://andresjosehr.com/assets/i18n/en.json": "8ef9fd2326a0fad3a13a0e3adb1539f6aeea90f5",
+    "https://andresjosehr.com/assets/i18n/es.json": "e92205d87df4b97fe87fb651a417ec42387302ba",
     "https://andresjosehr.com/assets/icons/cv plantilla.pdf": "566ecef3024cc9a771c7c80420a3726793a1e26d",
     "https://andresjosehr.com/assets/icons/folder.svg": "024e52150f03c8e0f77d17979a27ae94830678be",
     "https://andresjosehr.com/assets/icons/icon-128x128.png": "6ec621358618a961643b4ad9552b2e181e72ac8e",
