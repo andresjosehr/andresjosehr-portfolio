@@ -195,10 +195,12 @@
     text-shadow:
       0 2px 4px rgba(0, 0, 0, 1),
       0 0 15px rgba(0, 0, 0, 0.8);
+    opacity: 0;
+    transition: opacity 0.1s ease;
 
     &:nth-child(1) {
       color: #ff0066;
-      animation: glitch1 0.3s infinite;
+      animation: none;
       text-shadow:
         0 0 10px rgba(255, 0, 102, 0.8),
         0 2px 4px rgba(0, 0, 0, 1);
@@ -206,7 +208,7 @@
 
     &:nth-child(2) {
       color: #00ffaa;
-      animation: glitch2 0.3s infinite;
+      animation: none;
       text-shadow:
         0 0 10px rgba(0, 255, 170, 0.8),
         0 2px 4px rgba(0, 0, 0, 1);
@@ -263,6 +265,18 @@
       opacity: 1;
       animation: glitchFlash 0.1s ease;
     }
+
+    .glitch-text {
+      opacity: 1;
+      
+      &:nth-child(1) {
+        animation: glitch1 0.3s infinite;
+      }
+
+      &:nth-child(2) {
+        animation: glitch2 0.3s infinite;
+      }
+    }
   }
 
     // Estado disabled
@@ -313,6 +327,76 @@
           0 0 20px rgba(0, 0, 0, 0.6);
         font-weight: 700;
       }
+    }
+  }
+
+  // Variante small - para el menú
+  &.dynamic-btn-small {
+    padding: 0.366263rem 1rem;
+    font-size: 11px;
+    letter-spacing: 1px;
+    border-radius: 4px;
+    transform-style: initial;
+    perspective: initial;
+
+    .btn-text {
+      font-weight: 500;
+      text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+    }
+
+    .particle {
+      width: 1px;
+      height: 1px;
+    }
+
+    .liquid-wave {
+      width: 150%;
+      height: 150%;
+    }
+
+    .glitch-text {
+      font-size: 12px;
+      font-weight: 600;
+    }
+
+    &:hover {
+      transform: translateY(-2px) scale(1.01);
+      
+      .btn-text {
+        font-weight: 600;
+        text-shadow: 
+          0 1px 3px rgba(0, 0, 0, 0.8),
+          0 0 8px rgba(0, 0, 0, 0.5);
+      }
+
+      .glitch-overlay {
+        opacity: 1;
+        animation: glitchFlash 0.1s ease;
+      }
+
+      .glitch-text {
+        opacity: 1;
+        
+        &:nth-child(1) {
+          animation: glitch1 0.3s infinite;
+        }
+
+        &:nth-child(2) {
+          animation: glitch2 0.3s infinite;
+        }
+      }
+    }
+
+    // Responsive para small
+    @media (max-width: 768px) {
+      padding: 0.4rem 0.8rem;
+      font-size: 11px;
+      letter-spacing: 0.5px;
+    }
+
+    @media (max-width: 480px) {
+      padding: 0.35rem 0.7rem;
+      font-size: 10px;
     }
   }
 }

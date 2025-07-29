@@ -21,9 +21,15 @@
                 <ng-template ngbNavContent>Second content</ng-template>
             </li>
             <li ngbNavItem>
-                <a (click)="downloadCV()" class="main-btn cv-btn" ngbNavLink>
-                  {{"Header.cvBtn" | translate}}
-                </a>
+                <app-dynamic-button
+                  [text]="'Header.cvBtn' | translate"
+                  (buttonClick)="downloadCV()"
+                  variant="primary"
+                  size="small"
+                  analyticsEvent="click_cv"
+                  analyticsCategory="menu"
+                  analyticsLabel="cv_download">
+                </app-dynamic-button>
             </li>
             <li>
                 <div ngbDropdown class="d-inline-block">
@@ -82,9 +88,15 @@
                         </a>
                       </li>
                       <li>
-                          <a (click)="downloadCV()" class="main-btn cv-btn">
-                            {{"Header.cvBtn" | translate}}
-                          </a>
+                          <app-dynamic-button
+                            [text]="'Header.cvBtn' | translate"
+                            (buttonClick)="downloadCV()"
+                            variant="primary"
+                            size="small"
+                            analyticsEvent="click_cv"
+                            analyticsCategory="menu"
+                            analyticsLabel="cv_download">
+                          </app-dynamic-button>
                       </li>
                       <li>
                             <div class="language-container">

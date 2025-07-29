@@ -16,6 +16,7 @@ export class DynamicButtonComponent {
   @Input() analyticsLabel: string = '';
   @Input() disabled: boolean = false;
   @Input() variant: 'primary' | 'secondary' = 'primary';
+  @Input() size: 'default' | 'small' = 'default';
 
   @Output() buttonClick = new EventEmitter<Event>();
 
