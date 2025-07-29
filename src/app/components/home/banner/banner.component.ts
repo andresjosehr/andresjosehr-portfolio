@@ -245,13 +245,28 @@ export class BannerComponent implements OnInit, AfterViewInit, OnDestroy {
     this.videoElement.muted = true;
     this.videoElement.volume = 0;
 
-    // Intentar reproducir el video
-    this.videoElement.play().catch(error => {
-      console.warn('Error al reproducir video después del splash screen:', error);
-      
-      // Si falla, configurar para reproducir en la primera interacción
-      this.setupUserInteractionPlayback(this.videoElement!);
-    });
+    // Cargar el video completo ahora que el splash screen se ha ocultado
+    this.videoElement.preload = 'auto';
+    this.videoElement.load();
+
+    // Intentar reproducir el video cuando esté listo
+    const playWhenReady = () => {
+      if (this.videoElement!.readyState >= 3) { // HAVE_FUTURE_DATA
+        this.videoElement!.play().catch(error => {
+          console.warn('Error al reproducir video:', error);
+          this.setupUserInteractionPlayback(this.videoElement!);
+        });
+      } else {
+        this.videoElement!.addEventListener('canplay', () => {
+          this.videoElement!.play().catch(error => {
+            console.warn('Error al reproducir video:', error);
+            this.setupUserInteractionPlayback(this.videoElement!);
+          });
+        }, { once: true });
+      }
+    };
+
+    playWhenReady();
   }
 
   // Método para configurar el video sin reproducir automáticamente
@@ -266,9 +281,10 @@ export class BannerComponent implements OnInit, AfterViewInit, OnDestroy {
     video.muted = true;
     video.volume = 0;
 
-    // Solo configurar el video, no reproducir automáticamente
-    // La reproducción se iniciará cuando se oculte el splash screen
-    console.log('Video configurado, esperando señal del splash screen para reproducir');
+    // Configurar el video para carga lazy hasta que termine el splash screen
+    video.preload = 'metadata';
+    
+    console.log('Video configurado para carga diferida');
   }
 
 

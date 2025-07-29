@@ -16,9 +16,11 @@ npm start
 
 ### Build Commands
 ```bash
-npm run build          # Standard build
-npm run build:prod     # Production build with base-href for GitHub Pages
-npm run deploy         # Build and deploy to GitHub Pages
+npm run build                # Standard build
+npm run build-portfolio      # Production build (alias)
+npm run build:prod           # Production build with base-href for GitHub Pages
+npm run deploy               # Build and deploy to GitHub Pages
+npm run deploy:ci            # CI-specific deploy command
 ```
 
 ### Code Quality
@@ -32,7 +34,7 @@ npm run e2e          # Run end-to-end tests with Protractor
 
 ### Module Structure
 - **HomeModule**: Main landing page with sections (banner, about, jobs, projects, contact)
-- **GeneralModule**: Shared components (header, footer, dynamic-button)
+- **GeneralModule**: Shared components (header, footer, dynamic-button, splash-screen)
 - **ArchiveModule**: Projects archive page
 - **CoreModule**: Services and core functionality
 
@@ -41,6 +43,8 @@ npm run e2e          # Run end-to-end tests with Protractor
 - **AnalyticsService**: Google Analytics integration
 - **AnimationsService**: Custom animations with AOS library
 - **ParticlesService**: Particle effects management
+- **LoadingService**: Manages loading states
+- **IpService**: IP-based services and geolocation
 
 ### Component Organization
 ```
@@ -53,6 +57,10 @@ npm run e2e          # Run end-to-end tests with Protractor
 │   ├── more-proyects/  # Additional projects grid
 │   └── contact/        # Contact form
 ├── general/            # Shared components
+│   ├── header/         # Navigation header
+│   ├── footer/         # Site footer
+│   ├── dynamic-button/ # Reusable button component
+│   └── splash-screen/  # Loading splash screen
 └── archive/            # Projects archive
 ```
 

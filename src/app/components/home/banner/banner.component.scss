@@ -6,12 +6,8 @@
     overflow: hidden;
     // z-index: 9999;
 
-    // Fallback: imagen de fondo en caso de que el video no funcione (comentado para evitar interferencia)
-    // background: linear-gradient(135deg, #0a192f 0%, #172a45 50%, #1e3a5f 100%);
-    // También puedes usar una imagen específica como fallback:
-    // background-image: url('assets/images/banner-fallback.jpg');
-    // background-size: cover;
-    // background-position: center;
+    // Fallback: gradiente de fondo en caso de que el video no funcione
+    background: linear-gradient(135deg, #0a192f 0%, #172a45 50%, #1e3a5f 100%);
 
     // Video de fondo
     .banner-video {
