@@ -249,6 +249,17 @@ export class BannerComponent implements OnInit, AfterViewInit, OnDestroy {
     this.videoElement.preload = 'auto';
     this.videoElement.load();
 
+    // Agregar listener para errores de carga específicos para GitHub Pages
+    this.videoElement.addEventListener('error', (e) => {
+      console.warn('Error loading video:', e);
+      // Fallback: reintentar con un delay
+      setTimeout(() => {
+        if (this.videoElement && this.videoElement.error) {
+          this.videoElement.load();
+        }
+      }, 1000);
+    });
+
     // Intentar reproducir el video cuando esté listo
     const playWhenReady = () => {
       if (this.videoElement!.readyState >= 3) { // HAVE_FUTURE_DATA
@@ -282,7 +293,7 @@ export class BannerComponent implements OnInit, AfterViewInit, OnDestroy {
     video.volume = 0;
 
     // Configurar el video para carga lazy hasta que termine el splash screen
-    video.preload = 'metadata';
+    video.preload = 'none';
     
     console.log('Video configurado para carga diferida');
   }

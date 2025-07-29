@@ -1,5 +1,5 @@
 {
-  "Header.Item1": "Acerca de mi",
+  "Header.Item1": "Acerca de mí",
   "Header.Item2": "Experiencia",
   "Header.Item3": "Proyectos",
   "Header.Item4": "Contacto",
@@ -8,14 +8,14 @@
   "Loading": "Cargando...",
 
   "Banner.Pretitle": "Hola! Mi nombre es",
-  "Banner.Description": "Tengo <span class='underline'>9 años de experiencia</span> desarrollando sistemas, interfaces, bots y soluciones tecnológicas para hacer de la web un lugar mejor. Me dedico a escribir y refactorizar código limpio, reutilizable y escalable en <span class='underline'>Angular</span> y  <span class='underline'>Laravel</span> aplicando buenas practicas y estandares de desarrollo.",
-  "Banner.ActionBtn": "Saludame",
+  "Banner.Description": "Tengo <span class='underline'>+10 años de experiencia</span> desarrollando sistemas, interfaces, bots y soluciones tecnológicas para hacer de la web un lugar mejor. Me dedico a escribir y refactorizar código limpio, reutilizable y escalable en <span class='underline'>Angular</span> y <span class='underline'>Laravel</span> aplicando buenas prácticas y estándares de desarrollo.",
+  "Banner.ActionBtn": "Salúdame",
 
-  "AboutMe.Title": "Acerca de mi",
+  "AboutMe.Title": "Acerca de mí",
   "AboutMe.Paragraphs": [
-    "En <span class='underline'>9 años de experiencia </span> he cubierto muchos roles: <span class='underline'>Analista de sistemas</span>, <span class='underline'>backend developer</span>, <span class='underline'>frontend developer</span> y <span class='underline'>lider técnico</span>. Me encanta aportar mis conocimientos para crear cosas nuevas que ayuden a resolver problemas.",
-    "Mis capacidades también incluyen implementar mejoras en sistemas, optimizar sitios, estandarizar patrones y sugerir y ejecutar ideas que añadan valor al proyecto en el que este trabajando.",
-    "Tambien programo cosas para mi uso personal, bien sea por hobbie o por utilidad.",
+    "En <span class='underline'>+10 años de experiencia</span> he cubierto muchos roles: <span class='underline'>Analista de sistemas</span>, <span class='underline'>backend developer</span>, <span class='underline'>frontend developer</span> y <span class='underline'>líder técnico</span>. Me encanta aportar mis conocimientos para crear cosas nuevas que ayuden a resolver problemas.",
+    "Mis capacidades también incluyen implementar mejoras en sistemas, optimizar sitios, estandarizar patrones y sugerir y ejecutar ideas que añadan valor al proyecto en el que esté trabajando.",
+    "También programo cosas para mi uso personal, bien sea por hobby o por utilidad.",
     "Algunas de las tecnologías en las que me he capacitado y trabajado incluyen (pero no se limitan) a:"
   ],
 
@@ -26,11 +26,11 @@
       "Title": "Fullstack developer",
       "Date": "Mayo 2023",
       "Description": [
-        "Lider en la toma de desiciones tecnicas",
-        "Contratación de talento tecnico para la empresa",
-        "Lider de quipo del departamento de tecnología",
-        "Creación y mantenimiento de una plataforma de gestion de procesos internos para ventas de cursos",
-        "Programación de funciones y plugins personalizados para personalizacion de una plataforma de wordpress",
+        "Líder en la toma de decisiones técnicas",
+        "Contratación de talento técnico para la empresa",
+        "Líder de equipo del departamento de tecnología",
+        "Creación y mantenimiento de una plataforma de gestión de procesos internos para ventas de cursos",
+        "Programación de funciones y plugins personalizados para personalización de una plataforma de WordPress",
         "Implementación de integración continua y respaldos diarios.",
         "Reuniones de planificación en informes."
       ]
@@ -52,10 +52,10 @@
       "Title": "Independiente",
       "Date": "Mayo 2016 - Actualidad",
       "Description": [
-        "Implementacion de mejoras continuas, trabajando en frontend y backend.",
-        "Creacion de plataformas con Angular, Laravel, Wordpress programadas con paradigmas de programación funcional, reactiva y orientada a objetos.",
-        "Automatizacion de procesos con estructuras de datos.",
-        "Maquetacion de diseños con SASS, Bootstrap, Materialize, Bulma, etc."
+        "Implementación de mejoras continuas, trabajando en frontend y backend.",
+        "Creación de plataformas con Angular, Laravel, WordPress programadas con paradigmas de programación funcional, reactiva y orientada a objetos.",
+        "Automatización de procesos con estructuras de datos.",
+        "Maquetación de diseños con SASS, Bootstrap, Materialize, Bulma, etc."
       ]
     },
     {
@@ -64,9 +64,9 @@
       "Date": "Julio 2017 - Octubre 2018",
       "Description": [
         "Liderando un equipo de 4 personas en el desarrollo de una plataforma de gestión de Datos de turismo hecha en Angular, Laravel y MySQL. ",
-        "Implementacion de CI/CD en Azure. Refactorizando y optimizando tiempos de carga de la aplicación.",
+        "Implementación de CI/CD en Azure. Refactorizando y optimizando tiempos de carga de la aplicación.",
         "Codificación de peticiones a API con RxJS.",
-        "Crecion de modulos con formularios reactivos complejos",
+        "Creación de módulos con formularios reactivos complejos",
         "Redacción de informes semanales acerca de metas y planes."
       ]
     },
@@ -75,8 +75,8 @@
       "Title": "Frontend developer",
       "Date": "Febrero 2016 - Mayo 2017",
       "Description": [
-        "Creación de plantillas de wordpress con ACF, programación funcional en Javascript / jQuery, estilos en SASS",
-        "integración de mejoras en diseño y tiempos de carga de plantillas.",
+        "Creación de plantillas de WordPress con ACF, programación funcional en JavaScript / jQuery, estilos en SASS",
+        "Integración de mejoras en diseño y tiempos de carga de plantillas.",
         "Comunicación efectiva con equipo de diseño, trabajando con Avocode / Figma"
       ]
     },
@@ -85,7 +85,7 @@
       "Title": "Analista de sistema",
       "Date": "Noviembre 2015 - Diciembre 2016",
       "Description": [
-        "Programacion de nuevas funcionalidades para una plataforma de gestión de empleados existente realizada en Angular y ExpressJS",
+        "Programación de nuevas funcionalidades para una plataforma de gestión de empleados existente realizada en Angular y ExpressJS",
         "Realizar refactorización de código antiguo. Asegurar la compatibilidad de cada dependencia en cada actualización, junto también con la actualización regular de Angular."
       ]
     },
@@ -94,7 +94,7 @@
       "Title": "Profesor de Inglés",
       "Date": "Enero 2015 - Julio 2015",
       "Description": [
-        "Enseñando ingles a nivel básico a una matrícula de más de 200 alumnos."
+        "Enseñando inglés a nivel básico a una matrícula de más de 200 alumnos."
       ]
     }
   ],
@@ -104,7 +104,7 @@
   "FeatureProjects.Projects": [
     {
       "Title": "Gisselle",
-      "Description": "Aplicacion web para gestion interna de empresa que abarca departamento de ventas, cobranza y seguimiento muy extensa y compleja con diversas funciones hecha en <span class='underline'>Angular</span> y <span class='underline'>Laravel</span>. Trabaja con <span class='underline'>websockets</span>, <span class='underline'>schedules</span>, <span class='underline'>jobs de laravel</span>, integraciones con wordpress, zadarma, liveconnect, etc.",
+      "Description": "Aplicación web para gestión interna de empresa que abarca departamento de ventas, cobranza y seguimiento muy extensa y compleja con diversas funciones hecha en <span class='underline'>Angular</span> y <span class='underline'>Laravel</span>. Trabaja con <span class='underline'>websockets</span>, <span class='underline'>schedules</span>, <span class='underline'>jobs de Laravel</span>, integraciones con WordPress, Zadarma, LiveConnect, etc.",
       "imgs": [
         "assets/images/gisselle/Captura de pantalla 2024-05-19 1009582.png",
         "assets/images/gisselle/Captura de pantalla 2024-05-19 115514.png",
@@ -117,7 +117,7 @@
 
     {
       "Title": "Emelteciot",
-      "Description": "Aplicación de monitoreo para consulta de datos, hecha con <span class='underline'>Angular</span> y <span class='underline'>Laravel</span>. Se aplica la libreria de graficos <span class='underline'>chart.js</span>",
+      "Description": "Aplicación de monitoreo para consulta de datos, hecha con <span class='underline'>Angular</span> y <span class='underline'>Laravel</span>. Se aplica la librería de gráficos <span class='underline'>chart.js</span>",
       "imgs": [
         "assets/images/proyex2/Captura de pantalla 2024-07-28 102852.png",
         "assets/images/proyex2/849c117f-bed9-4406-9c13-c8669f655acc.png",
@@ -133,7 +133,7 @@
 
     {
       "Title": "Vas Aviation",
-      "Description": "Aplicación de seguimiento de solicitudes para combustible de aeronaves. Cuenta con <span class='underline'>modulo de correo electronico</span>, <span class='underline'>notificaciones en tiempo real</span>, <span class='underline'>manejo de archivos CSV para importación de datos</span>, <span class='underline'>cotizaciones de precio</span>. Etc. Desarrollada en <span class='underline'>Angular</span> y <span class='underline'>laravel</span>",
+      "Description": "Aplicación de seguimiento de solicitudes para combustible de aeronaves. Cuenta con <span class='underline'>módulo de correo electrónico</span>, <span class='underline'>notificaciones en tiempo real</span>, <span class='underline'>manejo de archivos CSV para importación de datos</span>, <span class='underline'>cotizaciones de precio</span>, etc. Desarrollada en <span class='underline'>Angular</span> y <span class='underline'>Laravel</span>",
       "imgs": [
         "assets/images/vasaviation/capture0.png",
         "assets/images/vasaviation/capture1.png",
@@ -147,7 +147,7 @@
 
     {
       "Title": "GlobalJobs",
-      "Description": "Plataforma e-learning desarrollada con wordpress. Diseño totalmente presonalizado, con plugins desarrollados desde cero. Cuenta con modulo de pagos personalizados, aula virtual, dashboard de seguimiento de cursos",
+      "Description": "Plataforma e-learning desarrollada con WordPress. Diseño totalmente personalizado, con plugins desarrollados desde cero. Cuenta con módulo de pagos personalizados, aula virtual, dashboard de seguimiento de cursos",
       "imgs": [
         "assets/images/globaljobs/capture1.png",
         "assets/images/globaljobs/capture2.png",
@@ -156,24 +156,24 @@
         "assets/images/globaljobs/capture5.png",
         "assets/images/globaljobs/capture6.png"
       ],
-      "Technologies": ["Wordpress", "Wordpress Codex", "PHP", "Mysql"]
+      "Technologies": ["WordPress", "WordPress Codex", "PHP", "MySQL"]
     },
 
     {
       "Title": "GlobalJobs",
-      "Description": "Plataforma e-commerce de productos de tecnologia. Desarrollada con Wordpress e implementando un sistema de envios para los productos. Cuenta con reporte de ventas mediante programacion personalizada",
+      "Description": "Plataforma e-commerce de productos de tecnología. Desarrollada con WordPress e implementando un sistema de envíos para los productos. Cuenta con reporte de ventas mediante programación personalizada",
       "imgs": [
         "assets/images/mbelectronics/capture0.png",
         "assets/images/mbelectronics/capture1.png",
         "assets/images/mbelectronics/capture2.png"
       ],
-      "Technologies": ["Wordpress", "Elementor", "Woocommerce", "Wordpress Codex", "PHP", "Mysql"]
+      "Technologies": ["WordPress", "Elementor", "WooCommerce", "WordPress Codex", "PHP", "MySQL"]
     },
 
 
     {
       "Title": "Agrourbana",
-      "Description": "Aplicación de monitoreo realizada desde cero con módulo de auth, <span class='underline'>gráficos configurables</span>, <span class='underline'>alarmas configurables</span> y <span class='underline'>gestión de usuarios</span>. Cuenta también con lógica de formularios reactvios para la configuración de parámetros.",
+      "Description": "Aplicación de monitoreo realizada desde cero con módulo de auth, <span class='underline'>gráficos configurables</span>, <span class='underline'>alarmas configurables</span> y <span class='underline'>gestión de usuarios</span>. Cuenta también con lógica de formularios reactivos para la configuración de parámetros.",
       "imgs": [
         "assets/images/agrourbana/agrourbana1.png",
         "assets/images/agrourbana/agrourbana2.png",
@@ -185,7 +185,7 @@
     },
     {
       "Title": "Tu super plan",
-      "Description": "Cotizador de planes de salud que cuenta con un buscador con el que se hacen consultas avanzadas. Los planes son mostrados en base a la edad, ingreso mensual y ubicacion del usuario. Cuenta con <span class='underline'>chat en linea</span>, <span class='underline'>formulario de contacto</span>, <span class='underline'>sistema de notificaiones por whatsapp y correo</span>, <span class='underline'>auth</span>, y <span class='underline'>gestion de informacion internet a travez del rol de administrador</span>.",
+      "Description": "Cotizador de planes de salud que cuenta con un buscador con el que se hacen consultas avanzadas. Los planes son mostrados en base a la edad, ingreso mensual y ubicación del usuario. Cuenta con <span class='underline'>chat en línea</span>, <span class='underline'>formulario de contacto</span>, <span class='underline'>sistema de notificaciones por WhatsApp y correo</span>, <span class='underline'>auth</span>, y <span class='underline'>gestión de información interna a través del rol de administrador</span>.",
       "imgs": [
         "assets/images/tusuperplan/tusuperplan1.png",
         "assets/images/tusuperplan/tusuperplan2.png",
@@ -197,7 +197,7 @@
     },
     {
       "Title": "Proyexiot",
-      "Description": "Plataforma de monitoreo de datos pertenecientes a pozos de agua, remolcadores y diversas instalaciones realizada desde cero con módulo de auth, <span class='underline'>gráficos configurables</span>, <span class='underline'>alarmas configurables</span>, <span class='underline'>gestión de usuarios</span> y <span class='underline'>geolocalizacion con openlayers.</span> Cuenta también con lógica de formularios reactivos para la configuración de parámetros.",
+      "Description": "Plataforma de monitoreo de datos pertenecientes a pozos de agua, remolcadores y diversas instalaciones realizada desde cero con módulo de auth, <span class='underline'>gráficos configurables</span>, <span class='underline'>alarmas configurables</span>, <span class='underline'>gestión de usuarios</span> y <span class='underline'>geolocalización con OpenLayers</span>. Cuenta también con lógica de formularios reactivos para la configuración de parámetros.",
       "imgs": [
         "assets/images/proyex/proyex1.png",
         "assets/images/proyex/proyex2.png",
@@ -216,11 +216,11 @@
     }
   ],
 
-  "OtherProjects.Title": "Mas proyectos",
+  "OtherProjects.Title": "Más proyectos",
   "OtherProjects.Projects": [
     {
       "Title": "Hands game",
-      "Description": "Juego de piedra papel y tijeras extendido. Un proyecto personal desarrollado en angular en el que juegas al azar contra la máquina. Cuenta con la utilización de servicios, interfaces y componentes.",
+      "Description": "Juego de piedra papel y tijeras extendido. Un proyecto personal desarrollado en Angular en el que juegas al azar contra la máquina. Cuenta con la utilización de servicios, interfaces y componentes.",
       "imgs": ["assets/images/hands-game.png"],
       "ghLink": "https://github.com/andresjosehr/hands-game",
       "demoLink": "https://proyectos.andresjosehr.com/hands-game",
@@ -228,7 +228,7 @@
     },
     {
       "Title": "Countries viewer",
-      "Description": "Interfaz que consume una API de países con el que se pueden visualizar lista de países, ver detalles de cada país, filtrar por nombre y región. Ademas cuenta con un dark mode para alternar entre el tema oscuro y el claro.",
+      "Description": "Interfaz que consume una API de países con el que se pueden visualizar lista de países, ver detalles de cada país, filtrar por nombre y región. Además cuenta con un dark mode para alternar entre el tema oscuro y el claro.",
       "imgs": ["assets/images/countries-viewer.png"],
       "ghLink": "https://github.com/andresjosehr/countries-viewer",
       "demoLink": "https://proyectos.andresjosehr.com/countries-viewer",
@@ -236,21 +236,21 @@
     },
     {
       "Title": "Four card feature section",
-      "Description": "Una sola página que cuenta con un diseño minimalista que enumera 4 características en 4 cards. Se usan animaciones de entrada con angular animations.",
+      "Description": "Una sola página que cuenta con un diseño minimalista que enumera 4 características en 4 cards. Se usan animaciones de entrada con Angular animations.",
       "ghLink": "https://github.com/andresjosehr/fourd-card-feature-section",
       "demoLink": "https://proyectos.andresjosehr.com/four-card-feature-section",
       "Technologies": ["Angular", "SASS", "CSS GRID"]
     },
     {
       "Title": "Social proof section",
-      "Description": "Proyecto personal de una página diseñada a partir de un diseño hecho en figma. Se utilizó angular para el desarrollo junto con SASS y CSS GRID.",
+      "Description": "Proyecto personal de una página diseñada a partir de un diseño hecho en Figma. Se utilizó Angular para el desarrollo junto con SASS y CSS GRID.",
       "ghLink": "https://github.com/andresjosehr/social-proof-section",
       "demoLink": "https://proyectos.andresjosehr.com/social-proof-section",
       "Technologies": ["Angular", "CSS GRID", "GIT"]
     },
     {
       "Title": "FAQ accordion card",
-      "Description": "Acordeón de preguntas frecuentes con lógica y animnaciones realizadas en Angular.",
+      "Description": "Acordeón de preguntas frecuentes con lógica y animaciones realizadas en Angular.",
       "ghLink": "https://github.com/andresjosehr/faq-accordion",
       "demoLink": "https://proyectos.andresjosehr.com/faq-accordion",
       "Technologies": ["Angular", "CSS GRID", "Angular animations"]
