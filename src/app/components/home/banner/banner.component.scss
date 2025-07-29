@@ -1,4 +1,4 @@
-@import "./../../../../variables.scss";
+@use "./../../../../variables" as *;
 
 .banner{
     min-height: 100vh;

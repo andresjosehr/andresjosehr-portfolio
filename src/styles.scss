@@ -1,4 +1,5 @@
-@import "./variables.scss";
+@use "./variables" as *;
+@use "bootstrap/scss/bootstrap";
 
 html {
   background-color: $Navy;
@@ -213,5 +214,4 @@ a {
   }
 }
 
-/* Importing Bootstrap SCSS file. */
-@import "bootstrap/scss/bootstrap";
+/* Bootstrap imports moved to top of file */
